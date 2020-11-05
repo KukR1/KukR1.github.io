@@ -1,0 +1,235 @@
+#contact {
+    padding-top: 8%;
+    padding-bottom: 20%;
+    font-family: Raleway, sans-serif;
+    background-image: url(../img/contact_us.jpg);
+    min-height: auto !important;
+    position: relative !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    z-index: 2000
+}
+
+@media screen and (min-width:1024px) {
+    #contact {
+        padding-top: 10%
+    }
+}
+
+@media screen and (min-width:2000px) {
+    #contact {
+        padding: 40vh 0
+    }
+}
+
+@media screen and (min-width:2000px) {
+    #contact {
+        padding: 40vh 0
+    }
+}
+
+#click::after {
+    z-index: 2000
+}
+
+#click p::before {
+    content: "Get a Quote !"
+}
+
+#click.enabled p::before {
+    content: "X"
+}
+
+.overfl {
+    height: 100%
+}
+
+.zclick {
+    z-index: 0
+}
+
+@media screen and (max-width:768px) {
+    .overfl {
+        height: 100%
+    }
+
+    .overfl-desk {
+        overflow: hidden
+    }
+
+    .zclick {
+        z-index: 0 !important
+    }
+
+    .flag-container {
+        display: none
+    }
+}
+
+.overfl-desk {
+    overflow: hidden
+}
+
+.con-fix {
+    width: 100%;
+    background-color: #1a1a1a;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    max-height: 100%;
+    text-align: center;
+    transition: .5s;
+    z-index: 1000
+}
+
+.enabled {
+    height: 100%;
+    display: block;
+    width: 100%;
+    background-color: #1a1a1a;
+    z-index: 2000;
+    transition: .5s;
+    overflow-y: scroll
+}
+
+.btn-contact {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-transform: none;
+    cursor: pointer;
+    font-size: 15px
+}
+
+.form-control {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+textarea[type=text]:focus {
+    box-shadow: 0 0 3px #232323;
+    background-color: transparent;
+    border: 1px solid #232323;
+    color: #fff
+}
+
+.container2 {
+    width: 48%;
+    min-width: 640px;
+    margin: 0 auto
+}
+
+.container * {
+    box-sizing: border-box
+}
+
+.flex-inner,
+.flex-outer {
+    list-style-type: none;
+    padding: 25px
+}
+
+.flex-outer {
+    max-width: 1200px
+}
+
+.flex-inner,
+.flex-outer li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end
+}
+
+.flex-inner {
+    padding: 0 8px;
+    justify-content: space-between
+}
+
+.flex-outer>li:not(:last-child) {
+    margin-bottom: 2%
+}
+
+.flex-outer li label,
+.flex-outer li p {
+    padding: 0;
+    font-weight: 100;
+    text-transform: none
+}
+
+.flex-outer li p,
+.flex-outer>li>label {
+    font-size: 14px;
+    width: 10%
+}
+
+.flex-inner,
+.flex-outer>li>label+* {
+    flex: 1 0 270px
+}
+
+.flex-outer li p {
+    margin: 0
+}
+
+.flex-outer li input:not([type=checkbox]),
+.flex-outer li textarea {
+    padding: 0;
+    line-height: 15px;
+    color: gray;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0
+}
+
+.flex-outer li input:focus,
+.flex-outer li textarea:focus {
+    outline: 0;
+    background-color: transparent
+}
+
+.flex-outer li button {
+    padding: 8px 16px;
+    border: none;
+    background: 0 0;
+    color: #f2f2f2;
+    text-transform: none;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.flex-inner li {
+    width: 100px
+}
+
+@media (max-width:720px) {
+    input {
+        width: 60%
+    }
+
+    #contact {
+        padding-top: 10%;
+        padding-bottom: 20%;
+        min-height: auto !important;
+        position: relative !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important
+    }
+
+    .container2 {
+        width: 80%;
+        min-width: 320px;
+        margin: 0 auto;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 10%;
+        padding-bottom: 20%
+    }
+}

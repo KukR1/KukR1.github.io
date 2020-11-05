@@ -1,0 +1,380 @@
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll
+}
+
+a {
+    text-decoration: none
+}
+
+.countries-container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0 70px 0;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.country-box {
+    width: 25%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.country-box .innerbox {
+    display: inline-block;
+    cursor: pointer
+}
+
+.country-box .innerbox svg {
+    width: 35px;
+    height: 35px
+}
+
+.country-box .innerbox svg {
+    float: left
+}
+
+.h3-spancontainer {
+    display: flex;
+    float: left;
+    line-height: 35px;
+    width: 135px;
+    font-size: 16px;
+    margin-left: 10px
+}
+
+.h3-spancontainer span {
+    margin-left: 5px
+}
+
+.btn-all a {
+    text-decoration: none;
+    color: #da1a35
+}
+
+.seeall_container {
+    margin: 0 150px 0 150px;
+    text-align: right
+}
+
+.country-rooms {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0
+}
+
+.country-rooms1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 450px
+}
+
+.country-rooms1 div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    line-height: 150px;
+    position: relative
+}
+
+.country-rooms1 .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.country-rooms1 div img {
+    width: 100%;
+    vertical-align: middle;
+    position: absolute
+}
+
+.country-rooms img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px
+}
+
+.countries-info {
+    margin: 0 320px;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-around
+}
+
+.country-image {
+    width: 300px
+}
+
+.country-image img {
+    width: 100%
+}
+
+.gallery-heading {
+    display: flex;
+    width: 900px;
+    padding: 60px 0 40px 0;
+    margin: 0 auto;
+    justify-content: space-between
+}
+
+.brand-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.brand-container .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.brand-container .heading-container h2 {
+    padding: 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.6rem
+}
+
+.brand-container .heading-container span {
+    font-size: 26px;
+    font-weight: 400
+}
+
+.brand-container img {
+    width: 40px;
+    margin-left: 10px
+}
+
+.rooms-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.rooms-container h4 {
+    font-size: 24px
+}
+
+.gallery-logo,
+.gallery-logo1 {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.ukafter {
+    position: relative;
+    left: 265px;
+    top: 65px;
+    width: 80px;
+    color:#da1a35;
+}
+
+.country-rooms1.austr div {
+    width: 220px
+}
+
+.gallery-logo1 {
+    margin: 5% auto 0 auto;
+    justify-content: center;
+    align-items: center
+}
+
+.gallery-logo div {
+    width: 70px;
+    height: auto;
+    margin: 15px 20px
+}
+
+.gallery-logo1 div {
+    width: 100px;
+    height: auto;
+    margin: 15px 15px
+}
+
+.gallery-logo img,
+.gallery-logo1 img {
+    width: 100%;
+    height: auto
+}
+
+.uk-mobile {
+    display: none
+}
+
+@media (max-width:1024px) {
+    .gallery-heading {
+        width: 650px
+    }
+
+    .gallery-logo,
+    .gallery-logo1 {
+        width: 550px
+    }
+
+    .gallery-logo div {
+        width: 60px;
+        margin: 10px 15px
+    }
+
+    .countries-container {
+        width: 650px
+    }
+
+    .country-box {
+        width: 33%;
+        padding: 20px 0
+    }
+
+    .ukafter {
+        position: relative;
+        right: 0;
+        top: 70px
+    }
+
+    .countries-info {
+        margin: 0 70px
+    }
+}
+
+@media (max-width:580px) {
+    #pageContent {
+        width: 96%;
+        margin: 0 auto
+    }
+
+    .countries-container {
+        width: 92%;
+        margin: 0 auto;
+        padding: 60px 0 70px 0;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .h3-spancontainer {
+        width: 105px
+    }
+
+    .country-image {
+        width: 50%
+    }
+
+    .country-box {
+        width: 50%;
+        padding: 10px 0;
+        justify-content: center
+    }
+
+    .gallery-heading {
+        width: 92%
+    }
+
+    .gallery-logo,
+    .gallery-logo1 {
+        width: 88%
+    }
+
+    .gallery-logo div {
+        width: 60px;
+        margin: 10px 15px
+    }
+
+    .brand-container .heading-container h2 {
+        padding: 0;
+        font-size: 22px
+    }
+
+    .brand-container .heading-container span {
+        font-size: 20px;
+        font-weight: 400
+    }
+
+    .rooms-container {
+        width: 50%;
+        padding-left: 10px
+    }
+
+    .rooms-container h4 {
+        font-size: 21px
+    }
+
+    .uk .h3-spancontainer h3 {
+        line-height: 1rem
+    }
+
+    .ukafter {
+        position: relative;
+        left: -115px;
+        top: 130px;
+    }
+
+    .countries-info {
+        margin: 0 70px
+    }
+
+    .uk-mobile {
+        display: block
+    }
+
+    .country-rooms1 {
+        width: 200px
+    }
+
+    .country-rooms1 div {
+        margin: 0 0 -15px 0;
+        width: 100px;
+        height: 57px;
+        margin: 5px;
+        line-height: 18px
+    }
+
+    .germany-arena {
+        margin-top: 50px !important
+    }
+
+    .israel img {
+        width: 100px;
+        height: 50px;
+        margin-top: 50%
+    }
+}
+
+@media (max-width:340px) {
+    .countries-container {
+        width: 96%
+    }
+
+    .h3-spancontainer h3 {
+        font-size: 15px
+    }
+}
+
+@media (min-width:2000px) {
+    .gallery-heading {
+        width: 1300px
+    }
+
+    .gallery-logo,
+    .gallery-logo1 {
+        width: 1100px
+    }
+
+    .countries-info {
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 50px;
+        justify-content: space-around
+    }
+}
