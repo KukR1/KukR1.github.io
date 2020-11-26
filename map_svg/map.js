@@ -2,7 +2,7 @@ $( document ).ready( function () {
     $( "g, path" ).hover( function ( e ) {
         $( "#info-box" ).css( "display", "block" );
         $( "#info-box" ).html( $( this ).data( "info" ) );
-        $( "#info-box" ).css( "margin-top", "-50px" );
+        $( "#info-box" ).css( "margin-top", "-35px" );
         $( "#ITALY path" ).css( "fill", "#da1a35" );
     } );
     $( "g, path" ).mouseleave( function ( e ) {
@@ -12,7 +12,7 @@ $( document ).ready( function () {
     $( "g, polygon" ).hover( function ( e ) {
         $( "#info-box" ).css( "display", "block" );
         $( "#info-box" ).html( $( this ).data( "info" ) );
-        $( "#info-box" ).css( "margin-top", "-50px" );
+        $( "#info-box" ).css( "margin-top", "-35px" );
         $( "#ITALY path" ).css( "fill", "#da1a35" );
     } );
 
