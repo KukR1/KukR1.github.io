@@ -2,32 +2,32 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-1.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-1.jpg" alt="Circus">
             </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-2.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-2.jpg" alt="Circus">
             </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-3.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-3.jpg" alt="Circus">
             </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-4.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-4.jpg" alt="Circus">
             </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-5.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-5.jpg" alt="Circus">
             </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <img class='w-100' src="../img/room_slider_images/circus-6.jpg" alt="Circus">
+                <img class='w-100' src="/img/room_slider_images/circus-6.jpg" alt="Circus">
             </picture>
         </div>
 

@@ -1,205 +1,410 @@
-#gameover-map{
-display: block;
-position: absolute;
-top: 0%;
-left: 0%;
-width: 100%;
-height: 100%;
-background-color: #1A1A1A;
-font-family: "Raleway";
-}
-/*
-path:hover, polygon:hover, circle:hover {
-stroke: red!important;
-stroke-width:2px;
-stroke-linejoin: round;
-fill: white!important ;
-cursor: pointer;
-}*/
-
-#info-box {
-display: none;
-position: absolute;
-top: 0px;
-left: 0px;
-z-index: 9999;
-background-color: #212121;
-border: 2px solid #212121;
-border-radius: 5px;
-padding: 8px;
-color: white;
-font-family: 'Raleway';
-overflow-x:hidden;
-text-align: left;
-opacity: 0.9;
-}
-
-
-
-.st0{display:none;}
-.st1{display:inline;stroke-miterlimit:10;}/* stroke:#FFFFFF;*/
-.st2{display:inline;}
-.st3{stroke-miterlimit:10;}/* stroke:#FFFFFF;*/
-.st4{fill:#DA1A35;stroke-miterlimit:10;}/* stroke:#000000;*/
-.st5{stroke-miterlimit:10;}/* stroke:#000000;*/
-.st6{fill:#FFFFFF;}
-.st7{font-family:'Raleway';}
-.st8{font-size:19.2984px;}
-.st9{font-size:32.2455px;}
-.st10{font-family:'Raleway';}
-.st11{font-size:60px;}
-.st12{letter-spacing:-3;}
-.st13{fill:none;stroke-width:5;stroke-miterlimit:10;}/* stroke:#DA1A35;*/
-
-
-  #client{
-     transform: translate(-866px);
-  }
-
-#svg1{
-  position:relative;
-  width:600px;
-  height:468px;
-  left:5%;
-}
-  #svg1 .firstg{
-     transform:translate(200px,0px);
-  }
-
-#clients{
-   transform: translate(-866px , -220px);
-}
-@media (min-width:1920px){
-  #svg1 .firstg{
-     transform:translate(120px,0px)!important;
-  }
-  #svg1 .firstg #txt1{
-
-    font-size: 1.6rem!important;
-
-  }
-}
-@media (max-width:1600px){
-  #svg1 .firstg{
-     transform:translate(130px,108px);
-  }
-  #svg1 .firstg #txt1{
-    transform:matrix(1,0,0,1,-30px,220px);
-  }
-}
-@media (max-width:1360px){
-  #svg1 .firstg{
-     transform:translate(123px,9px);
-  }
-  @media (max-width:1360px){
-    #svg1 .firstg{
-       transform: translate(145px,53px);
-    }
-
-}
-
-
-  #svg1 .firstg #txt1{
-    transform:matrix(1,0,0,1,-30px,220px);
-  }
-}
-
- #GREECE:hover polygon, #GREECE:hover path , #GREECE:active polygon, #GREECE:active path,  #GREECE:focus polygon, #GREECE:focus path{
-	fill:#FFFFFF;
-}
-#DENMARK:hover polygon, #DENMARK:hover path{
- fill:#FFFFFF;
-}
-#NEDERLANDS:hover polygon{
- fill:#FFFFFF;
-}
-#SWEDEN:hover polygon{
- fill:#FFFFFF;
-}
-#ISRAEL:hover polygon{
- fill:#FFFFFF;
-
-}
-#FRANCE:hover polygon{
- fill:#FFFFFF;
-}
-#POLAND:hover polygon{
- fill:#FFFFFF;
-}
-#SPAIN:hover polygon ,#SPAIN:hover path  {
- fill:#FFFFFF;
-}
-#GERMANY:hover polygon{
- fill:#FFFFFF;
-}
-#FINLAND:hover path,#FINLAND:hover polygon{
- fill:#FFFFFF;
-}
-#SWITZERLAND:hover polygon{
- fill:#FFFFFF;
-}
-#UK:hover polygon,#UK:hover path{
- fill:#FFFFFF;
-}
-#PORTUGAL:hover polygon{
- fill:#FFFFFF;
-}
-#ITALY:hover polygon{
- fill:#FFFFFF;
-}
-#AUSTRALIA_1_:hover polygon,#AUSTRALIA_1_:hover path{
- fill:#FFFFFF;
-}
-@media (max-width:1060px){
-  #info-box {
-  display: none;
-
-  }
-  #GREECE:hover polygon, #GREECE:hover path , #GREECE:active polygon, #GREECE:active path,  #GREECE:focus polygon, #GREECE:focus path{
-   fill:none!important;
-  }
-  #DENMARK:hover polygon, #DENMARK:hover path{
-  fill:none;
-  }
-  #NEDERLANDS:hover polygon{
-  fill:none;
-  }
-  #SWEDEN:hover polygon{
-  fill:none;
-  }
-  #ISRAEL:hover polygon{
-  fill:none;
-
-  }
-  #FRANCE:hover polygon{
-  fill:none;
-  }
-  #POLAND:hover polygon{
-  fill:none;
-  }
-  #SPAIN:hover polygon ,#SPAIN:hover path  {
-  fill:none;
-  }
-  #GERMANY:hover polygon{
-  fill:none;
-  }
-  #FINLAND:hover path,#FINLAND:hover polygon{
-  fill:none;
-  }
-  #SWITZERLAND:hover polygon{
-  fill:none;
-  }
-  #UK:hover polygon,#UK:hover path{
-  fill:none;
-  }
-  #PORTUGAL:hover polygon{
-  fill:none;
-  }
-  #ITALY:hover polygon{
-  fill:none;
-  }
-  #AUSTRALIA_1_:hover polygon,#AUSTRALIA_1_:hover path{
-  fill:none;
-  }
-
-}
+#gameover-map{
+
+display: block;
+
+position: absolute;
+
+top: 0%;
+
+left: 0%;
+
+width: 100%;
+
+height: 100%;
+
+background-color: #1A1A1A;
+
+font-family: "Raleway";
+
+}
+
+/*
+
+path:hover, polygon:hover, circle:hover {
+
+stroke: red!important;
+
+stroke-width:2px;
+
+stroke-linejoin: round;
+
+fill: white!important ;
+
+cursor: pointer;
+
+}*/
+
+
+
+#info-box {
+
+display: none;
+
+position: absolute;
+
+top: 0px;
+
+left: 0px;
+
+z-index: 9999;
+
+background-color: #212121;
+
+border: 2px solid #212121;
+
+border-radius: 5px;
+
+padding: 8px;
+
+color: white;
+
+font-family: 'Raleway';
+
+overflow-x:hidden;
+
+text-align: left;
+
+opacity: 0.9;
+
+}
+
+
+
+
+
+
+
+.st0{display:none;}
+
+.st1{display:inline;stroke-miterlimit:10;}/* stroke:#FFFFFF;*/
+
+.st2{display:inline;}
+
+.st3{stroke-miterlimit:10;}/* stroke:#FFFFFF;*/
+
+.st4{fill:#DA1A35;stroke-miterlimit:10;}/* stroke:#000000;*/
+
+.st5{stroke-miterlimit:10;}/* stroke:#000000;*/
+
+.st6{fill:#FFFFFF;}
+
+.st7{font-family:'Raleway';}
+
+.st8{font-size:19.2984px;}
+
+.st9{font-size:32.2455px;}
+
+.st10{font-family:'Raleway';}
+
+.st11{font-size:60px;}
+
+.st12{letter-spacing:-3;}
+
+.st13{fill:none;stroke-width:5;stroke-miterlimit:10;}/* stroke:#DA1A35;*/
+
+
+
+
+
+  #client{
+
+     transform: translate(-866px);
+
+  }
+
+
+
+#svg1{
+
+  position:relative;
+
+  width:600px;
+
+  height:468px;
+
+  left:5%;
+
+}
+
+  #svg1 .firstg{
+
+     transform:translate(200px,0px);
+
+  }
+
+
+
+#clients{
+
+   transform: translate(-866px , -220px);
+
+}
+
+@media (min-width:1920px){
+
+  #svg1 .firstg{
+
+     transform:translate(120px,0px)!important;
+
+  }
+
+  #svg1 .firstg #txt1{
+
+
+
+    font-size: 1.6rem!important;
+
+
+
+  }
+
+}
+
+@media (max-width:1600px){
+
+  #svg1 .firstg{
+
+     transform:translate(130px,108px);
+
+  }
+
+  #svg1 .firstg #txt1{
+
+    transform:matrix(1,0,0,1,-30px,220px);
+
+  }
+
+}
+
+@media (max-width:1360px){
+
+  #svg1 .firstg{
+
+     transform:translate(123px,9px);
+
+  }
+
+  @media (max-width:1360px){
+
+    #svg1 .firstg{
+
+       transform: translate(145px,53px);
+
+    }
+
+
+
+}
+
+
+
+
+
+  #svg1 .firstg #txt1{
+
+    transform:matrix(1,0,0,1,-30px,220px);
+
+  }
+
+}
+
+
+
+ #GREECE:hover polygon, #GREECE:hover path , #GREECE:active polygon, #GREECE:active path,  #GREECE:focus polygon, #GREECE:focus path{
+
+	fill:#FFFFFF;
+
+}
+
+#DENMARK:hover polygon, #DENMARK:hover path{
+
+ fill:#FFFFFF;
+
+}
+
+#NEDERLANDS:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#SWEDEN:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#ISRAEL:hover polygon{
+
+ fill:#FFFFFF;
+
+
+
+}
+
+#FRANCE:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#POLAND:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#SPAIN:hover polygon ,#SPAIN:hover path  {
+
+ fill:#FFFFFF;
+
+}
+
+#GERMANY:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#FINLAND:hover path,#FINLAND:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#SWITZERLAND:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#UK:hover polygon,#UK:hover path{
+
+ fill:#FFFFFF;
+
+}
+
+#PORTUGAL:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#ITALY:hover polygon{
+
+ fill:#FFFFFF;
+
+}
+
+#AUSTRALIA_1_:hover polygon,#AUSTRALIA_1_:hover path{
+
+ fill:#FFFFFF;
+
+}
+
+@media (max-width:1060px){
+
+  #info-box {
+
+  display: none;
+
+
+
+  }
+
+  #GREECE:hover polygon, #GREECE:hover path , #GREECE:active polygon, #GREECE:active path,  #GREECE:focus polygon, #GREECE:focus path{
+
+   fill:none!important;
+
+  }
+
+  #DENMARK:hover polygon, #DENMARK:hover path{
+
+  fill:none;
+
+  }
+
+  #NEDERLANDS:hover polygon{
+
+  fill:none;
+
+  }
+
+  #SWEDEN:hover polygon{
+
+  fill:none;
+
+  }
+
+  #ISRAEL:hover polygon{
+
+  fill:none;
+
+
+
+  }
+
+  #FRANCE:hover polygon{
+
+  fill:none;
+
+  }
+
+  #POLAND:hover polygon{
+
+  fill:none;
+
+  }
+
+  #SPAIN:hover polygon ,#SPAIN:hover path  {
+
+  fill:none;
+
+  }
+
+  #GERMANY:hover polygon{
+
+  fill:none;
+
+  }
+
+  #FINLAND:hover path,#FINLAND:hover polygon{
+
+  fill:none;
+
+  }
+
+  #SWITZERLAND:hover polygon{
+
+  fill:none;
+
+  }
+
+  #UK:hover polygon,#UK:hover path{
+
+  fill:none;
+
+  }
+
+  #PORTUGAL:hover polygon{
+
+  fill:none;
+
+  }
+
+  #ITALY:hover polygon{
+
+  fill:none;
+
+  }
+
+  #AUSTRALIA_1_:hover polygon,#AUSTRALIA_1_:hover path{
+
+  fill:none;
+
+  }
+
+
+
+}
+
