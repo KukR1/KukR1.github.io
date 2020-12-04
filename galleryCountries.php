@@ -85,6 +85,33 @@
                     </div>
                 </div>
             </div>
+            <div class="country-box" style="">
+                <div class="innerbox usa">
+                    <?php include("img/countries/usa.svg") ?>
+                    <div class="h3-spancontainer ">
+                        <h3>USA</h3>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="country-box" style="">
+                <div class="innerbox sweden">
+                    <?php include("img/countries/sweden.svg") ?>
+                    <div class="h3-spancontainer ">
+                        <h3>Sweden</h3>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="country-box" style="">
+                <div class="innerbox slovenia">
+                    <?php include("img/countries/slovenia.svg") ?>
+                    <div class="h3-spancontainer ">
+                        <h3>Slovenia</h3>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
             <div class="country-box " style="">
                 <div class="innerbox  uk">
                     <?php include("img/countries/uk.svg") ?>
@@ -121,6 +148,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -193,6 +221,18 @@
          });
          $(".uk").on("click", function() {
             $('#pageContent').load("/pages/uk.html");
+            $(".h3-spancontainer span").text(">");
+         });
+         $(".sweden").on("click", function() {
+            $('#pageContent').load("/pages/sweden.html");
+            $(".h3-spancontainer span").text(">");
+         });
+         $(".slovenia").on("click", function() {
+            $('#pageContent').load("/pages/slovenia.html");
+            $(".h3-spancontainer span").text(">");
+         });
+         $(".usa").on("click", function() {
+            $('#pageContent').load("/pages/usa.html");
             $(".h3-spancontainer span").text(">");
          });
          $(".ukafter a").on("click", function(event) {
