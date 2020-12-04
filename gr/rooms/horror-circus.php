@@ -25,6 +25,7 @@
     <meta name="twitter:image" content="https://www.escapegameover.com/img/thumbs/circus.jpg" />
     <link rel="shortcut icon" href="/img/gameover_favicon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/final_style.min.css" rel="stylesheet">
     <link href="/css/animate.min.css" rel="stylesheet">
@@ -50,6 +51,70 @@
         }
     </style> <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+
+    <style media="screen">
+        .info-container>p,
+        .info-container p.story,
+        nav * {
+
+            font-family: 'Open Sans', sans-serif;
+
+        }
+    </style>
+
+    <script type="text/javascript">
+        function validateEmail(email) {
+
+            var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+
+            return re.test(email);
+
+        }
+
+
+
+        function validateForm() {
+
+            $("#result").text("");
+
+            $("#result").css("font-size", "13px");
+
+            $("#result").css("font-style", "italic  ");
+
+            $("#result").css("color", "white");
+
+
+
+            var textbox = document.getElementById("message");
+            if (textbox.value.length <= 15) {
+                $("#result").text("MESSAGE IS TOO SHORT");
+                return false;
+            }
+            var email = $("#email").val();
+
+
+
+            if (validateEmail(email) == false) {
+
+                $("#result").text(" ΤΟ " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
+
+                return false;
+
+
+
+            }
+
+
+
+            $("#submit").bind("click", "submit");
+
+
+
+
+
+        }
+    </script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -62,12 +127,12 @@
 </head>
 
 <body id="page-top">
-    <div class="container-fluid nav-container p-0 fixed-top" style=""> 
-        
-        <?php include '../../inc/logo.php'; ?> 
-    
-        <?php include '../../inc/menu-tabs.php'; ?> 
-    
+    <div class="container-fluid nav-container p-0 fixed-top" style="">
+
+        <?php include '../../inc/logo.php'; ?>
+
+        <?php include '../../inc/menu-tabs.php'; ?>
+
         <div class="burger-flag" style="">
             <div class="burger-container  "> <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="hamburger-box"> <span class="hamburger-inner "></span> </span> </button> </div>
             <div class="dropup-container" style="margin-top:-2px;">
@@ -88,10 +153,10 @@
                 </div>
             </div>
         </div>
-    </div> <!-- end of container fluid --> 
-    
-    <?php include '../../inc/carousel-horror-circus.php'; ?> 
-    
+    </div> <!-- end of container fluid -->
+
+    <?php include '../../inc/carousel-horror-circus.php'; ?>
+
     <section class="container-fluid circus text-center " id="mainsect">
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
@@ -99,8 +164,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">HORROR CIRCUS</h1>
             </div>
             <p class="room-desc" style="">
-                Ένα μοναδικό παιχνίδι διαφυγής από το Καταραμένο Τσίρκο, γεμάτο τρομακτικά εφέ και μοναδική</br> 
-                ατμόσφαιρα. Οι υψηλής ποιότητας τεχνολογίες καθώς και η σπουδαία θεματική σκηνογραφία, κάνουν</br> 
+                Ένα μοναδικό παιχνίδι διαφυγής από το Καταραμένο Τσίρκο, γεμάτο τρομακτικά εφέ και μοναδική</br>
+                ατμόσφαιρα. Οι υψηλής ποιότητας τεχνολογίες καθώς και η σπουδαία θεματική σκηνογραφία, κάνουν</br>
                 το συγκεκριμένο δωμάτιο πραγματικά περιζήτητο ανάμεσα σε ενήλικες και παιδιά.
             </p>
             <section class="icon-section">
@@ -142,12 +207,12 @@
                 <p style="">DIFFICULTY LEVEL</p>
             </div>
         </div>
-    </section> 
-    
-    <?php include '../../inc/footer.php'; ?> 
-    
-    <?php include '../../inc/contact-form.php'; ?> 
-    
+    </section>
+
+    <?php include '../../inc/footer.php'; ?>
+
+    <?php include '../../inc/contact-form.php'; ?>
+
     <script src="/js/jquery.min.js"></script>
     <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
     <script>

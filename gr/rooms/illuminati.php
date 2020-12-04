@@ -26,6 +26,7 @@
     <meta name="twitter:image" content="https://www.escapegameover.com/img/thumbs/illuminati.jpg" />
     <link rel="shortcut icon" href="/img/gameover_favicon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/final_style.min.css" rel="stylesheet">
     <link href="/css/animate.min.css" rel="stylesheet">
@@ -51,6 +52,71 @@
         }
     </style> <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+
+    <style media="screen">
+        .info-container>p,
+        .info-container p.story,
+        nav * {
+
+            font-family: 'Open Sans', sans-serif;
+
+        }
+    </style>
+
+    <script type="text/javascript">
+        function validateEmail(email) {
+
+            var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+
+            return re.test(email);
+
+        }
+
+
+
+        function validateForm() {
+
+            $("#result").text("");
+
+            $("#result").css("font-size", "13px");
+
+            $("#result").css("font-style", "italic  ");
+
+            $("#result").css("color", "white");
+
+
+
+            var textbox = document.getElementById("message");
+            if (textbox.value.length <= 15) {
+                $("#result").text("MESSAGE IS TOO SHORT");
+                return false;
+            }
+            var email = $("#email").val();
+
+
+
+            if (validateEmail(email) == false) {
+
+                $("#result").text(" ΤΟ " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
+
+                return false;
+
+
+
+            }
+
+
+
+            $("#submit").bind("click", "submit");
+
+
+
+
+
+        }
+    </script>
+
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -97,8 +163,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ILLUMINATI</h1>
             </div>
             <p class="room-desc" style="">
-                Η μοναδική ευκαιρία να αποκαλύψεις τα πιο βαθιά μυστικά της συνομωσίας των "Illuminati" και</br> 
-                να βρεις το θρυλικό Ιερό Δισκοπότηρο. Η μοναδική πλοκή, η δελεαστική δράση και τα τεχνολογικώς </br> 
+                Η μοναδική ευκαιρία να αποκαλύψεις τα πιο βαθιά μυστικά της συνομωσίας των "Illuminati" και</br>
+                να βρεις το θρυλικό Ιερό Δισκοπότηρο. Η μοναδική πλοκή, η δελεαστική δράση και τα τεχνολογικώς </br>
                 αναβαθμισμένα στοιχεία, κάνουν το συγκεκριμένο δωμάτιο πραγματικά περιζήτητο.
             </p>
             <section class="icon-section">
