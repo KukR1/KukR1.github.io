@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="gr">
+<html lang="el">
 
 
 
