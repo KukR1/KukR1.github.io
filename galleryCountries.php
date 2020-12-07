@@ -1,6 +1,6 @@
 <div id="countries-wrapper" class="content-section">
     <section style="">
-        <div class="countries-container " style="">
+        <div class="countries-container " style="position:relative;">
             <div class="country-box" style="">
                 <div class="innerbox greece">
                     <?php include("img/countries/greece.svg") ?>
@@ -120,14 +120,6 @@
                         <span></span>
 
                     </div><!-- h3-spancontainer -->
-
-                </div>
-
-                <div style="position: relative; width: 0; height: 0">
-                    <div class="ukafter btn-all" style="">
-
-                        <a href="#seeall"> See all <span> ></span> </a>
-                    </div>
                 </div>
             </div>
             <div class="country-box" style="">
@@ -149,6 +141,22 @@
                 </div>
             </div>
 
+            <div class="country-box">
+                <div class="innerbox see-all">
+                    <div style="width:35px;height:35px;float:left"></div>
+                    <a href="#seeall" style="color: #da1a35;">
+                        <div class="h3-spancontainer ">
+
+                            <h3>See All</h3>
+                            <span></span>
+
+                        </div>
+                    </a>
+                    <!-- <div class="btn-all" style="margin-left: 45px;">
+                        <a href="#seeall"> See all <span> ></span> </a>
+                    </div> -->
+                </div>
+            </div>
         </div>
     </section>
 
@@ -164,87 +172,86 @@
 <script src="/js/jquery.min.js"></script>
 
 <script>
-      $(document).ready(function() {
-         $(".h3-spancontainer span").text(">");
-      });
-   </script>
-   <script>
-      $(document).ready(function() {
+    $(document).ready(function() {
+        $(".h3-spancontainer span").text(">");
+    });
+</script>
+<script>
+    $(document).ready(function() {
 
-         $(".greece").on("click", function() {
+        $(".greece").on("click", function() {
             $('#pageContent').load("/pages/greece.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".germany").on("click", function() {
+        });
+        $(".germany").on("click", function() {
             $('#pageContent').load("/pages/germany.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".saudi_arabia").on("click", function() {
+        });
+        $(".saudi_arabia").on("click", function() {
             $('#pageContent').load("/pages/saudi_arabia.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".italy").on("click", function() {
+        });
+        $(".italy").on("click", function() {
             $('#pageContent').load("/pages/italy.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".denmark").on("click", function() {
+        });
+        $(".denmark").on("click", function() {
             $('#pageContent').load("/pages/denmark.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".portugal").on("click", function() {
+        });
+        $(".portugal").on("click", function() {
             $('#pageContent').load("/pages/portugal.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".switzerland").on("click", function() {
+        });
+        $(".switzerland").on("click", function() {
             $('#pageContent').load("/pages/switzerland.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".netherlands").on("click", function() {
+        });
+        $(".netherlands").on("click", function() {
             $('#pageContent').load("/pages/netherlands.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".australia").on("click", function() {
+        });
+        $(".australia").on("click", function() {
             $('#pageContent').load("/pages/australia.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".france").on("click", function() {
+        });
+        $(".france").on("click", function() {
             $('#pageContent').load("/pages/france.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".kuwait").on("click", function() {
+        });
+        $(".kuwait").on("click", function() {
             $('#pageContent').load("/pages/kuwait.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".poland").on("click", function() {
+        });
+        $(".poland").on("click", function() {
             $('#pageContent').load("/pages/poland.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".uk").on("click", function() {
+        });
+        $(".uk").on("click", function() {
             $('#pageContent').load("/pages/uk.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".sweden").on("click", function() {
+        });
+        $(".sweden").on("click", function() {
             $('#pageContent').load("/pages/sweden.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".slovenia").on("click", function() {
+        });
+        $(".slovenia").on("click", function() {
             $('#pageContent').load("/pages/slovenia.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".usa").on("click", function() {
+        });
+        $(".usa").on("click", function() {
             $('#pageContent').load("/pages/usa.html");
             $(".h3-spancontainer span").text(">");
-         });
-         $(".ukafter a").on("click", function(event) {
+        });
+        $(".see-all a").on("click", function(event) {
             event.preventDefault();
 
             $('#countries-wrapper').load("/pages/all.php");
 
 
 
-         });
+        });
 
 
-      });
-   </script>
-
+    });
+</script>

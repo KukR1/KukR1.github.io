@@ -89,6 +89,11 @@
          <img src="/img/clients/nancy.png" alt="nancy">
       </div>
    </a>
+   <a target="_blank" href="https://nantes.escapegameover.fr/">
+      <div>
+         <img src="/img/clients/nantes.png" alt="nantes">
+      </div>
+   </a>
    <a target="_blank" href="https://montpellier.escapegameover.fr/">
       <div>
          <img src="/img/clients/montpellier.png" alt="montpellier">
@@ -167,6 +172,11 @@
          <img src="/img/clients/geneva.png" alt="geneva">
       </div>
    </a>
+   <a target="_blank" href="https://schoftland.escapegameover.ch/">
+      <div>
+         <img src="/img/clients/schoftland.png" alt="schoftland">
+      </div>
+   </a>
 
    <!-- Saudi Arabia -->
    <a target="_blank" href="https://jeddah.escapegameover.com/">
@@ -180,23 +190,46 @@
       </div>
    </a>
 
+   <!-- USA -->
+   <a target="_blank" href="https://tampa.escapegameover.us/">
+      <div>
+         <img src="/img/clients/tampa.png" alt="tampa">
+      </div>
+   </a>
+
+   <!-- Slovenia -->
+   <!-- <a target="_blank" href="https://ljubljana.escapegameover.sl/"> -->
+   <div>
+      <img src="/img/clients/ljubljana.png" alt="ljubljana">
+   </div>
+   <!-- </a> -->
+
+   <!-- Sweden -->
+   <a target="_blank" href="https://gothenburg.escapegameover.se/">
+      <div>
+         <img src="/img/clients/gothenburg.png" alt="gothenburg">
+      </div>
+   </a>
 </div>
 
 <div class="gallery-logo1">
+   <div>
+      <a target="_blank" href="http://codered-lasertag.de/">
+         <img src="/img/clients/01.png">
+      </a>
+   </div>
 
    <div>
-      <a target="_blank" href="http://codered-lasertag.de/"> <img src="/img/clients/01.png">
-      </a></div>
-
-   <div> <a target="_blank" href="https://www.mission-escape.ch/">
-         <img src="/img/clients/sw2.png"></a>
+      <a target="_blank" href="https://www.mission-escape.ch/">
+         <img src="/img/clients/sw2.png">
+      </a>
    </div>
 
 
    <div>
       <a target="_blank" href="https://www.escaperooms-ingolstadt.de/">
-
-         <img src="/img/clients/15.png"></a>
+         <img src="/img/clients/15.png">
+      </a>
    </div>
 
 
