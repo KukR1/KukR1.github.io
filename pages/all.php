@@ -198,11 +198,11 @@
    </a>
 
    <!-- Slovenia -->
-   <!-- <a target="_blank" href="https://ljubljana.escapegameover.sl/"> -->
-   <div>
-      <img src="/img/clients/ljubljana.png" alt="ljubljana">
-   </div>
-   <!-- </a> -->
+   <a target="_blank" href="https://escapegameover.si/">
+      <div>
+         <img src="/img/clients/ljubljana.png" alt="ljubljana">
+      </div>
+   </a>
 
    <!-- Sweden -->
    <a target="_blank" href="https://gothenburg.escapegameover.se/">
