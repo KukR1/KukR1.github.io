@@ -38,7 +38,7 @@
          font-family: 'Open Sans', sans-serif;
       }
 
-      <style>body {
+      body {
          background-color: black;
       }
 
