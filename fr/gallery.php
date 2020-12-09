@@ -162,7 +162,10 @@
 
 
    <!-- All Countries  -->
-   <?php include '../galleryCountries.php' ?>
+   <?php
+      $path = '../';
+      require_once '../galleryCountries.php';
+   ?>
 
    <?php include '../inc/footer.php'; ?>
    <?php include '../inc/fr-contact-form.php'; ?>

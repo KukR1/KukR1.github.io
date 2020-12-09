@@ -155,7 +155,10 @@
   </div><!-- end of container fluid -->
 
   <!-- All Countries  -->
-  <?php include '../galleryCountries.php' ?>
+  <?php
+    $path = '../';
+    require_once '../galleryCountries.php';
+  ?>
 
 
   <?php include '../inc/footer.php'; ?>

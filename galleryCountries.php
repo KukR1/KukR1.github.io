@@ -3,7 +3,7 @@
         <div class="countries-container " style="position:relative;">
             <div class="country-box" style="">
                 <div class="innerbox greece">
-                    <?php include("img/countries/greece.svg") ?>
+                    <?php include($path . "img/countries/greece.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Greece</h3>
                         <span></span>
@@ -12,7 +12,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox germany">
-                    <?php include("img/countries/germany.svg") ?>
+                    <?php include($path . "img/countries/germany.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Germany</h3>
                         <span></span>
@@ -22,7 +22,7 @@
             <div class="country-box" style="">
 
                 <div class="innerbox italy">
-                    <?php include("img/countries/italy.svg") ?>
+                    <?php include($path . "img/countries/italy.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Italy</h3>
                         <span></span>
@@ -32,7 +32,7 @@
 
             <div class="country-box" style="">
                 <div class="innerbox denmark">
-                    <?php include("img/countries/denmark.svg") ?>
+                    <?php include($path . "img/countries/denmark.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Denmark</h3>
                         <span></span>
@@ -42,7 +42,7 @@
 
             <div class="country-box" style="">
                 <div class="innerbox portugal">
-                    <?php include("img/countries/portugal.svg") ?>
+                    <?php include($path . "img/countries/portugal.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Portugal</h3>
                         <span></span>
@@ -51,7 +51,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox switzerland">
-                    <?php include("img/countries/switzerland.svg") ?>
+                    <?php include($path . "img/countries/switzerland.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Switzerland</h3>
                         <span></span>
@@ -60,7 +60,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox netherlands">
-                    <?php include("img/countries/netherlands.svg") ?>
+                    <?php include($path . "img/countries/netherlands.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Netherlands</h3>
                         <span></span>
@@ -69,7 +69,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox australia">
-                    <?php include("img/countries/australia.svg") ?>
+                    <?php include($path . "img/countries/australia.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Australia</h3>
                         <span></span>
@@ -78,7 +78,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox france">
-                    <?php include("img/countries/france.svg") ?>
+                    <?php include($path . "img/countries/france.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>France</h3>
                         <span></span>
@@ -87,7 +87,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox usa">
-                    <?php include("img/countries/usa.svg") ?>
+                    <?php include($path . "img/countries/usa.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>USA</h3>
                         <span></span>
@@ -96,7 +96,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox sweden">
-                    <?php include("img/countries/sweden.svg") ?>
+                    <?php include($path . "img/countries/sweden.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Sweden</h3>
                         <span></span>
@@ -105,7 +105,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox slovenia">
-                    <?php include("img/countries/slovenia.svg") ?>
+                    <?php include($path . "img/countries/slovenia.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Slovenia</h3>
                         <span></span>
@@ -114,7 +114,7 @@
             </div>
             <div class="country-box " style="">
                 <div class="innerbox  uk">
-                    <?php include("img/countries/uk.svg") ?>
+                    <?php include($path . "img/countries/uk.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>United <br class="uk-mobile" /> Kingdom</h3>
                         <span></span>
@@ -124,7 +124,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox kuwait">
-                    <?php include("img/countries/kuwait.svg") ?>
+                    <?php include($path . "img/countries/kuwait.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Kuwait</h3>
                         <span></span>
@@ -133,7 +133,7 @@
             </div>
             <div class="country-box" style="">
                 <div class="innerbox saudi_arabia">
-                    <?php include("img/countries/saudi_arabia.svg") ?>
+                    <?php include($path . "img/countries/saudi_arabia.svg") ?>
                     <div class="h3-spancontainer ">
                         <h3>Saudi Arabia</h3>
                         <span></span>
@@ -247,11 +247,7 @@
             event.preventDefault();
 
             $('#countries-wrapper').load("/pages/all.php");
-
-
-
         });
-
 
     });
 </script>
