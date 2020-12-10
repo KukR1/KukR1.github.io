@@ -66,8 +66,8 @@
       </div>
 
       <div id="form" class="container2 px-0">
-
-         <form method="post" action="base.php" role="form" onsubmit="return validateForm()">
+<!-- method="post" action="base.php" -->
+         <form  role="form" onsubmit="return validateForm()">
 
             <ul class="flex-outer px-0 mx-auto text-right">
 
@@ -623,7 +623,7 @@
 
                      style="width:100%; padding: 8px 16px;border: none;background: transparent;color: #f2f2f2;text-transform: none;font-size: 15px;border-radius: 2px;cursor: pointer;"
 
-                     type="submit" value="Send >" onclick="validateForm();">
+                     type="submit" value="Send >">
 
                </li>
 

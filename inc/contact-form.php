@@ -615,7 +615,7 @@
 
               style="width:100%; padding: 8px 16px;border: none;background: transparent;color: #f2f2f2;text-transform: none;font-size: 15px;border-radius: 2px;cursor: pointer;"
 
-              type="submit" value="Send >" onclick="validateForm();">
+              type="submit" value="Send >">
 
         </li>
 

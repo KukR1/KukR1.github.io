@@ -2,9 +2,14 @@
 <html lang="en">
 
 <head>
+
+   <!-- Analytics -->
+   <?php include 'gtmHead.php' ?>
+   <?php include 'fbPixel.php' ?>
+   <!-- End of Analytics -->
+   
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
-
    <title>GAME OVER Escape Rooms </title>
    <meta name="keywords" content="" />
    <meta name="description" content="We design and build premium quality , themed escape games all over the world. You can choose from our portfolio , or ask for your own scenario. We offer last generation solutions , top quality decoration scenes embeded with cutting edge technologies. ">
@@ -36,7 +41,6 @@
       var scrollTop = $(window).scrollTop();
       if ($(window).width() >= 768) {
          if (scrollTop < 100) {
-
             width = 300;
             right = 20;
             marginTop = 0;
@@ -65,7 +69,6 @@
             marginTop = 65;
          }
       }
-
       $('#cube_banner').css({
          'width': width + "px"
       });
@@ -76,9 +79,7 @@
          'margin-top': marginTop + "px"
       });
 
-
       setTimeout(() => {
-
          var animation = bodymovin.loadAnimation({
             container: document.getElementById('cube_banner'),
             renderer: 'svg',
@@ -86,25 +87,8 @@
             loop: false,
             autoplay: true,
             path: 'cube_reference.json',
-
          })
       }, 1000);
-
-      //  if ($(window).width() < 812 && $(window).height() < 500) {
-      //  setTimeout(function () {
-      //              $("video source").each(function () {
-      //                  var sourceFile = $(this).attr("data-src");
-      //                  $(this).attr("src", sourceFile);
-      //                  var video = this.parentElement;
-      //                  video.controls = true;
-      //                  video.load();
-      //                  video.play();
-
-      //              });
-      //          }, 2000);
-
-
-      //      }
       if ($(window).width() < 768) {
          setTimeout(function() {
             $("video source").each(function() {
@@ -116,7 +100,6 @@
                var video = this.parentElement;
                video.load();
                video.play();
-
 
             });
          }, 2000);
@@ -144,19 +127,13 @@
                video.play();
                //   video.controls = true;
 
-
             });
          }, 2000);
-
       }
 
 
-
-
       $(document).ready(function() {
-
          $(window).on('resize', function() {
-
             // if($(window).width() >= 768){
             //     $('video')[0].play();  // sessionStorage.setItem('advertOnce','false');
             // }
@@ -165,7 +142,6 @@
             var scrollTop = $(window).scrollTop();
             if ($(window).width() >= 768) {
                if (scrollTop < 100) {
-
                   width = 300;
                   right = 20;
                   marginTop = 20;
@@ -194,7 +170,6 @@
                   marginTop = 65;
                }
             }
-
             $('#cube_banner').css({
                'width': width + "px"
             });
@@ -207,7 +182,6 @@
          })
       });
    </script>
-
    <script>
       function validateEmail(email) {
          var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
@@ -234,26 +208,20 @@
             $("#result").text(" THE " + email + " IS NOT VALID ");
             return false;
          }
-         $("#submit").bind("click", "submit");
+         // Get A Quote Submit Form Event
+         const fbGetAQuote = fbPixelEventsData.getAQuoteSubmit;
+         const gtmGetAQuote = gtmEventsData.getAQuoteSubmit;
+         fbq(fbGetAQuote.trackEvent, fbGetAQuote.eventName, fbGetAQuote.params);
+         gtmDataLayer.push(gtmGetAQuote);
+         $("#submit").bind("click");
       }
    </script>
-   <style>
-      . {
-         -webkit-filter: blur(5px);
-         filter: blur(5px);
-         transition: filter 400ms, -webkit-filter 400ms;
-      }
 
-      ..ed {
-         -webkit-filter: blur(0);
-         filter: blur(0);
-      }
-   </style>
 </head>
 
 <body id="page-top">
+   <?php include 'gtmBody.php' ?>
    <div class="container-fluid nav-container p-0 fixed-top" style="">
-
       <?php include 'inc/out-of-folder-logo.php' ?>
       <?php include 'inc/out-of-folder-menu-tabs.php' ?>
       <div class="burger-flag" style="">
@@ -302,7 +270,7 @@
          </div>
       </div>
    </div>
-   <a target="_blank" href="https://www.cubechallenges.com">
+   <a target="_blank" href="https://www.cubechallenges.com/?utm_source=website&utm_medium=clickcube&utm_campaign=escapegameover">
       <div id="cube_banner"> </div>
    </a>
    <!-- <section>
@@ -354,7 +322,6 @@
             <button type="button" name="button" id="btn1" style="font-size: 1rem;font-weight: 600;letter-spacing: -0.01rem;background: transparent;color: white;border: transparent;"><span class="fade1">Learn more</span><span class="fade2 inv">Close</span><span style="position: relative;left: 0.4rem;">&gt;</span></button>
          </div>
       </div>
-
    </section>
    <section id="sect2" class="container-fluid text-center">
       <div class="second-box">
@@ -372,9 +339,7 @@
             <button type="button" id="btn2" name="button2" style="font-size: 1rem;font-weight: 600;letter-spacing: -0.01rem;background: transparent;color: white;border: transparent;"><span class="fade1">Read more</span><span class="fade2 inv">Close</span><span style="position: relative;left: 0.4rem;">&gt;</span></button>
          </div>
       </div>
-
    </section>
-
    <section id="sect3">
       <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(img/event.jpg);" data-stellar-background-ratio="0.5">
          <div class="overlay"></div>
@@ -402,8 +367,6 @@
          </div>
       </div>
    </section>
-
-
 
    <section class="  container-fluid text-center" id="scenarios">
       <img src="img/menus_logo/scenarios.svg" alt="Scenarios" style="width:45px;height:45px;">
@@ -509,10 +472,8 @@
                         <a href="rooms/horror-circus.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display:flex;margin-top:20px;flex-wrap: wrap;justify-content:center;">
-
                                  <img style="" src="img/svg/circus.svg" alt="">
                                  <h3 style="text-align:left;display:flex;align-items:center;">HORROR<br> CIRCUS</h3>
-
                               </div>
                            </div>
                         </a>
@@ -1119,9 +1080,8 @@
             <p>360 Marketing services offered by our professional marketing dpt.:<br>Extreme IT & dedicated Artwork support.</p>
          </div>
       </div>
-      <div id="click2" class="text-center" style="width: 100%;display: block;margin: 2rem 0px;">
+      <div id="get_quote" class="text-center" style="width: 100%;display: block;margin: 2rem 0px;">
          <p style="font-size:1rem;font-weight:600;letter-spacing: -0.5px;cursor:pointer;">Get a Quote<span style="position:relative;left:8px;"> &gt;</span></p>
-
       </div>
    </section>
    <footer style="margin-bottom:40px;">
@@ -1172,7 +1132,6 @@
                <ul class="contact1" style="text-align:left;">
                   <li class="site-li-header" style="margin-top:5vh;">MEMBER OF</li>
                   <li> <a target="_blank" rel="noopener noreferrer" href="https://www.iaapa.org/"><img src="img/iapa.png" style="width:60%; height:auto;" alt="IAAPA LOGO"></a> </li>
-
                </ul>
             </div>
          </div>
@@ -1199,7 +1158,6 @@
       </section>
       <?php include 'inc/footer.php'; ?>
       <?php include 'inc/out-of-folder-contact-form.php'; ?>
-
       <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
       <script>
          $(".p").hover(
@@ -1213,7 +1171,6 @@
       </script>
       <script type="text/javascript">
          $(document).ready(function() {
-
             /** ---------------------------- //
             *  @group viewport trigger script
             * for adding or removing classes from elements in view within viewport
@@ -1223,23 +1180,19 @@
                   @extend .fadeInUpBig;
                   transform:rotate(90deg)}
               */
-
             // ps: disable on small devices!
             var $animationElements = $('#GAMEOVER_x5F_MAP, #map_mob');
             var $window = $(window);
 
             function checkIfInView() {
-
                var windowHeight = $window.height();
                var windowTopPosition = $window.scrollTop();
                var windowBottomPosition = (windowTopPosition + windowHeight);
-
                $.each($animationElements, function() {
                   var $element = $(this);
                   var elementHeight = $element.outerHeight();
                   var elementTopPosition = $element.offset().top;
                   var elementBottomPosition = (elementTopPosition + elementHeight);
-
                   //check to see if this current container is within viewport
                   if ((elementBottomPosition >= windowTopPosition) &&
                      (elementTopPosition <= windowBottomPosition)) {
@@ -1247,49 +1200,36 @@
                   }
                });
             }
-
             $window.on('scroll resize', checkIfInView);
             $window.trigger('scroll');
-
             /* @end viewport trigger script  */
-
          });
       </script>
       <script>
          var fixed = document.getElementById('mySidenav');
-
          fixed.addEventListener('touchmove', function(e) {
-
             e.preventDefault();
-
          }, false);
-
          /* LANGUAFE FUNCTIONS */
          function openNav() {
             //document.querySelector("html").classList.add('overfl1');
             document.querySelector("body").classList.add('overfl1');
             $("#mySidenav").css("display", "flex").hide().fadeIn();
 
-
             var divs1 = document.querySelectorAll(
                "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click"
             );
-
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
                divall.classList.add("blurall");
             }
-
          }
 
          function closeNav1() {
-
             $("#mySidenav").fadeOut();
-
             var divs1 = document.querySelectorAll(
                "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2, #sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click"
             );
-
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
                divall.classList.remove("blurall");
@@ -1308,40 +1248,30 @@
             // better to use $(document).ready(function(){
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
                $('#all-tab , #profile-tab, #close-tab').on('click', function() {
-
                   $('html,body').animate({
                      scrollTop: $("#scenarios").offset().top - 100
                   }, 1000)
-
                });
             }
-
-            $('#click p, #click2 p,#contact_click').on('click', function() {
-
+            $('#click p, #get_quote p,#contact_click').on('click', function() {
                $(".con-fix").toggleClass("enabled");
                if ($(".con-fix").hasClass("enabled")) {
-
                   var divsblur = document.querySelectorAll(
                      ".nav-container,#sect1 ,#main1 ,#sect2, #sect3 ,#scenarios ,#map-section ,#whatwedo ,footer");
-
                   for (var i = 0; i < divsblur.length; i++) {
                      var divall = divsblur[i];
                      divall.classList.add("blurall");
                   }
                } else {
-
                   var divsblur = document.querySelectorAll(
                      ".nav-container,#sect1 ,#main1 ,#sect2, #sect3 ,#scenarios ,#map-section ,#whatwedo ,footer");
-
                   for (var i = 0; i < divsblur.length; i++) {
                      var divall = divsblur[i];
                      divall.classList.remove("blurall");
                   }
                }
-
                $("body").toggleClass("overfl-desk");
             });
-
          });
 
          function closeNav() {
@@ -1355,11 +1285,9 @@
             $("#all-tab").removeClass("nav-tabs");
             $("#profile-tab").removeClass("nav-tabs");
             $("#close-tab").removeClass("nav-tabs");
-
          };
       </script>
       <script src="js/burger.js"></script>
-
       <script src="js/myjs.js"></script>
       <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="vendor/bootstrap/js/popper.min.js"></script>
@@ -1369,9 +1297,7 @@
       <script>
          ;
          (function() {
-
             'use strict';
-
             var isMobile = {
                Android: function() {
                   return navigator.userAgent.match(/Android/i);
@@ -1393,8 +1319,6 @@
                }
             };
 
-
-
             var counter = function() {
                $('.js-counter').countTo({
                   formatter: function(value, options) {
@@ -1403,11 +1327,9 @@
                });
             };
 
-
             var counterWayPoint = function() {
                if ($('#colorlib-counter').length > 0) {
                   $('#colorlib-counter').waypoint(function(direction) {
-
                      if (direction === 'down' && !$(this.element).hasClass('animated')) {
                         setTimeout(counter, 400);
                         $(this.element).addClass('animated');
@@ -1417,19 +1339,14 @@
                   });
                }
             };
-
             // Animations
             var contentWayPoint = function() {
                var i = 0;
                $('.animate-box').waypoint(function(direction) {
-
                   if (direction === 'down' && !$(this.element).hasClass('animated')) {
-
                      i++;
-
                      $(this.element).addClass('item-animate');
                      setTimeout(function() {
-
                         $('body .animate-box.item-animate').each(function(k) {
                            var el = $(this);
                            setTimeout(function() {
@@ -1443,20 +1360,15 @@
                               } else {
                                  el.addClass('fadeInUp animated');
                               }
-
                               el.removeClass('item-animate');
                            }, k * 200, 'easeInOutExpo');
                         });
-
                      }, 100);
-
                   }
-
                }, {
                   offset: '85%'
                });
             };
-
             $(function() {
                counter();
                counterWayPoint();
@@ -1472,19 +1384,28 @@
             dataLayer.push(arguments);
          }
          gtag('js', new Date());
-
          gtag('config', 'UA-87676239-1');
       </script>
-      <!-- <script src="js/modernizr-custom.js"></script>
-   <script>
-   Modernizr.on('webp', function (result) {
-     if (result) {
-       // supported
-        } else {
-          // not-supported
-          }
-          });
-   </script> -->
+      <!-- Analytics Events -->
+      <script src="/gtmEventsData.js"></script>
+      <script src="/fbPixelEventsData.js"></script>
+      <script>
+         const fbGetAQuote = fbPixelEventsData.getAQuoteClick;
+         const fbVisitCubio = fbPixelEventsData.visitCubio;
+         const gtmGetAQuote = gtmEventsData.getAQuoteClick;
+         const gtmVisitCubio = gtmEventsData.visitCubio;
+         $('#get_quote p').on('click', function() {
+            // fbq('trackCustom', 'Get A Quote');
+            fbq(fbGetAQuote.trackEvent, fbGetAQuote.eventName, fbGetAQuote.params);
+            gtmDataLayer.push(gtmGetAQuote);
+         });
+         $('#cube_banner').on('click', function() {
+            // fbq('track', 'ViewContent', {content_name: "Cube Challenges"});
+            fbq(fbVisitCubio.trackEvent, fbVisitCubio.eventName, fbVisitCubio.params);
+            gtmDataLayer.push(gtmVisitCubio);
+         });
+      </script>
+      <!-- End of FB Pixel Events -->
 </body>
 
 </html>

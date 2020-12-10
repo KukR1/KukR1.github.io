@@ -2,7 +2,10 @@
 <html lang="de">
 
 <head>
-
+   <!-- Analytics -->
+   <?php include 'gtmHead.php' ?>
+   <?php include 'fbPixel.php' ?>
+   <!-- End of Analytics -->
 
    <meta charset="utf-8">
    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -1169,7 +1172,7 @@
          </div>
       </div>
 
-      <div id="click2" class="text-center" style="width: 100%;display: block;margin: 2rem 0px;">
+      <div id="get_quote" class="text-center" style="width: 100%;display: block;margin: 2rem 0px;">
          <p style="font-size:1rem;font-weight:600;letter-spacing: -0.5px;cursor:pointer;">Get a Quote<span style="position:relative;left:8px;"> &gt;</span></p>
       </div>
    </section>
@@ -1396,7 +1399,7 @@
                });
             }
 
-            $('#click p, #click2 p,#contact_click').on('click', function() {
+            $('#click p, #get_quote p,#contact_click').on('click', function() {
 
                $(".con-fix").toggleClass("enabled");
                if ($(".con-fix").hasClass("enabled")) {

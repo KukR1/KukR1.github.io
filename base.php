@@ -22,7 +22,7 @@ try {
   $message .= "<br /><br /> Country: " . $country . " <br /><br /> (This message was sent from www.escapegameover.com)";
 
   // $headers = "From: ".$name ." ". $subject." <".$email.">\r\n"."Content-type: text/html; charset=UTF-8\r\n";
-  $to = 'info@escapegameover.com';
+  $to = 'h.vitoros@escapegameover.com';
 
 
   //server settings
@@ -108,8 +108,8 @@ try {
 
 
   $mail->send();
-
-  echo '<script type="text/javascript">window.location.href = "http://www.escapegameover.com/index.php";</script>';
+  echo '<script type="text/javascript">window.location.href = "/";</script>';
+  // echo '<script type="text/javascript">window.location.href = "http://www.escapegameover.com/index.php";</script>';
 } catch (Exception $e) {
 }
 
