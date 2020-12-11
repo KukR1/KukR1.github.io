@@ -239,7 +239,9 @@
 </head>
 
 <body id="page-top">
-
+   <!-- Google Tag Manager Analytics Body requirement -->
+   <?php include 'gtmBody.php' ?>
+   
    <div class="container-fluid nav-container p-0 fixed-top" style="">
       <?php include '../inc/logo.php'; ?>
       <?php include '../inc/de-out-of-folder-menu-tabs.php'; ?>
@@ -297,7 +299,7 @@
       </div>
 
    </div> <!-- end of container fluid -->
-   <a target="_blank" href="https://www.cubechallenges.com">
+   <a target="_blank" href="https://www.cubechallenges.com/?utm_source=website&utm_medium=clickcube&utm_campaign=escapegameover">
 
       <div id="cube_banner"> </div>
    </a>
@@ -1346,7 +1348,7 @@
                opacity: 0
             }, 'fast');
 
-            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click");
+            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form");
 
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1366,7 +1368,7 @@
                }, 'fast');
 
             }
-            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click");
+            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form");
 
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1399,7 +1401,7 @@
                });
             }
 
-            $('#click p, #get_quote p,#contact_click').on('click', function() {
+            $('#contact_form p, #get_quote p,#contact_click').on('click', function() {
 
                $(".con-fix").toggleClass("enabled");
                if ($(".con-fix").hasClass("enabled")) {
@@ -1579,6 +1581,11 @@
             $("#submit").bind("click", "submit");
          }
       </script>
+
+      <!-- Analytics Events -->
+      <script src="/gtmEventsData.js"></script>
+      <script src="/fbPixelEventsData.js"></script>
+      <!-- End of Analytics Events -->
 </body>
 
 </html>

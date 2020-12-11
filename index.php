@@ -220,7 +220,9 @@
 </head>
 
 <body id="page-top">
+   <!-- Google Tag Manager Analytics Body requirement -->
    <?php include 'gtmBody.php' ?>
+   
    <div class="container-fluid nav-container p-0 fixed-top" style="">
       <?php include 'inc/out-of-folder-logo.php' ?>
       <?php include 'inc/out-of-folder-menu-tabs.php' ?>
@@ -1217,7 +1219,7 @@
             $("#mySidenav").css("display", "flex").hide().fadeIn();
 
             var divs1 = document.querySelectorAll(
-               "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click"
+               "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form"
             );
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1228,7 +1230,7 @@
          function closeNav1() {
             $("#mySidenav").fadeOut();
             var divs1 = document.querySelectorAll(
-               "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2, #sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click"
+               "img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2, #sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form"
             );
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1253,7 +1255,7 @@
                   }, 1000)
                });
             }
-            $('#click p, #get_quote p,#contact_click').on('click', function() {
+            $('#contact_form p, #get_quote p,#contact_click').on('click', function() {
                $(".con-fix").toggleClass("enabled");
                if ($(".con-fix").hasClass("enabled")) {
                   var divsblur = document.querySelectorAll(
@@ -1389,23 +1391,7 @@
       <!-- Analytics Events -->
       <script src="/gtmEventsData.js"></script>
       <script src="/fbPixelEventsData.js"></script>
-      <script>
-         const fbGetAQuote = fbPixelEventsData.getAQuoteClick;
-         const fbVisitCubio = fbPixelEventsData.visitCubio;
-         const gtmGetAQuote = gtmEventsData.getAQuoteClick;
-         const gtmVisitCubio = gtmEventsData.visitCubio;
-         $('#get_quote p').on('click', function() {
-            // fbq('trackCustom', 'Get A Quote');
-            fbq(fbGetAQuote.trackEvent, fbGetAQuote.eventName, fbGetAQuote.params);
-            gtmDataLayer.push(gtmGetAQuote);
-         });
-         $('#cube_banner').on('click', function() {
-            // fbq('track', 'ViewContent', {content_name: "Cube Challenges"});
-            fbq(fbVisitCubio.trackEvent, fbVisitCubio.eventName, fbVisitCubio.params);
-            gtmDataLayer.push(gtmVisitCubio);
-         });
-      </script>
-      <!-- End of FB Pixel Events -->
+      <!-- End of Analytics Events -->
 </body>
 
 </html>

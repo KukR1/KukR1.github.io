@@ -504,7 +504,7 @@
 
 
   <script>
-    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleIndicators,#mainsect,#click");
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleIndicators,#mainsect,#contact_form");
     var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleIndicators,#mainsect");
   </script>
   <script src="../../js/js_all.js"></script>

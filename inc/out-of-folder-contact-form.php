@@ -1,59 +1,77 @@
 <style>
-   #click #form {
-    padding: 0;
-}
-  @media screen and (max-width:768px) { 
-   #click .footer-flex2 {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border: 0;
-}
-.footer-flex, .footer-flex2 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	width: 100%;
-	border-bottom: 1px solid #202020;
-}
-.footer1 .ul-container {
-    -webkit-box-ordinal-group: 5;
-    -ms-flex-order: 4;
-    order: 4;
-    text-align: center;
-    width: 95%;
-    -ms-flex-preferred-size: unset;
-    flex-basis: unset;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-.footer1 .ul-container {
-    text-align: center;
-}
-#click .footer-flex .footer-logo {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-#foot-dest .contact1 li {
-    margin-top: 5px;
-}
-.footer1 ul {
-    margin: 8px 10px;
-}
-.footer1 {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-  }
+   #contact_form #form {
+      padding: 0;
+   }
+
+   @media screen and (max-width:768px) {
+      #contact_form .footer-flex2 {
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+         border: 0;
+      }
+
+      .footer-flex,
+      .footer-flex2 {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         width: 100%;
+         border-bottom: 1px solid #202020;
+      }
+
+      .footer1 .ul-container {
+         -webkit-box-ordinal-group: 5;
+         -ms-flex-order: 4;
+         order: 4;
+         text-align: center;
+         width: 95%;
+         -ms-flex-preferred-size: unset;
+         flex-basis: unset;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+      }
+
+      .footer1 .ul-container {
+         text-align: center;
+      }
+
+      #contact_form .footer-flex .footer-logo {
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+      }
+
+      #foot-dest .contact1 li {
+         margin-top: 5px;
+      }
+
+      .footer1 ul {
+         margin: 8px 10px;
+      }
+
+      .footer1 {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+      }
+   }
+
+
+   /* Ugly patch */
+   .footer-contact-form.enabled #get_a_quote_footer {
+      display: none;
+   }
+
+   .footer-contact-form p::before {
+      content: '' !important;
+   }
 </style>
-<div id="click" class="con-fix text-center" style="">
+<div id="contact_form" class="footer-contact-form con-fix text-center" style="">
 
-   <p class="p infinite animated pulse" style="height:40px;line-height:40px;cursor:pointer;"><span
-
-         style="position:relative;left:8px;"></span></p>
+   <p id="get_a_quote_footer" class="p infinite animated pulse" style="height:40px;line-height:40px;cursor:pointer;">Get a Quote !</p>
+   <p id="close_contact_form_button" class="p infinite animated pulse" style="height:40px;line-height:40px;cursor:pointer;">X</p>
 
    <div id="contact">
 
@@ -66,8 +84,8 @@
       </div>
 
       <div id="form" class="container2 px-0">
-<!-- method="post" action="base.php" -->
-         <form  role="form" onsubmit="return validateForm()">
+         <!-- method="post" action="base.php" -->
+         <form role="form" onsubmit="return validateForm()">
 
             <ul class="flex-outer px-0 mx-auto text-right">
 
@@ -83,9 +101,7 @@
 
                   <label for="subject">Subject:</label>
 
-                  <input tabindex="2" id="form_subject" type="text" name="subject" tabindex="-1" autocomplete="off"
-
-                     required>
+                  <input tabindex="2" id="form_subject" type="text" name="subject" tabindex="-1" autocomplete="off" required>
 
                </li>
 
@@ -103,7 +119,7 @@
 
                   <select tabindex="4" id="country" name="country" class="form-control" style="color:gray;">
 
-                     <option value="default">Choose you country</option>
+                     <option value="default">Choose your country</option>
 
                      <option value="Afghanistan">Afghanistan</option>
 
@@ -611,19 +627,13 @@
 
                   <label for="message">Message:</label>
 
-                  <input tabindex="5" type="text" style="font-size: 13px;" rows="2" id="message" name="message"
-
-                     tabindex="-1" autocomplete="off" required>
+                  <input tabindex="5" type="text" style="font-size: 13px;" rows="2" id="message" name="message" tabindex="-1" autocomplete="off" required>
 
                </li>
 
                <li>
 
-                  <input tabindex="6" id="submit" name="submit"
-
-                     style="width:100%; padding: 8px 16px;border: none;background: transparent;color: #f2f2f2;text-transform: none;font-size: 15px;border-radius: 2px;cursor: pointer;"
-
-                     type="submit" value="Send >">
+                  <input tabindex="6" id="submit" name="submit" style="width:100%; padding: 8px 16px;border: none;background: transparent;color: #f2f2f2;text-transform: none;font-size: 15px;border-radius: 2px;cursor: pointer;" type="submit" value="Send >">
 
                </li>
 
@@ -682,4 +692,3 @@
    </section>
 
 </div>
-

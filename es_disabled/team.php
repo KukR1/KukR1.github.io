@@ -759,7 +759,7 @@
 
   <script>
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.stuff-grid");
+  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,.stuff-grid");
 
   var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.stuff-grid");
 

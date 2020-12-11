@@ -492,7 +492,7 @@ gtag('config', 'UA-87676239-1');
 
  <script>
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
+ var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
 
   var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
 

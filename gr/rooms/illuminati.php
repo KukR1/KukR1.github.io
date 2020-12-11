@@ -214,7 +214,7 @@
 
     <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
     <script>
-        var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
+        var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
         var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
     </script>
     <script src="/js/js_all.js"></script>

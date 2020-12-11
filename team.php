@@ -388,7 +388,7 @@
   <?php include 'inc/out-of-folder-contact-form.php'; ?>
   <script src="js/jquery.min.js"></script>
   <script>
-    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.stuff-grid");
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,.stuff-grid");
     var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.stuff-grid");
   </script>
   <script src="js/js_all.js"></script>

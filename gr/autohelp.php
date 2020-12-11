@@ -382,7 +382,7 @@ body,nav *{
 
   <script>
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#autohelp_main,.features ,.red");
+  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,#autohelp_main,.features ,.red");
 
   var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#autohelp_main,.features, .red");
 

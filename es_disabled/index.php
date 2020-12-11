@@ -1343,7 +1343,7 @@
                opacity: 0
             }, 'fast');
 
-            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click");
+            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form");
 
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1363,7 +1363,7 @@
                }, 'fast');
 
             }
-            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#click");
+            var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2,#sect3 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form");
 
             for (var i = 0; i < divs1.length; i++) {
                var divall = divs1[i];
@@ -1396,7 +1396,7 @@
                });
             }
 
-            $('#click p, #get_quote p,#contact_click').on('click', function() {
+            $('#contact_form p, #get_quote p,#contact_click').on('click', function() {
 
                $(".con-fix").toggleClass("enabled");
                if ($(".con-fix").hasClass("enabled")) {

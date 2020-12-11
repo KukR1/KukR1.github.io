@@ -208,7 +208,7 @@ function validateForm() {
 
 <script src="js/jquery.min.js"></script>
   <script>
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#marketing_main1,#technical-list ");
+  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,#marketing_main1,#technical-list ");
   var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#marketing_main1,#technical-list");
   </script>
   <script src="js/js_all.js"></script>

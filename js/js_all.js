@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     $("#mySidenav").css("display", "flex").hide().fadeIn();
 
-    //var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2 ,#scenarios ,#map-section ,#whatwedo ,footer,#click,#carouselExampleIndicators,#mainsect");
+    //var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form,#carouselExampleIndicators,#mainsect");
 
     for (var i = 0; i < divs1.length; i++) {
       var divall = divs1[i];
@@ -60,7 +60,7 @@ $(document).ready(function () {
   $(".closebtn ").click(function () {
     $("#mySidenav").fadeOut();
 
-    //var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2 ,#scenarios ,#map-section ,#whatwedo ,footer,#click,#carouselExampleIndicators,#mainsect");
+    //var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,#sect1 ,#main1 ,#sect2 ,#scenarios ,#map-section ,#whatwedo ,footer,#contact_form,#carouselExampleIndicators,#mainsect");
 
     for (var i = 0; i < divs1.length; i++) {
       var divall = divs1[i];
@@ -75,7 +75,7 @@ $(document).ready(function () {
 
   /* START OF CONTACT EFFECT */
 
-  $("#click p, #get_quote p,#contact_click").on("click", function () {
+  $("#contact_form p, #get_quote p,#contact_click").on("click", function () {
     $(".con-fix").toggleClass("enabled");
 
     if ($(".con-fix").hasClass("enabled")) {
@@ -99,7 +99,7 @@ $(document).ready(function () {
     $("body").toggleClass("overfl-desk");
   });
 
-  // $("#click p").on(" touchstart", function () {
+  // $("#contact_form p").on(" touchstart", function () {
 
   //     $(".con-fix").toggleClass("enabled"), $("body").toggleClass("overfl-desk"), $(":focus").blur()
 

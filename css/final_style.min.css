@@ -803,7 +803,7 @@ nav ul a p span {
   z-index: 1;
 }
 
-#click::after,
+#contact_form::after,
 #contact {
   z-index: 2000;
 }
@@ -828,28 +828,28 @@ footer .container.text-center p {
   font-size: 13px;
 }
 
-#click .footer-flex2 ul li {
+#contact_form .footer-flex2 ul li {
   font-size: 14px;
 }
 
-#click .footer-flex {
+#contact_form .footer-flex {
   border: 0;
 }
 
-#click .footer1 {
+#contact_form .footer1 {
   padding: 0;
 }
 
-#click .footer-flex2 ul .site-li-header {
+#contact_form .footer-flex2 ul .site-li-header {
   font-weight: 600;
   font-size: 15px;
 }
 
-#click .footer-flex2 ul {
+#contact_form .footer-flex2 ul {
   width: auto;
 }
 
-#click .footer-logo {
+#contact_form .footer-logo {
   width: 400px;
 }
 
@@ -920,15 +920,15 @@ footer .container.text-center p {
   }
 }
 
-#click {
+#contact_form {
   font-family: Raleway, sans-serif;
 }
 
-#click p::before {
+#contact_form p::before {
   content: "Get a Quote !";
 }
 
-#click.enabled p::before {
+#contact_form.enabled p::before {
   content: "X";
 }
 

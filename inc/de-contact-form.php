@@ -1,9 +1,9 @@
 <style>
-   #click #form {
+   #contact_form #form {
     padding: 0;
 }
   @media screen and (max-width:768px) { 
-   #click .footer-flex2 {
+   #contact_form .footer-flex2 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -32,7 +32,7 @@
 .footer1 .ul-container {
     text-align: center;
 }
-#click .footer-flex .footer-logo {
+#contact_form .footer-flex .footer-logo {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -50,7 +50,7 @@
   }
 </style>
 
-  <div id="click"  class="con-fix text-center"  style="">
+  <div id="contact_form"  class="con-fix text-center"  style="">
 
 	<p class="p animated infinite pulse" style="height:40px;line-height:40px;cursor:pointer;"><span style="position:relative;left:8px;"></span></p>
 

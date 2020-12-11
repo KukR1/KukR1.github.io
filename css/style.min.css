@@ -1610,26 +1610,26 @@ footer .site-li-header {
     display: flex;
 }
 
-#click #form {
+#contact_form #form {
     padding: 0;
 }
 
-#click .footer1 {
+#contact_form .footer1 {
     padding: 0;
 }
 
-#click .footer-flex {
+#contact_form .footer-flex {
     border: 0;
 }
 
 @media screen and (max-width: 768px) {
-    #click .footer-flex .footer-logo {
+    #contact_form .footer-flex .footer-logo {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
     }
 
-    #click .footer-flex2 {
+    #contact_form .footer-flex2 {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -1637,20 +1637,20 @@ footer .site-li-header {
     }
 }
 
-#click .footer-flex2 ul {
+#contact_form .footer-flex2 ul {
     width: auto;
 }
 
-#click .footer-flex2 ul li {
+#contact_form .footer-flex2 ul li {
     font-size: 14px;
 }
 
-#click .footer-flex2 ul .site-li-header {
+#contact_form .footer-flex2 ul .site-li-header {
     font-weight: 600;
     font-size: 15px;
 }
 
-#click .footer-logo {
+#contact_form .footer-logo {
     width: 400px;
 }
 

@@ -245,7 +245,7 @@ Today. The ancient papyrus sheet you are holding has written only a few words:
   <script src="../../js/jquery.min.js"></script>
   <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
- <script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");   </script>
+ <script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");   </script>
  <script src="../../js/js_all.js"></script>
 <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="../../vendor/bootstrap/js/popper.min.js"></script>

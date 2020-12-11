@@ -29,15 +29,15 @@
     }
 }
 
-#click::after {
+#contact_form::after {
     z-index: 2000
 }
 
-#click p::before {
+#contact_form p::before {
     content: "Get a Quote !"
 }
 
-#click.enabled p::before {
+#contact_form.enabled p::before {
     content: "X"
 }
 

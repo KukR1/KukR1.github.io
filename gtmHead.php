@@ -1,8 +1,6 @@
 <script>
-    gtmDataLayer = [{
-        'pageCategory': 'signup',
-        'visitorType': 'high-value'
-    }];
+    // Initialization
+    gtmDataLayer = [];
 </script>
 <!-- Google Tag Manager -->
 <script>
@@ -14,7 +12,8 @@
         });
         var f = d.getElementsByTagName(s)[0],
             j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
+            // dl = l != 'dataLayer' ? '&l=' + l : '';
+            dl = l != 'gtmDataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;

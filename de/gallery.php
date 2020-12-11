@@ -167,7 +167,7 @@
   <?php include '../inc/de-contact-form.php'; ?>
 
   <script>
-    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.second-box,#countries-wrapper");
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,.second-box,#countries-wrapper");
     var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.second-box,#countries-wrapper");
   </script>
   <script src="../js/js_all.js"></script>
