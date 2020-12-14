@@ -22,7 +22,7 @@ try {
   $message .= "<br /><br /> Country: " . $country . " <br /><br /> (This message was sent from www.escapegameover.com)";
 
   // $headers = "From: ".$name ." ". $subject." <".$email.">\r\n"."Content-type: text/html; charset=UTF-8\r\n";
-  $to = 'h.vitoros@escapegameover.com';
+  $to = 'info@escapegameover.com';
 
 
   //server settings
