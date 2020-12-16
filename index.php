@@ -1100,7 +1100,7 @@
                   <li><a href="company/presentation.pdf" download>Company Presentation </a></li>
                   <li><a href="statements.html">Financial Statements </a></li>
                   <li><a href="terms.html">Terms and Conditions </a></li>
-                  <li><a href="team.php">Our Company</a></li>
+                  <li><a href="team.php">Our Team</a></li>
                   <li><a href="construction.php">Construction </a></li>
                </ul>
             </div>

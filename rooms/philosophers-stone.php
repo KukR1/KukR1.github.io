@@ -452,7 +452,7 @@
 
     <img src="../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
 
-    <p class=" story" style="">The Dark One has awoken. Only the power of the Philoshoper's Stone , hidden inside a secret chamber
+    <p class=" story" style="">The Dark One has awoken. Only the power of the Philosopher's Stone , hidden inside a secret chamber
 
 full of dangerous magics and perilous enchantments, can put an end to his reign of terror. You and your team of wizards and witches
 

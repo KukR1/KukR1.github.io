@@ -22,7 +22,7 @@
 
   <meta name="keywords" content="" />
 
-  <meta name="description" content="Maniac: I Want To Play a Game | Inspired from the famous movie series, this room will awake all your insticts for survival. ">
+  <meta name="description" content="Maniac: I Want To Play a Game | Inspired from the famous movie series, this room will awake all your instincts for survival. ">
 
   <meta property="og:locale" content="en_GB" />
 
@@ -340,7 +340,7 @@
 
 
 
-    <p class="room-desc" style="">Inspired from the famous movie series, this room will awake all your insticts for survival.</p>
+    <p class="room-desc" style="">Inspired from the famous movie series, this room will awake all your instincts for survival.</p>
 
     <section class="icon-section">
 
