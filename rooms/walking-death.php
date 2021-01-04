@@ -252,8 +252,6 @@
 
       </div>
 
-
-#contact_form
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
          <button class="closebtn" >&times;</button>
