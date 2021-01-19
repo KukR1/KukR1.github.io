@@ -4,7 +4,8 @@
 
 
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
 
@@ -14,7 +15,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
@@ -64,23 +66,23 @@
 
   <link href="../css/team.css" rel="stylesheet">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-  gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -88,19 +90,19 @@
 
 
 
-<body id="page-top" >
+<body id="page-top">
 
 
 
- <div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-   <?php include '../inc/logo.php'; ?>
+    <?php include '../inc/logo.php'; ?>
 
-   <?php include '../inc/it-out-of-folder-menu-tabs.php'; ?>
+    <?php include '../inc/it-out-of-folder-menu-tabs.php'; ?>
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -112,85 +114,81 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
         <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-        <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../team.php">English</a>
+                <a href="../team.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../gr/team.php">Greek</a>
+                <a style="align-items:center;" href="../gr/team.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/team.php">German</a>
+                <a href="../de/team.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/team.php">French</a>
+                <a href="../fr/team.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../es/team.php">Spanish</a>
+                <a href="../es/team.php">Spanish</a>
 
-                  </div>
-
-
-
-              </ul>
-
-            </div>
+              </div>
 
 
 
-      </div>
+            </ul>
+
+          </div>
 
 
 
@@ -198,519 +196,36 @@
 
 
 
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<section class="container-fluid stuff-grid" style="">
-
-  <h1 class="text-right" style=""> <img  class="team-img" src="../img/menus_logo/team.svg" style="" alt=""> OUR TEAM</h1>
+      </div>
 
 
 
 
-
-<div class="stuff-row" style="">
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/nasos.webp">
-
-  <img class="card-img-top" src="../img/team/nasos.jpg" alt="Card image cap">
-
-  </picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">NASOS TASOULAS <br><span>PROJECT MANAGER</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/symeonidis.webp">
-
-  <img class="card-img-top" src="../img/team/symeonidis.jpg" alt="Card image cap">
-
-  </picture>
-
-  <div class="card-body">
-
-      <p class="card-text text-left">SOFOKLIS SYMEONIDIS <br><span>PROJECT MANAGER</span></p>
 
     </div>
 
-  </div>
 
-  <div class="card" style="">
 
-    <picture>
+  </div> <!-- end of container fluid -->
 
-      <source type="image/webp" srcset="../img/team/odysseas.webp">
 
-    <img class="card-img-top" src="../img/team/odysseas.jpg" alt="Card image cap">
 
-    </picture>
 
-    <div class="card-body">
+  <!-- team section -->
+  <?php include '../teamContent.php'; ?>
 
-      <p class="card-text text-left">ODYSSEAS GLYKAS <br><span>PROJECT MANAGER / ARTIST</span></p>
 
-    </div>
 
-  </div>
+  <?php include '../inc/footer.php'; ?>
 
-  <div class="card" style="">
-
-    <picture>
-
-      <source type="image/webp" srcset="../img/team/ppk.webp">
-
-    <img class="card-img-top" src="../img/team/ppk.jpg" alt="Card image cap">
-
-    </picture>
-
-    <div class="card-body">
-
-    <p class="card-text text-left">GIANNIS <span class="ppk">PAPAKONSTANTOPOULOS</span> <br><span>SUPPORT ADMINISTRATOR / PROJECT MANAGER</span></p>
-
-  </div>
-
-</div>
-
-
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/mparlas.webp">
-
-  <img class="card-img-top" src="../img/team/mparlas.jpg" alt="Card image cap">
-
-  </picture>
-
-  <div class="card-body">
-
-      <p class="card-text text-left">GIORGOS MPARLAS <br><span>PROJECT MANAGER</span></p>
-
-    </div>
-
-  </div>
-
-  <div class="card" style="">
-
-    <picture>
-
-      <source type="image/webp" srcset="../img/team/tsilovitis.webp">
-
-    <img class="card-img-top" src="../img/team/tsilovitis.jpg" alt="Card image cap">
-
-    </picture>      <div class="card-body">
-
-      <p class="card-text text-left">GIORGOS TSILOVITIS <br><span>PROJECT MANAGER</span></p>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="card" style="">
-
-    <picture>
-
-      <source type="image/webp" srcset="../img/team/sofia.webp">
-
-    <img class="card-img-top" src="../img/team/sofia.jpg" alt="Card image cap">
-
-    </picture><div class="card-body">
-
-<p class="card-text text-left">SOFIA PAPADOPOULOU <br><span>ARTIST / SCULPTRESS</span></p>
-
-</div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/tzerefos.webp">
-
-  <img class="card-img-top" src="../img/team/tzerefos.jpg" alt="Card image cap">
-
-  </picture>    <div class="card-body">
-
-    <p class="card-text text-left">KONSTANTINOS TZEREFOS<br><span>CRAFTSMAN</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/mpeneas.webp">
-
-  <img class="card-img-top" src="../img/team/mpeneas.jpg" alt="Card image cap">
-
-  </picture>    <div class="card-body">
-
-    <p class="card-text text-left">MIXALIS MPENEAS<br><span>CRAFTSMAN</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/spiros_deligiorgis.webp">
-
-  <img class="card-img-top" src="../img/team/spiros_deligiorgis.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">SPIROS DELIGIORGIS<br><span>CRAFTSMAN</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/stavros_deligiorgis.webp">
-
-  <img class="card-img-top" src="../img/team/stavros_deligiorgis.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">STAVROS DELIGIORGIS<br><span>CRAFTSMAN</span></p>
-
-  </div>
-
-</div>
-
-
-
-
-
-
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/lampros.webp">
-
-  <img class="card-img-top" src="../img/team/lampros.jpg" alt="Card image cap">
-
-  </picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">LAMPROS LAMPROPOULOS<br><span>ELECTRONICS ENGINEER</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/papanikolaou.webp">
-
-  <img class="card-img-top" src="../img/team/papanikolaou.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-<p class="card-text text-left">MICHALIS PAPANIKOLAOU <br><span>ELECTRONICS ENGINEER</span></p>
-
-</div>
-
-</div>
-
-
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/stergios.webp">
-
-  <img class="card-img-top" src="../img/team/stergios.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">STERGIOS TOUSOULIS <br><span>ELECTRONICS ENGINEER</span> </p>
-
-  </div>
-
-</div>
-
-
-
-
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/kostas.webp">
-
-  <img class="card-img-top" src="../img/team/kostas.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">KONSTANTINOS MPOUNIAS<br><span>TECH ELECTRONICS</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/vasilis2.webp">
-
-  <img class="card-img-top" src="../img/team/vasilis2.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">VASILIS ALYFANTIS <br><span>TECH ELECTRONICS</span></p>
-
-  </div>
-
-
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/velegrakis.webp">
-
-  <img class="card-img-top" src="../img/team/velegrakis.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-    <p class="card-text text-left">GIORGOS VELEGRAKIS <br><span>TECH ELECTRONICS</span></p>
-
-  </div>
-
-
-
-</div>
-
-
-
-
-<div class="card" style="">
-
-  <div class="card-body">
-
-  </div>
-
-
-
-</div>
-
-<div class="card" style="">
-
-  <div class="card-body">
-
-  </div>
-
-</div>
-
-</div>
-
-<div class="stuff-row" style="">
-
-
-
-<div class="card" style="">
-
-<picture>
-
-  <source type="image/webp" srcset="../img/team/saperas.webp">
-
-<img class="card-img-top" src="../img/team/saperas.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-<p class="card-text text-left">GIANNIS SAPERAS <br><span>SOFTWARE ENGINEER</span></p>
-</div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/petros.webp">
-
-  <img class="card-img-top" src="../img/team/petros.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-  <p class="card-text text-left">PETROS SAVIDIS <br><span>SOFTWARE ENGINEER</span></p>
-
-
-
-</div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/elisavet.webp">
-
-  <img class="card-img-top" src="../img/team/elisavet.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-<p class="card-text text-left">ELISAVET DRAMILARI<br><span>COMMUNICATION MANAGER</span></p>
-
-</div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/antoniou.webp">
-
-  <img class="card-img-top" src="../img/team/antoniou.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-<p class="card-text text-left">GIANNIS ANTONIOU <br><span>GRAPHIC DESIGNER</span></p>
-
-</div>
-
-</div>
-
-<div class="card" style="">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/antonis.webp">
-
-  <img class="card-img-top" src="../img/team/antonis.jpg" alt="Card image cap">
-
-</picture>
-
-<div class="card-body">
-
-<p class="card-text text-left">ANTONY TOPOUZIDIS <br><span>3D ARTIST</span></p>
-
-</div>
-
-</div>
-
-
-<div class="card">
-
-  <picture>
-
-    <source type="image/webp" srcset="../img/team/stella.webp">
-
-  <img class="card-img-top" src="../img/team/stella.jpg" alt="Card image cap">
-
-</picture>
-
-  <div class="card-body">
-
-      <p class="card-text text-left">STELLA AMPATZI <br><span>DESIGNER</span></p>
-
-  </div>
-
-</div>
-
-<div class="card" style="">
-
-  <div class="card-body">
-
-  </div>
-
-
-
-</div>
-
-<div class="card" style="">
-
-  <div class="card-body">
-
-  </div>
-
-</div>
-
-</div>
-
-  </section>
-
-
-
-
-
-  <?php include '../inc/footer.php';?>
-
- <?php include '../inc/it-contact-form.php';?>
+  <?php include '../inc/it-contact-form.php'; ?>
 
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,.stuff-grid");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,.stuff-grid");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.stuff-grid");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.stuff-grid");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -726,4 +241,3 @@
 
 
 </html>
-
