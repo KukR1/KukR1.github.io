@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
@@ -56,51 +57,48 @@
 
 
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,800" rel="stylesheet">
 
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
 
-      <link href="../css/bootstrap-index.css" rel="stylesheet">
+  <link href="../css/bootstrap-index.css" rel="stylesheet">
 
 
 
-<link href="../css/animate.min.css" rel="stylesheet">
+  <link href="../css/animate.min.css" rel="stylesheet">
 
-<link href="../css/final_style.min.css" rel="stylesheet">
+  <link href="../css/final_style.min.css" rel="stylesheet">
 
   <link href="../css/construction.css" rel="stylesheet">
 
   <style media="screen">
-
-body,nav *{
+    body,
+    nav * {
 
       font-family: 'Open Sans', sans-serif;
 
     }
-
-
-
   </style>
 
 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-  gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -114,15 +112,15 @@ body,nav *{
 
   <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-  <?php include '../inc/logo.php'; ?>
+    <?php include '../inc/logo.php'; ?>
 
 
 
-  <?php include '../inc/gr-out-of-folder-menu-tabs.php'; ?>
+    <?php include '../inc/gr-out-of-folder-menu-tabs.php'; ?>
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -134,85 +132,81 @@ body,nav *{
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../construction.php">English</a>
+                <a href="../construction.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
-#contact_form
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+              <div class="lang">
+                #contact_form
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a style="align-items:center;" href="../it/construction.php">Italian</a>
+                <a style="align-items:center;" href="../it/construction.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/construction.php">German</a>
+                <a href="../de/construction.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/construction.php">French</a>
+                <a href="../fr/construction.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../es/construction.php">Spanish</a>
+                <a href="../es/construction.php">Spanish</a>
 
-                  </div>
-
-
-
-              </ul>
-
-            </div>
+              </div>
 
 
 
-      </div>
+            </ul>
+
+          </div>
 
 
 
@@ -220,123 +214,161 @@ body,nav *{
 
 
 
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<section id="construction_main" class="container-fluid text-center">
-
-  <div class="">
-
-    <h1 class="" style="font-weight:550;text-align:right;"> <img class="team-img" src="../img/menus_logo/construction.svg" style="margin-right:15px;" alt="">ΚΑΤΑΣΚΕΥΗ</h1>
-
-    <p class="">
-
-      Οι καινοτόμες λύσεις μας και τα υψηλής ποιότητας χειροποίητα κατασκευάσματα και διακοσμήσεις, δοκιμασμένα σε διάρκεια
-
-    ηλεκτρονικά παζλ και mechatronics που όλα συνδυαστικά,
-
-    παρουσιάζουν το μοναδικό αποτέλεσμα των δωματίων μας.
-
-    Η ομάδα GAME OVER εγγυάται ότι θα συνεχίσει τη σκληρή δουλειά,
-
-    με στόχο την καινοτομία και την αύξηση της ποιότητας των προϊόντων της.
-
-    </p>
-
-
-
-  </div>
+      </div>
 
 
 
 
 
-</section>
+    </div>
 
 
 
-<section id="technical-list" class="container-fluid " style="text-align:center;">
+  </div> <!-- end of container fluid -->
 
 
 
-  <div class="img-container1" style=" ">
+  <section id="construction_main" class="container-fluid text-center">
 
-    <picture>
+    <div class="">
 
-      <source type="image/webp" srcset="../img/construction/4.webp">
+      <h1 class="" style="font-weight:550;text-align:right;"> <img class="team-img" src="../img/menus_logo/construction.svg" style="margin-right:15px;" alt="">ΚΑΤΑΣΚΕΥΗ</h1>
 
-        <img src="../img/construction/4.jpg" alt="Cans filled with paint" class="img-fluid" >
+      <p class="">
+
+        Οι καινοτόμες λύσεις μας και τα υψηλής ποιότητας χειροποίητα κατασκευάσματα και διακοσμήσεις, δοκιμασμένα σε διάρκεια
+
+        ηλεκτρονικά παζλ και mechatronics που όλα συνδυαστικά,
+
+        παρουσιάζουν το μοναδικό αποτέλεσμα των δωματίων μας.
+
+        Η ομάδα GAME OVER εγγυάται ότι θα συνεχίσει τη σκληρή δουλειά,
+
+        με στόχο την καινοτομία και την αύξηση της ποιότητας των προϊόντων της.
+
+      </p>
+
+
+
+    </div>
+
+
+
+
+
+  </section>
+
+
+
+  <section id="technical-list" class="container-fluid " style="text-align:center;">
+
+
+
+    <div class="img-container1" style=" ">
+
+      <picture>
+
+        <source type="image/webp" srcset="../img/construction/4.webp">
+
+        <img src="../img/construction/4.jpg" alt="Cans filled with paint" class="img-fluid">
 
       </picture>
 
 
 
-  </div>
+    </div>
 
 
 
-  <ul class="" style="">
+    <ul class="" style="">
 
-  <li><p>Κόστη μεταφοράς</p><span></span></li>
+      <li>
+        <p>Κόστη μεταφοράς</p><span></span>
+      </li>
 
-  <li><p>Εισιτήρια και διαμονή του προσωπικού μας</p><span></span></li>
+      <li>
+        <p>Εισιτήρια και διαμονή του προσωπικού μας</p><span></span>
+      </li>
 
-  <li><p>'Ολα τα έπιπλα και τις διακοσμήσεις</p><span></span></li>
+      <li>
+        <p>'Ολα τα έπιπλα και τις διακοσμήσεις</p><span></span>
+      </li>
 
-  <li><p>Σκηνογραφίες Δωματίων</p><span></span></li>
+      <li>
+        <p>Σκηνογραφίες Δωματίων</p><span></span>
+      </li>
 
-  <li><p>Φωτισμός, ειδικές συσκευές και εφέ</p><span></span></li>
+      <li>
+        <p>Φωτισμός, ειδικές συσκευές και εφέ</p><span></span>
+      </li>
 
-  <li><p>Παιχνίδια και ηλεκτρικές συσκευές </p><span></span></li>
+      <li>
+        <p>Παιχνίδια και ηλεκτρικές συσκευές </p><span></span>
+      </li>
 
-  <li><p>Ειδικές Κατασκευές</p><span></span></li>
+      <li>
+        <p>Ειδικές Κατασκευές</p><span></span>
+      </li>
 
-  <li><p>Σενάρια , πάζλ και γρίφοι</p><span></span></li>
+      <li>
+        <p>Σενάρια , πάζλ και γρίφοι</p><span></span>
+      </li>
 
-  <li><p>Ανταλλακτικά</p><span></span></li>
+      <li>
+        <p>Ανταλλακτικά</p><span></span>
+      </li>
 
-  <li><p>Εξοπλισμός για έλεγχο δωματίων</p><span></span></li>
+      <li>
+        <p>Εξοπλισμός για έλεγχο δωματίων</p><span></span>
+      </li>
 
-  <li><p>Κάμερες, μικρόφωνα και ηχεία</p><span></span></li>
+      <li>
+        <p>Κάμερες, μικρόφωνα και ηχεία</p><span></span>
+      </li>
 
-  <li><p>Θεατρικές σκηνές</p><span></span></li>
+      <li>
+        <p>Θεατρικές σκηνές</p><span></span>
+      </li>
 
-  <li><p>Πλήρης Οδηγός Παιχνιδιών</p><span></span></li>
+      <li>
+        <p>Πλήρης Οδηγός Παιχνιδιών</p><span></span>
+      </li>
 
-  <li><p>Εκπαίδευση των Game Master και των υπευθύνων </p><span></span></li>
+      <li>
+        <p>Εκπαίδευση των Game Master και των υπευθύνων </p><span></span>
+      </li>
 
-  <li><p>Τεχνική Υποστήριξη online</p><span></span></li>
+      <li>
+        <p>Τεχνική Υποστήριξη online</p><span></span>
+      </li>
 
-  <li><p>1 χρόνος εγγύηση για όλα μας τα αντικείμενα</p><span></span></li>
+      <li>
+        <p>1 χρόνος εγγύηση για όλα μας τα αντικείμενα</p><span></span>
+      </li>
 
-  <li><p>Οδηγίες και Συμβουλές</p><span></span></li>
-
-
-
-</ul>
-
-
-
-
-
-
-
-
-
-</section>
+      <li>
+        <p>Οδηγίες και Συμβουλές</p><span></span>
+      </li>
 
 
 
-<?php include '../inc/footer.php';?>
+    </ul>
 
-<?php include '../inc/gr-contact-form.php';?>
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+  <?php include '../inc/footer.php'; ?>
+
+  <?php include '../inc/gr-contact-form.php'; ?>
 
 
 
@@ -347,11 +379,9 @@ body,nav *{
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#construction_main,#technical-list ");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#construction_main,#technical-list ");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#construction_main,#technical-list");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#construction_main,#technical-list");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -363,54 +393,57 @@ body,nav *{
   <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
   <script>
-
     function validateEmail(email) {
 
-        var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-        return re.test(email);
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" THE " + email + " IS NOT VALID ");
+
+        return false;
+
+
 
       }
 
 
 
-      function validateForm() {
-
-        $("#result").text("");
-
-        $("#result").css("font-size", "13px");
-
-        $("#result").css("font-style", "italic  ");
-
-        $("#result").css("color", "white");
-
-
-
-        var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-        if (validateEmail(email) == false) {
-
-          $("#result").text(" THE " + email + " IS NOT VALID ");
-
-          return false;
-
-
-
-        }
-
-
-
-        $("#submit").bind("click", "submit");
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-      }
-
-      </script>
+    }
+  </script>
 
 
 
@@ -421,4 +454,3 @@ body,nav *{
 
 
 </html>
-

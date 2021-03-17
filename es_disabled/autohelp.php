@@ -69,72 +69,75 @@
 
 
   <script>
-
     function validateEmail(email) {
 
-        var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-        return re.test(email);
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" THE " + email + " IS NOT VALID ");
+
+        return false;
+
+
 
       }
 
 
 
-      function validateForm() {
-
-        $("#result").text("");
-
-        $("#result").css("font-size", "13px");
-
-        $("#result").css("font-style", "italic  ");
-
-        $("#result").css("color", "white");
-
-
-
-        var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-        if (validateEmail(email) == false) {
-
-          $("#result").text(" THE " + email + " IS NOT VALID ");
-
-          return false;
-
-
-
-        }
-
-
-
-        $("#submit").bind("click", "submit");
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-      }
+    }
+  </script>
 
-      </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
+    gtag('js', new Date());
 
 
-  gtag('config', 'UA-87676239-1');
 
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -158,7 +161,7 @@
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -170,85 +173,81 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../autohelp.php">English</a>
+                <a href="../autohelp.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">#contact_form
+              <div class="lang">#contact_form
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../gr/autohelp.php">Greek</a>
+                <a style="align-items:center;" href="../gr/autohelp.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/autohelp.php">German</a>
+                <a href="../de/autohelp.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a href="../it/autohelp.php">Italian</a>
+                <a href="../it/autohelp.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/autohelp.php">French</a>
+                <a href="../fr/autohelp.php">French</a>
 
-                  </div>
-
-
-
-              </ul>
-
-            </div>
+              </div>
 
 
 
-      </div>
+            </ul>
+
+          </div>
 
 
 
@@ -256,13 +255,17 @@
 
 
 
+      </div>
 
 
-  </div>
 
 
 
-</div> <!-- end of container fluid -->
+    </div>
+
+
+
+  </div> <!-- end of container fluid -->
 
 
 
@@ -274,133 +277,133 @@
 
     <div class="autohelp-box">
 
-       <img src="../img/menus_logo/autohelp.svg" alt="" style="width:45px;height:45px;" >
+      <img src="../img/menus_logo/autohelp.svg" alt="" style="width:45px;height:45px;">
 
-       <h1>AUTOHELP <br> HINT SYSTEM</h1>
+      <h1>AUTOHELP <br> HINT SYSTEM</h1>
 
 
 
-          <p>El AHS es una forma automática de controlar y guiar a los jugadores en la sala. <br>La idea principal del <span style="font-weight:700;">AHS</span> es que los
+      <p>El AHS es una forma automática de controlar y guiar a los jugadores en la sala. <br>La idea principal del <span style="font-weight:700;">AHS</span> es que los
 
-             jugadores reciban automáticamente la indicación desde una pantalla táctil temática adjunta a la escenografía. El beneficio
+        jugadores reciban automáticamente la indicación desde una pantalla táctil temática adjunta a la escenografía. El beneficio
 
-              más grande del Sistema de Indicación con Ayuda Automática (Autohelp Hint System, en inglés) es que el cliente reduce
+        más grande del Sistema de Indicación con Ayuda Automática (Autohelp Hint System, en inglés) es que el cliente reduce
 
-              significativamente los costos de salario del personal, ya que no es necesario tener un Director de Juego (Game Master) en cada sala.
+        significativamente los costos de salario del personal, ya que no es necesario tener un Director de Juego (Game Master) en cada sala.
 
-    </p>
+      </p>
 
-   </div>
+    </div>
 
-   <div class="blur-div"></div>
+    <div class="blur-div"></div>
 
- </section>
+  </section>
 
- <section class="container-fluid text-center features" style="">
+  <section class="container-fluid text-center features" style="">
 
-   <div class="row">
+    <div class="row">
 
-     <div class="features-title">
+      <div class="features-title">
 
-       	<p>CARACTERISTICAS</p>
+        <p>CARACTERISTICAS</p>
 
-     </div>
+      </div>
 
-     <div class="features-list">
+      <div class="features-list">
 
-       <ul>
+        <ul>
 
-         <li>Un Director de Juego puede operar en 3 o 4 salas al mismo tiempo.</li>
+          <li>Un Director de Juego puede operar en 3 o 4 salas al mismo tiempo.</li>
 
- 				<li>Períodos de tiempo ajustables entre las pistas dadas</li>
+          <li>Períodos de tiempo ajustables entre las pistas dadas</li>
 
- 				<li>Disponible en inglés y en el idioma local </li>
+          <li>Disponible en inglés y en el idioma local </li>
 
- 				<li>Temporizador con cuenta regresiva en pantalla</li>
+          <li>Temporizador con cuenta regresiva en pantalla</li>
 
- 				<li> Fondo temático para cada sala</li>
+          <li> Fondo temático para cada sala</li>
 
- 				<li>Funcionamiento - Manuales de mantenimiento disponibles</li>
+          <li>Funcionamiento - Manuales de mantenimiento disponibles</li>
 
- 				<li>Botón de emergencia para obtener Ayuda</li>
+          <li>Botón de emergencia para obtener Ayuda</li>
 
- 				<li>Piezas de repuesto</li>
+          <li>Piezas de repuesto</li>
 
-       </ul>
+        </ul>
 
-     </div>
+      </div>
 
-   </div>
+    </div>
 
-   <div class="img-container" style="position:relative;z-index:1; ">
+    <div class="img-container" style="position:relative;z-index:1; ">
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp1.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp1.webp">
 
-       <img src="../img/construction/autohelp1.jpg" class="img-fluid" style="" alt="Autohelp system inside a room">
+        <img src="../img/construction/autohelp1.jpg" class="img-fluid" style="" alt="Autohelp system inside a room">
 
-     </picture>
+      </picture>
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp2.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp2.webp">
 
-       <img src="../img/construction/autohelp2.jpg" class="img-fluid" style="" alt="Autohelp touch screen">
+        <img src="../img/construction/autohelp2.jpg" class="img-fluid" style="" alt="Autohelp touch screen">
 
-     </picture>
+      </picture>
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp3.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp3.webp">
 
-       <img src="../img/construction/autohelp3.jpg" class="img-fluid" style="" alt="Autohelp system in use">
+        <img src="../img/construction/autohelp3.jpg" class="img-fluid" style="" alt="Autohelp system in use">
 
-     </picture>
+      </picture>
 
 
 
-   </div>
+    </div>
 
- </section>
+  </section>
 
- <section class="container-fluid text-center red" style="">
+  <section class="container-fluid text-center red" style="">
 
 
 
-   <div class="p-container" style="" >
+    <div class="p-container" style="">
 
-     <div class="left-p"  style="">
+      <div class="left-p" style="">
 
-       <p style="">Cuando se desarrolla un juego de escape, los jugadores tienen que resolver una serie de acertijos y
+        <p style="">Cuando se desarrolla un juego de escape, los jugadores tienen que resolver una serie de acertijos y
 
-           enigmas, paso a paso, para encontrar la salida en una hora.</p>
+          enigmas, paso a paso, para encontrar la salida en una hora.</p>
 
-         <p style="">
+        <p style="">
 
-           Durante esos 60 minutos hay un operador (Director de Juego) que les ve a través de las cámaras. De esta forma,
+          Durante esos 60 minutos hay un operador (Director de Juego) que les ve a través de las cámaras. De esta forma,
 
-            si necesitan una pista, este se comunica con ellos escribiendo en un monitor que se encuentra en la sala o hablándoles directamente por el micrófono.
+          si necesitan una pista, este se comunica con ellos escribiendo en un monitor que se encuentra en la sala o hablándoles directamente por el micrófono.
 
-         </p>
+        </p>
 
-   </div>
+      </div>
 
-   <div class="right-p" style="">
+      <div class="right-p" style="">
 
-<p style="";>Para ello, las empresas de juegos de escape necesitan tener personal
+        <p style="" ;>Para ello, las empresas de juegos de escape necesitan tener personal
 
-  suficiente para operar todas las salas en forma adecuada. Por supuesto, esto genera mayores gastos
+          suficiente para operar todas las salas en forma adecuada. Por supuesto, esto genera mayores gastos
 
-  al dueño del negocio, pero es necesario para mantener la calidad del servicio en un nivel alto.</p>
+          al dueño del negocio, pero es necesario para mantener la calidad del servicio en un nivel alto.</p>
 
-   </div>
+      </div>
 
 
 
-   </div>
+    </div>
 
- </section>
+  </section>
 
 
 
@@ -408,20 +411,18 @@
 
 
 
-  <?php include '../inc/footer.php';?>
+  <?php include '../inc/footer.php'; ?>
 
-<?php include '../inc/es-contact-form.php';?>
+  <?php include '../inc/es-contact-form.php'; ?>
 
 
 
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#autohelp_main,.features ,.red");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#autohelp_main,.features ,.red");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#autohelp_main,.features, .red");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#autohelp_main,.features, .red");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -437,4 +438,3 @@
 
 
 </html>
-

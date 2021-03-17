@@ -84,8 +84,8 @@
       </div>
 
       <div id="form" class="container2 px-0">
-         <!-- method="post" action="base.php" -->
-         <form role="form" onsubmit="return validateForm()">
+
+         <form role="form">
 
             <ul class="flex-outer px-0 mx-auto text-right">
 
@@ -690,5 +690,5 @@
    </div>
 
    </section>
-
+   <script src="/js/submitForm.js"></script>
 </div>

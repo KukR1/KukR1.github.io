@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -64,21 +65,20 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,800" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
 
 
 
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="../../css/final_style.min.css" rel="stylesheet">
+  <link href="../../css/final_style.min.css" rel="stylesheet">
 
-<link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
   <style media="screen">
+    .room-jacknew {
 
-  .room-jacknew {
-
-    position: relative;
+      position: relative;
 
 
 
@@ -90,7 +90,7 @@
 
       content: "";
 
-      background:url("../../img/room_slider_images/ripper(4).jpg") no-repeat center center ;
+      background: url("../../img/room_slider_images/ripper(4).jpg") no-repeat center center;
 
       opacity: 0.2;
 
@@ -113,15 +113,11 @@
       -o-background-size: cover;
 
     }
-
   </style>
 
 
 
   <script type="text/javascript">
-
-
-
     function validateEmail(email) {
 
       var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
@@ -132,7 +128,7 @@
 
 
 
-    function validateForm() {
+    function validateFormOld() {
 
       $("#result").text("");
 
@@ -144,7 +140,12 @@
 
 
 
-      var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
 
 
 
@@ -167,7 +168,6 @@
 
 
     }
-
   </script>
 
 </head>
@@ -180,15 +180,15 @@
 
 
 
-    <div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-      <?php include '../../inc/lang-logo.php'; ?>
+    <?php include '../../inc/lang-logo.php'; ?>
 
-      <?php include '../../inc/fr-menu-tabs.php'; ?>
+    <?php include '../../inc/fr-menu-tabs.php'; ?>
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -200,81 +200,85 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../../rooms/jtr-the-revenge.php">English</a>
+                <a href="../../rooms/jtr-the-revenge.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a style="align-items:center;" href="../../it/rooms/jtr-the-revenge.php">Italian</a>
+                <a style="align-items:center;" href="../../it/rooms/jtr-the-revenge.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../../de/rooms/jtr-the-revenge.php">German</a>
+                <a href="../../de/rooms/jtr-the-revenge.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/jtr-the-revenge.php">French</a>
+                <a href="../../fr/rooms/jtr-the-revenge.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../../es/rooms/jtr-the-revenge.php">Spanish</a>
+                <a href="../../es/rooms/jtr-the-revenge.php">Spanish</a>
 
-                  </div>
+              </div>
 
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -282,195 +286,191 @@
 
 
 
-        </div>
 
-
-
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<!-- carousel -->
-
-<?php include '../../inc/carousel-jtr-the-revenge.php'; ?>
-
-<!-- end of carousel -->
-
-
-
-<section class="container-fluid room-jacknew text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-  <div class="info-container" style="">
-
-    <div class="text-center" style="padding-top:50px;">
-
-      <img src="../../img/newera.svg" classs="img-fluid" alt="" style="width: 5rem;">
-
-    </div>
-
-    <div  class="mt-5" style="display: flex;align-items: center;justify-content:center;">
-
-      <img src="../../img/svg/jack.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 style="display:inline-block;line-height:2rem;font-size:2.5rem;text-align:left;">JACK THE RIPPER<br><span style="font-weight:100;font-size:1.7rem;">THE REVENGE</span></h1>
 
     </div>
 
 
 
-    <p class="room-desc" style="">Retour à Londres de 1880, les joueurs participent à la <br>
-
-      chasse du célèbre tueur en série, Jack l’éventreur. <br>
-
-      Une salle d’une excellente scénographie et technologiquement avancée.
-
-    </p>
-
-    <section class="icon-section">
-
-      <div class="left-icon"></div>
-
-    <div class="room-icon" style="">
+  </div> <!-- end of container fluid -->
 
 
 
+  <!-- carousel -->
+
+  <?php include '../../inc/carousel-jtr-the-revenge.php'; ?>
+
+  <!-- end of carousel -->
 
 
-        <div class="small-box text-center" style="">
 
-          <img src="../../img/menus_logo/scenarios.svg" alt="category" width="30px" >
+  <section class="container-fluid room-jacknew text-center " id="mainsect">
 
-          <p>CATEGORY</p>
+    <div class="blur-div-2"></div>
 
-          <p class="pdesc">Adventure</p>
+    <div class="info-container" style="">
+
+      <div class="text-center" style="padding-top:50px;">
+
+        <img src="../../img/newera.svg" classs="img-fluid" alt="" style="width: 5rem;">
+
+      </div>
+
+      <div class="mt-5" style="display: flex;align-items: center;justify-content:center;">
+
+        <img src="../../img/svg/jack.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:2rem;font-size:2.5rem;text-align:left;">JACK THE RIPPER<br><span style="font-weight:100;font-size:1.7rem;">THE REVENGE</span></h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">Retour à Londres de 1880, les joueurs participent à la <br>
+
+        chasse du célèbre tueur en série, Jack l’éventreur. <br>
+
+        Une salle d’une excellente scénographie et technologiquement avancée.
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="category" width="30px">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Adventure</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" alt="duration" width="30px">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60' - 90'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" alt="suggested space" width="30px">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">70m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" width="30px">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">18</p>
+
+          </div>
+
+
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
+      <p class=" story" style="">
 
+        En 1888 à Londres, un autre meurtre est arrivé cette nuit, toujours à Whitechappel.<br> L’éventreur a frappé de nouveau et les gens sont effrayés, presque personne ne circule dans les rues.<br> Sauf vous! Si les indices que vous avez entre les mains sont corrects, ce soir tout finira. Ou non? C’est vous qui décidez maintenant…
 
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px" >
-
-                 <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" alt="duration"width="30px" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60' - 90'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" alt="suggested space"width="30px" >
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">70m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles"width="30px" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">18</p>
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">
-
-    En 1888 à Londres, un autre meurtre est arrivé cette nuit, toujours à Whitechappel.<br> L’éventreur a frappé de nouveau et les gens sont effrayés, presque personne ne circule dans les rues.<br> Sauf vous! Si les indices que vous avez entre les mains sont corrects, ce soir tout finira. Ou non? C’est vous qui décidez maintenant…
-
-    </p>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5 " style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
+      </p>
 
     </div>
 
-  <div class="progress" style="">
+    <div class="progress-container mt-5 pb-5 " style="text-align:right;">
 
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="div1" style="height:20px;">
 
-        </div>
+        <p class="percent" style="display:inline-block;">80%</p><br>
 
-        <div class="diff-lvl" style="height:20px;">
+      </div>
 
-              <p style="">DIFFICULTY LEVEL</p>
+      <div class="progress" style="">
 
-        </div>
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 
-  </div>
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
+
+    </div>
 
 
 
 
 
-</section>
+  </section>
 
-<?php include '../../inc/footer.php';?>
+  <?php include '../../inc/footer.php'; ?>
 
-  <?php include '../../inc/fr-contact-form.php';?>
+  <?php include '../../inc/fr-contact-form.php'; ?>
 
   <script src="../../js/jquery.min.js"></script>
 
@@ -478,21 +478,19 @@
 
 
 
- <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
-
-  var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
-
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
   </script>
 
   <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
 
 
@@ -505,4 +503,3 @@
 
 
 </html>
-

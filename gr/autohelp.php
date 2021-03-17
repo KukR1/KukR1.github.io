@@ -58,11 +58,11 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,800" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
 
-<link href="../css/autohelp.css" rel="stylesheet">
+  <link href="../css/autohelp.css" rel="stylesheet">
 
-    <link href="../css/bootstrap-index.css" rel="stylesheet">
+  <link href="../css/bootstrap-index.css" rel="stylesheet">
 
   <link href="../css/animate.min.css" rel="stylesheet">
 
@@ -71,36 +71,33 @@
 
 
   <style media="screen">
-
-body,nav *{
+    body,
+    nav * {
 
       font-family: 'Open Sans', sans-serif;
 
     }
-
-
-
   </style>
 
 
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-  gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -124,7 +121,7 @@ body,nav *{
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -136,85 +133,81 @@ body,nav *{
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../autohelp.php">English</a>
+                <a href="../autohelp.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a style="align-items:center;" href="../it/autohelp.php">Italian</a>
+                <a style="align-items:center;" href="../it/autohelp.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/autohelp.php">German</a>
+                <a href="../de/autohelp.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/autohelp.php">French</a>
+                <a href="../fr/autohelp.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../es/autohelp.php">Spanish</a>
+                <a href="../es/autohelp.php">Spanish</a>
 
-                  </div>
-
-
-
-              </ul>
-
-            </div>
+              </div>
 
 
 
-      </div>
+            </ul>
+
+          </div>
 
 
 
@@ -222,13 +215,17 @@ body,nav *{
 
 
 
+      </div>
 
 
-  </div>
 
 
 
-</div> <!-- end of container fluid -->
+    </div>
+
+
+
+  </div> <!-- end of container fluid -->
 
 
 
@@ -240,131 +237,131 @@ body,nav *{
 
     <div class="autohelp-box">
 
-       <img src="../img/menus_logo/autohelp.svg" alt="" style="width:45px;height:45px;" >
+      <img src="../img/menus_logo/autohelp.svg" alt="" style="width:45px;height:45px;">
 
-     <h1>AUTOHELP <br> HINT SYSTEM</h1>
+      <h1>AUTOHELP <br> HINT SYSTEM</h1>
 
 
 
-       <p >Το Autohelp Hint System είναι ένας αυτοματοποιημένος τρόπος ελέγχου και καθοδήγησης
+      <p>Το Autohelp Hint System είναι ένας αυτοματοποιημένος τρόπος ελέγχου και καθοδήγησης
 
-των παικτών στο δωμάτιο. Η βασική ιδέα του AHS είναι ότι οι παίκτες
+        των παικτών στο δωμάτιο. Η βασική ιδέα του AHS είναι ότι οι παίκτες
 
-λαμβάνουν αυτόματα την απαραίτητη υπόδειξη από μια θεματική οθόνη αφής η οποία είναι προσαρτημένη στη σκηνογραφία.
+        λαμβάνουν αυτόματα την απαραίτητη υπόδειξη από μια θεματική οθόνη αφής η οποία είναι προσαρτημένη στη σκηνογραφία.
 
- Το μεγαλύτερο πλεονέκτημα του συστήματος AHS είναι ότι ο πελάτης μειώνει σημαντικά το κόστος μισθοδοσίας του προσωπικού, καθώς δεν υπάρχει ανάγκη να έχουμε ένα Game Master που να λειτουργεί σε κάθε δωμάτιο.</p>
+        Το μεγαλύτερο πλεονέκτημα του συστήματος AHS είναι ότι ο πελάτης μειώνει σημαντικά το κόστος μισθοδοσίας του προσωπικού, καθώς δεν υπάρχει ανάγκη να έχουμε ένα Game Master που να λειτουργεί σε κάθε δωμάτιο.</p>
 
-   </div>
+    </div>
 
-   <div class="blur-div"></div>
+    <div class="blur-div"></div>
 
- </section>
+  </section>
 
- <section class="container-fluid text-center features" style="">
+  <section class="container-fluid text-center features" style="">
 
-   <div class="row">
+    <div class="row">
 
-     <div class="features-title">
+      <div class="features-title">
 
-       <p>Χαρακτηριστικά</p>
+        <p>Χαρακτηριστικά</p>
 
-     </div>
+      </div>
 
-     <div class="features-list">
+      <div class="features-list">
 
-       <ul>
+        <ul>
 
-         <li>Ένας Game Master μπορεί να λειτουργήσει 3-4 δωμάτια ταυτόχρονα</li>
+          <li>Ένας Game Master μπορεί να λειτουργήσει 3-4 δωμάτια ταυτόχρονα</li>
 
-         <li>Ρυθμιζόμενα χρονικά πλαίσια μεταξύ των συμβουλών</li>
+          <li>Ρυθμιζόμενα χρονικά πλαίσια μεταξύ των συμβουλών</li>
 
-         <li>Διατίθεται στα Αγγλικά αλλά και στην τοπική γλώσσα</li>
+          <li>Διατίθεται στα Αγγλικά αλλά και στην τοπική γλώσσα</li>
 
-         <li>Αντίστροφη μέτρηση στην οθόνη</li>
+          <li>Αντίστροφη μέτρηση στην οθόνη</li>
 
-         <li>Θεματικό υπόβαθρο για κάθε δωμάτιο</li>
+          <li>Θεματικό υπόβαθρο για κάθε δωμάτιο</li>
 
-         <li>Διαθέσιμα εγχειρίδια Συντήρησης - Λειτουργίας</li>
+          <li>Διαθέσιμα εγχειρίδια Συντήρησης - Λειτουργίας</li>
 
-         <li>Κουμπί έκτακτης ανάγκης για περαιτέρω βοήθεια</li>
+          <li>Κουμπί έκτακτης ανάγκης για περαιτέρω βοήθεια</li>
 
-         <li>
+          <li>
 
-Ανταλλακτικά</li>
+            Ανταλλακτικά</li>
 
-       </ul>
+        </ul>
 
-     </div>
+      </div>
 
-   </div>
+    </div>
 
-   <div class="img-container" style="position:relative;z-index:1; ">
+    <div class="img-container" style="position:relative;z-index:1; ">
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp1.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp1.webp">
 
-       <img src="../img/construction/autohelp1.jpg" class="img-fluid" style="" alt="Autohelp system inside a room">
+        <img src="../img/construction/autohelp1.jpg" class="img-fluid" style="" alt="Autohelp system inside a room">
 
-     </picture>
+      </picture>
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp2.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp2.webp">
 
-       <img src="../img/construction/autohelp2.jpg" class="img-fluid" style="" alt="Autohelp touch screen">
+        <img src="../img/construction/autohelp2.jpg" class="img-fluid" style="" alt="Autohelp touch screen">
 
-     </picture>
+      </picture>
 
-     <picture>
+      <picture>
 
-       <source type="image/webp" srcset="../img/construction/autohelp3.webp">
+        <source type="image/webp" srcset="../img/construction/autohelp3.webp">
 
-       <img src="../img/construction/autohelp3.jpg" class="img-fluid" style="" alt="Autohelp system in use">
+        <img src="../img/construction/autohelp3.jpg" class="img-fluid" style="" alt="Autohelp system in use">
 
-     </picture>
+      </picture>
 
 
 
-   </div>
+    </div>
 
- </section>
+  </section>
 
- <section class="container-fluid text-center red" style="">
+  <section class="container-fluid text-center red" style="">
 
 
 
-   <div class="p-container" style="" >
+    <div class="p-container" style="">
 
-     <div class="left-p"  style="">
+      <div class="left-p" style="">
 
-         <p style="">Όταν ένα παιχνίδι διαφυγής είναι σε λειτουργία,
+        <p style="">Όταν ένα παιχνίδι διαφυγής είναι σε λειτουργία,
 
-           οι παίκτες πρέπει να λύσουν μια σειρά από αινίγματα και παζλ
+          οι παίκτες πρέπει να λύσουν μια σειρά από αινίγματα και παζλ
 
-           και έτσι βήμα προς βήμα πρέπει να βρουν την έξοδο μέσα σε μια ώρα.</p>
+          και έτσι βήμα προς βήμα πρέπει να βρουν την έξοδο μέσα σε μια ώρα.</p>
 
-           <p style="">
+        <p style="">
 
-           Κατά τη διάρκεια αυτών των 60 λεπτών υπάρχει ένας χειριστής (Game Master) τους παρακολουθεί μέσω κάμερας έτσι ώστε αν χρειάζονται μια υπόδειξη, επικοινωνεί μαζί τους πληκτρολογώντας μια οθόνη στο δωμάτιο ή μιλώντας μαζί τους απευθείας μέσω ενός μικροφώνου.
+          Κατά τη διάρκεια αυτών των 60 λεπτών υπάρχει ένας χειριστής (Game Master) τους παρακολουθεί μέσω κάμερας έτσι ώστε αν χρειάζονται μια υπόδειξη, επικοινωνεί μαζί τους πληκτρολογώντας μια οθόνη στο δωμάτιο ή μιλώντας μαζί τους απευθείας μέσω ενός μικροφώνου.
 
-           </p>
+        </p>
 
-     </div>
+      </div>
 
-     <div class="right-p" style="">
+      <div class="right-p" style="">
 
- <p style="">
+        <p style="">
 
-Ως αποτέλεσμα, οι επιχειρήσεις δωματίων απόδρασης πρέπει να έχουν αρκετό προσωπικό για να λειτουργούν σωστά όλα τα δωμάτια. Φυσικά, αυτό είναι ένα υψηλό κόστος για τον ιδιοκτήτη της επιχείρησης, αλλά είναι απαραίτητο για να διατηρηθεί η ποιότητα της υπηρεσίας σε υψηλό επίπεδο.</p>
+          Ως αποτέλεσμα, οι επιχειρήσεις δωματίων απόδρασης πρέπει να έχουν αρκετό προσωπικό για να λειτουργούν σωστά όλα τα δωμάτια. Φυσικά, αυτό είναι ένα υψηλό κόστος για τον ιδιοκτήτη της επιχείρησης, αλλά είναι απαραίτητο για να διατηρηθεί η ποιότητα της υπηρεσίας σε υψηλό επίπεδο.</p>
 
-     </div>
+      </div>
 
 
 
-   </div>
+    </div>
 
- </section>
+  </section>
 
 
 
@@ -372,20 +369,18 @@ body,nav *{
 
 
 
- <?php include '../inc/footer.php';?>
+  <?php include '../inc/footer.php'; ?>
 
-   <?php include '../inc/gr-contact-form.php';?>
+  <?php include '../inc/gr-contact-form.php'; ?>
 
 
 
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,#autohelp_main,.features ,.red");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#contact_form,#autohelp_main,.features ,.red");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#autohelp_main,.features, .red");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#autohelp_main,.features, .red");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -397,58 +392,60 @@ body,nav *{
   <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
   <script>
-
     function validateEmail(email) {
 
-        var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-        return re.test(email);
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" THE " + email + " IS NOT VALID ");
+
+        return false;
+
+
 
       }
 
 
 
-      function validateForm() {
-
-        $("#result").text("");
-
-        $("#result").css("font-size", "13px");
-
-        $("#result").css("font-style", "italic  ");
-
-        $("#result").css("color", "white");
-
-
-
-        var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-        if (validateEmail(email) == false) {
-
-          $("#result").text(" THE " + email + " IS NOT VALID ");
-
-          return false;
-
-
-
-        }
-
-
-
-        $("#submit").bind("click", "submit");
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-      }
-
-      </script>
+    }
+  </script>
 
 </body>
 
 
 
 </html>
-

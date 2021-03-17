@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -73,128 +74,127 @@
   <link href="../css/rooms_bootstrap.min.css" rel="stylesheet">
 
   <style media="screen">
+    .room-space {
 
-.room-space {
-
-  position: relative;
-
-}
-
-
-
-  .room-space::after {
-
-    content: "";
-
-    background:url("../img/room_slider_images/space_wars (2).jpg") no-repeat center center ;
-
-    opacity: 0.2;
-
-    top: 0;
-
-    left: 0;
-
-    bottom: 0;
-
-    right: 0;
-
-    position: absolute;
-
-    z-index: -1;
-
-    -webkit-background-size: cover;
-
-    -moz-background-size: cover;
-
-    -o-background-size: cover;
-
-  }
-
-</style>
-
-<script type="text/javascript">
-
-
-
-  function validateEmail(email) {
-
-    var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-
-    return re.test(email);
-
-  }
-
-
-
-  function validateForm() {
-
-    $("#result").text("");
-
-    $("#result").css("font-size", "13px");
-
-    $("#result").css("font-style", "italic  ");
-
-    $("#result").css("color", "white");
-
-
-
-    var country = $("#country").val();
-
-
-
-  if (country == "default") {
-
-     $("#result").text("NO COUNTRY SELECTED");
-
-     return false;
-
-  }
-
-
-
-    var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-    if (validateEmail(email) == false) {
-
-      $("#result").text(email + " IS NOT VALID ");
-
-      return false;
-
-
+      position: relative;
 
     }
 
 
 
-    $("#submit").bind("click", "submit");
+    .room-space::after {
+
+      content: "";
+
+      background: url("../img/room_slider_images/space_wars (2).jpg") no-repeat center center;
+
+      opacity: 0.2;
+
+      top: 0;
+
+      left: 0;
+
+      bottom: 0;
+
+      right: 0;
+
+      position: absolute;
+
+      z-index: -1;
+
+      -webkit-background-size: cover;
+
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+    }
+  </style>
+
+  <script type="text/javascript">
+    function validateEmail(email) {
+
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var country = $("#country").val();
+
+
+
+      if (country == "default") {
+
+        $("#result").text("NO COUNTRY SELECTED");
+
+        return false;
+
+      }
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(email + " IS NOT VALID ");
+
+        return false;
+
+
+
+      }
+
+
+
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-  }
+    }
+  </script>
 
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
+    gtag('js', new Date());
 
 
-  gtag('config', 'UA-87676239-1');
 
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 </head>
 
@@ -204,15 +204,15 @@
 
 
 
-<div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-  <?php include '../inc/logo.php';?>
+    <?php include '../inc/logo.php'; ?>
 
-  <?php include '../inc/menu-tabs.php';?>
+    <?php include '../inc/menu-tabs.php'; ?>
 
-  <div class="burger-flag" style="">
+    <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -224,261 +224,261 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
-#contact_form
+          <button class="closebtn">&times;</button>
+          #contact_form
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../gr/rooms/space-wars.php">Greek</a>
+                <a style="align-items:center;" href="../gr/rooms/space-wars.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/rooms/space-wars.php">German</a>
+                <a href="../de/rooms/space-wars.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a href="../it/rooms/space-wars.php">Italian</a>
+                <a href="../it/rooms/space-wars.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/rooms/space-wars.php">French</a>
+                <a href="../fr/rooms/space-wars.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../es/rooms/space-wars.php">Spanish</a>
+                <a href="../es/rooms/space-wars.php">Spanish</a>
 
-                  </div>
+              </div>
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+        </div>
 
       </div>
 
-        </div>
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<!-- carousel -->
-
-<?php include '../inc/en-carousel-space-wars.php'; ?>
-
-
-
-<!-- end of carousel -->
-
-
-
-<section class="container-fluid room-space text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-  <div class="info-container" style="">
-
-    <div class="text-center" style="padding-top:50px;">
-
-      <img src="../img/newera.svg" classs="img-fluid" alt="" style="width: 4rem;">
-
-    </div>
-
-    <div class="" style="display: flex;align-items: center;justify-content:center;">
-
-      <img src="../img/svg/space.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">SPACE WARS</h1>
-
     </div>
 
 
 
-    <p class="room-desc" style="">An escape game inside a realistic Spaceship. Extremely technologically advanced features and games,<br> even an actual video game, brought in real life together with wow factors and special effects.
-
-    </p>
-
-    <section class="icon-section">
-
-      <div class="left-icon"></div>
-
-    <div class="room-icon" style="">
+  </div> <!-- end of container fluid -->
 
 
 
+  <!-- carousel -->
+
+  <?php include '../inc/en-carousel-space-wars.php'; ?>
 
 
-        <div class="small-box text-center" style="">
 
-          <img src="../img/menus_logo/scenarios.svg"   alt="category">
+  <!-- end of carousel -->
 
-          <p>CATEGORY</p>
 
-          <p class="pdesc">Adventure/Sci-Fi</p>
+
+  <section class="container-fluid room-space text-center " id="mainsect">
+
+    <div class="blur-div-2"></div>
+
+    <div class="info-container" style="">
+
+      <div class="text-center" style="padding-top:50px;">
+
+        <img src="../img/newera.svg" classs="img-fluid" alt="" style="width: 4rem;">
+
+      </div>
+
+      <div class="" style="display: flex;align-items: center;justify-content:center;">
+
+        <img src="../img/svg/space.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">SPACE WARS</h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">An escape game inside a realistic Spaceship. Extremely technologically advanced features and games,<br> even an actual video game, brought in real life together with wow factors and special effects.
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/scenarios.svg" alt="category">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Adventure/Sci-Fi</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/players.svg" alt="number of players">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">3-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/duration.svg" alt="duration">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/space.svg" alt="suggested space">
+
+            <p>REQUIRED <br> SPACE</p>
+
+            <p class="pdesc">5x8m</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/puzzle.svg" alt="Puzzles and riddles">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">16</p>
+
+          </div>
+
+
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/players.svg" alt="number of players"  >
-
-           <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">3-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/duration.svg" alt="duration" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/space.svg" alt="suggested space" >
-
-           <p>REQUIRED <br> SPACE</p>
-
-          <p class="pdesc">5x8m</p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">16</p>
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
+      <img src="../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
       <p class=" story" style="">Two years passed since Lancer 19A, disappeared and the War for the Galaxy Control, has became a War to Protect our Planet from invasion. Lancer 19A was the bastion of Earth’s Battle Space Fleet, when mysteriously, its trace got lost…until last week, where the trace reappeared! Lancer was spotted in the middle of an Asteroid Field and you are the team that EBSF, is sending you inside a space capsule, to retrieve the spaceship, investigate the reasons of its disappearance and fly safely out of the asteroids and back to Earth!</p>
 
-  </div>
+    </div>
 
-  <div class="progress-container mt-5 pb-5 " style="text-align:right;">
+    <div class="progress-container mt-5 pb-5 " style="text-align:right;">
 
-    <div class="div1" style="height:20px;">
+      <div class="div1" style="height:20px;">
 
-          <p class="percent" style="display:inline-block;">80%</p><br>
+        <p class="percent" style="display:inline-block;">80%</p><br>
+
+      </div>
+
+      <div class="progress" style="">
+
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
 
     </div>
 
-  <div class="progress" style="">
-
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-
-        </div>
-
-        <div class="diff-lvl" style="height:20px;">
-
-              <p style="">DIFFICULTY LEVEL</p>
-
-        </div>
-
-  </div>
 
 
 
 
+  </section>
 
-</section>
+  <?php include '../inc/footer.php'; ?>
 
-<?php include '../inc/footer.php';?>
-
-<?php include '../inc/contact-form.php';?>
+  <?php include '../inc/contact-form.php'; ?>
 
 
 
@@ -492,15 +492,19 @@
 
 
 
- <script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");   </script><script src="../js/js_all.js"></script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
+  </script>
+  <script src="../js/js_all.js"></script>
 
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="boot-custom.js"></script>
+  <script src="boot-custom.js"></script>
 
-<!-- Custom scripts for this template -->
+  <!-- Custom scripts for this template -->
 
 
 
@@ -513,4 +517,3 @@
 
 
 </html>
-

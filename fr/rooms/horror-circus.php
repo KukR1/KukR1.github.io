@@ -62,12 +62,12 @@
 </head>
 
 <body id="page-top">
-    <div class="container-fluid nav-container p-0 fixed-top" style=""> 
-        
-        <?php include '../../inc/logo.php'; ?> 
-    
-        <?php include '../../inc/menu-tabs.php'; ?> 
-    
+    <div class="container-fluid nav-container p-0 fixed-top" style="">
+
+        <?php include '../../inc/logo.php'; ?>
+
+        <?php include '../../inc/menu-tabs.php'; ?>
+
         <div class="burger-flag" style="">
             <div class="burger-container  "> <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="hamburger-box"> <span class="hamburger-inner "></span> </span> </button> </div>
             <div class="dropup-container" style="margin-top:-2px;">
@@ -88,10 +88,10 @@
                 </div>
             </div>
         </div>
-    </div> <!-- end of container fluid --> 
-    
-    <?php include '../../inc/carousel-horror-circus.php'; ?> 
-    
+    </div> <!-- end of container fluid -->
+
+    <?php include '../../inc/carousel-horror-circus.php'; ?>
+
     <section class="container-fluid circus text-center " id="mainsect">
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
@@ -99,7 +99,7 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">LE CIRQUE DE L’HORREUR</h1>
             </div>
             <p class="room-desc" style="">
-                Un escape game se déroulant dans un cirque maudit disposant d’effets effrayants et d’une ambiance incroyable.</br> 
+                Un escape game se déroulant dans un cirque maudit disposant d’effets effrayants et d’une ambiance incroyable.</br>
                 Les technologies de pointe et les éléments de surprise intégrés dans un décor à couper le souffle rendent cette pièce</br>
                 très populaire auprès des étudiants et des adultes.
             <section class="icon-section">
@@ -141,12 +141,12 @@
                 <p style="">DIFFICULTY LEVEL</p>
             </div>
         </div>
-    </section> 
-    
-    <?php include '../../inc/footer.php'; ?> 
-    
-    <?php include '../../inc/contact-form.php'; ?> 
-    
+    </section>
+
+    <?php include '../../inc/footer.php'; ?>
+
+    <?php include '../../inc/contact-form.php'; ?>
+
     <script src="/js/jquery.min.js"></script>
     <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
     <script>
@@ -164,7 +164,7 @@
             return re.test(email);
         }
 
-        function validateForm() {
+        function validateFormOld() {
             $("#result").text("");
             $("#result").css("font-size", "13px");
             $("#result").css("font-style", "italic  ");

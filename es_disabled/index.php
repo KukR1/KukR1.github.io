@@ -1553,7 +1553,7 @@
             return re.test(email);
          }
 
-         function validateForm() {
+         function validateFormOld() {
             $("#result").text("");
             $("#result").css("font-size", "13px");
             $("#result").css("font-style", "italic  ");

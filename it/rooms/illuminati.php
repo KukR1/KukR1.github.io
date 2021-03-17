@@ -11,7 +11,7 @@
                 Legendary Holy Grail.">
     <meta property="og:locale" content="it_IT" />
     <meta property="og:locale:alternate" content="en_GB" />
-    <meta property="og:locale:alternate" content="el_GR" />    
+    <meta property="og:locale:alternate" content="el_GR" />
     <meta property="og:locale:alternate" content="fr_FR" />
     <meta property="og:locale:alternate" content="de_DE" />
     <meta property="og:locale:alternate" content="es_ES" />
@@ -97,8 +97,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ILLUMINATI</h1>
             </div>
             <p class="room-desc" style="">
-                Hai l’occasione di svelare i segreti più nascosti del complotto degli Illuminati e trovare il<br/>
-                leggendario Sacro Graal. Una trama spettacolare e un gameplay appassionante, incluse partite<br/>
+                Hai l’occasione di svelare i segreti più nascosti del complotto degli Illuminati e trovare il<br />
+                leggendario Sacro Graal. Una trama spettacolare e un gameplay appassionante, incluse partite<br />
                 tecnologicamente avanzate, sono gli ingredienti vincenti di questa stanza.
             </p>
             <section class="icon-section">
@@ -162,7 +162,7 @@
             return re.test(email);
         }
 
-        function validateForm() {
+        function validateFormOld() {
             $("#result").text("");
             $("#result").css("font-size", "13px");
             $("#result").css("font-style", "italic  ");

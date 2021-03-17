@@ -11,7 +11,7 @@
     <meta property="og:locale" content="de_DE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:locale:alternate" content="el_GR" />
-    <meta property="og:locale:alternate" content="fr_FR" />    
+    <meta property="og:locale:alternate" content="fr_FR" />
     <meta property="og:locale:alternate" content="it_IT" />
     <meta property="og:locale:alternate" content="es_ES" />
     <meta property="og:type" content="website" />
@@ -62,12 +62,12 @@
 </head>
 
 <body id="page-top">
-    <div class="container-fluid nav-container p-0 fixed-top" style=""> 
-        
-        <?php include '../../inc/logo.php'; ?> 
-    
-        <?php include '../../inc/menu-tabs.php'; ?> 
-    
+    <div class="container-fluid nav-container p-0 fixed-top" style="">
+
+        <?php include '../../inc/logo.php'; ?>
+
+        <?php include '../../inc/menu-tabs.php'; ?>
+
         <div class="burger-flag" style="">
             <div class="burger-container  "> <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="hamburger-box"> <span class="hamburger-inner "></span> </span> </button> </div>
             <div class="dropup-container" style="margin-top:-2px;">
@@ -88,10 +88,10 @@
                 </div>
             </div>
         </div>
-    </div> <!-- end of container fluid --> 
-    
-    <?php include '../../inc/carousel-horror-circus.php'; ?> 
-    
+    </div> <!-- end of container fluid -->
+
+    <?php include '../../inc/carousel-horror-circus.php'; ?>
+
     <section class="container-fluid circus text-center " id="mainsect">
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
@@ -142,12 +142,12 @@
                 <p style="">DIFFICULTY LEVEL</p>
             </div>
         </div>
-    </section> 
-    
-    <?php include '../../inc/footer.php'; ?> 
-    
-    <?php include '../../inc/contact-form.php'; ?> 
-    
+    </section>
+
+    <?php include '../../inc/footer.php'; ?>
+
+    <?php include '../../inc/contact-form.php'; ?>
+
     <script src="/js/jquery.min.js"></script>
     <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
     <script>
@@ -165,7 +165,7 @@
             return re.test(email);
         }
 
-        function validateForm() {
+        function validateFormOld() {
             $("#result").text("");
             $("#result").css("font-size", "13px");
             $("#result").css("font-style", "italic  ");

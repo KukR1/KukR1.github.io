@@ -16,7 +16,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -62,52 +63,50 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,800" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,800" rel="stylesheet">
 
 
 
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <link href="../../css/final_style.min.css" rel="stylesheet">
 
   <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
   <style media="screen">
+    .room-aztec {
 
-  .room-aztec {
+      position: relative;
 
-    position: relative;
+    }
 
-  }
+    .room-aztec::after {
 
-  .room-aztec::after {
+      content: "";
 
-    content: "";
+      background: url("../../img/room_slider_images/aztec (2).jpg") no-repeat center center;
 
-    background:url("../../img/room_slider_images/aztec (2).jpg") no-repeat center center ;
+      opacity: 0.2;
 
-    opacity: 0.2;
+      top: 0;
 
-    top: 0;
+      left: 0;
 
-    left: 0;
+      bottom: 0;
 
-    bottom: 0;
+      right: 0;
 
-    right: 0;
+      position: absolute;
 
-    position: absolute;
+      z-index: -1;
 
-    z-index: -1;
+      -webkit-background-size: cover;
 
-    -webkit-background-size: cover;
+      -moz-background-size: cover;
 
-    -moz-background-size: cover;
+      -o-background-size: cover;
 
-    -o-background-size: cover;
-
-  }
-
+    }
   </style>
 
 
@@ -124,15 +123,15 @@
 
 
 
-    <div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-      <?php include '../../inc/lang-logo.php'; ?>
+    <?php include '../../inc/lang-logo.php'; ?>
 
-      <?php include '../../inc/fr-menu-tabs.php'; ?>
+    <?php include '../../inc/fr-menu-tabs.php'; ?>
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -144,81 +143,85 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../../rooms/aztec.php">English</a>
+                <a href="../../rooms/aztec.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a style="align-items:center;" href="../../it/rooms/aztec.php">Italian</a>
+                <a style="align-items:center;" href="../../it/rooms/aztec.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../../de/rooms/aztec.php">German</a>
+                <a href="../../de/rooms/aztec.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/aztec.php">French</a>
+                <a href="../../fr/rooms/aztec.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../../es/rooms/aztec.php">Spanish</a>
+                <a href="../../es/rooms/aztec.php">Spanish</a>
 
-                  </div>
+              </div>
 
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -226,17 +229,13 @@
 
 
 
-        </div>
+
+
+    </div>
 
 
 
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
+  </div> <!-- end of container fluid -->
 
 
 
@@ -244,181 +243,178 @@
 
 
 
-<!-- carousel -->
+  <!-- carousel -->
 
-<?php include '../../inc/carousel-aztec.php'; ?>
+  <?php include '../../inc/carousel-aztec.php'; ?>
 
-<!-- end of carousel -->
+  <!-- end of carousel -->
 
-<section class="container-fluid room-aztec text-center " id="mainsect">
+  <section class="container-fluid room-aztec text-center " id="mainsect">
 
     <div class="blur-div-2"></div>
 
-  <div class="info-container" style="">
+    <div class="info-container" style="">
 
-    <div class="text-center" style="padding-top:50px;">
+      <div class="text-center" style="padding-top:50px;">
 
-      <img src="../../img/newera.svg" classs="img-fluid" alt="" style="width: 5rem;">
+        <img src="../../img/newera.svg" classs="img-fluid" alt="" style="width: 5rem;">
+
+      </div>
+
+      <div class="mt-5" style="display: flex;align-items: center;justify-content:center;">
+
+        <img src="../../img/svg/aztec.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:2rem;font-size:2rem;text-align:center;font-weight:100;">AZTEC EMPIRE<br><span style="font-size:2.5rem;font-weight:900;">TEMPLE OF SKULL</span></h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">Cette room offre une expérience de pointe totale, dans un immense espace supérieur à 85 m².<br>
+        Il existe de nombreux effets visuels et sonores, des obstacles physiques à traverser et des décors extrêmement détaillés et de haute qualité.<br>
+        Cette salle peut être jouée en version 60min ou 90min et elle peut également être jouée avec un acteur.
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Adventure</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" width="30px" alt="number of players">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-8</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" width="30px" alt="duration">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60' - 90'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" width="30px" alt="suggested space">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">100m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" width="30px">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">19</p>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="right-icon"></div>
+
+      </section>
+
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
+
+      <p class=" story" style="">En suivant les indices laissés par votre partenaire et professeur, vous êtes appelés à résoudre un mystère que personne n’a pu percer pendant des siècles et découvrir une chose qui changera toute l'histoire humaine, telle que nous la connaissons ! Les lettres que chacun de vous avez reçues hier soir étaient toutes identiques, mais ont finalement mis en lumière l’affaire d’un homme disparu depuis 6 ans, le professeur Robert Jackson. La carte jointe à la lettre vous a conduit au cœur de l'Amazonie, la partie la moins explorée et la plus reculée de la jungle.
+
+
+      </p>
 
     </div>
 
-    <div  class="mt-5" style="display: flex;align-items: center;justify-content:center;">
+    <div class="progress-container mt-5 pb-5" style="text-align:right;">
 
-      <img src="../../img/svg/aztec.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+      <div class="div1" style="height:20px;">
 
-      <h1 style="display:inline-block;line-height:2rem;font-size:2rem;text-align:center;font-weight:100;">AZTEC EMPIRE<br><span style="font-size:2.5rem;font-weight:900;">TEMPLE OF SKULL</span></h1>
+        <p class="percent" style="display:inline-block;">80%</p><br>
+
+      </div>
+
+      <div class="progress" style="">
+
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
 
     </div>
 
 
 
-    <p class="room-desc" style="">Cette room offre une expérience de pointe totale, dans un immense espace supérieur à 85 m².<br>
-    Il existe de nombreux effets visuels et sonores, des obstacles physiques à traverser et des décors extrêmement détaillés et de haute qualité.<br>
-    Cette salle peut être jouée en version 60min ou 90min et elle peut également être jouée avec un acteur.
 
-    </p>
 
-    <section class="icon-section">
+  </section>
 
-      <div class="left-icon"></div>
+  <?php include '../../inc/footer.php'; ?>
 
-    <div class="room-icon" style="">
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px" >
-
-          <p>CATEGORY</p>
-
-          <p class="pdesc">Adventure</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" width="30px" alt="number of players">
-
-                 <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-8</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" width="30px" alt="duration">
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60' - 90'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" width="30px" alt="suggested space">
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">100m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles"width="30px">
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">19</p>
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">En suivant les indices laissés par votre partenaire et professeur, vous êtes appelés à résoudre un mystère que personne n’a pu percer pendant des siècles et découvrir une chose qui changera toute l'histoire humaine, telle que nous la connaissons ! Les lettres que chacun de vous avez reçues hier soir étaient toutes identiques, mais ont finalement mis en lumière l’affaire d’un homme disparu depuis 6 ans, le professeur Robert Jackson. La carte jointe à la lettre vous a conduit au cœur de l'Amazonie, la partie la moins explorée et la plus reculée de la jungle.
-
-
-</p>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5" style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
-
-    </div>
-
-  <div class="progress" style="">
-
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-
-        </div>
-
-        <div class="diff-lvl" style="height:20px;">
-
-              <p style="">DIFFICULTY LEVEL</p>
-
-        </div>
-
-  </div>
-
-
-
-
-
-</section>
-
-<?php include '../../inc/footer.php';?>
-
-  <?php include '../../inc/fr-contact-form.php';?>
+  <?php include '../../inc/fr-contact-form.php'; ?>
 
   <script type="text/javascript">
-
-
-
     function validateEmail(email) {
 
       var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
@@ -429,7 +425,7 @@
 
 
 
-    function validateForm() {
+    function validateFormOld() {
 
       $("#result").text("");
 
@@ -464,30 +460,27 @@
 
 
     }
-
   </script>
 
-    <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/jquery.min.js"></script>
 
   <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
 
- <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
-
-  var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
-
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
   </script>
 
   <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
 
 
@@ -500,4 +493,3 @@
 
 
 </html>
-

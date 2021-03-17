@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -71,129 +72,124 @@
 
 
 
-<style media="screen">
+  <style media="screen">
+    .arkham {
 
-.arkham {
+      position: relative;
 
-  position: relative;
-
-}
-
-
-
-  .arkham::after {
-
-    content: "";
-
-    background:url("../../img/room_slider_images/arkham6.jpg") no-repeat center center ;
-
-    opacity: 0.2;
-
-    top: 0;
-
-    left: 0;
-
-    bottom: 0;
-
-    right: 0;
-
-    position: absolute;
-
-    z-index: -1;
-
-    -webkit-background-size: cover;
-
-    -moz-background-size: cover;
-
-    -o-background-size: cover;
-
-  }
+    }
 
 
 
-</style>
+    .arkham::after {
 
-<style media="screen">
+      content: "";
 
-  .info-container > p,.info-container p.story,nav *{
+      background: url("../../img/room_slider_images/arkham6.jpg") no-repeat center center;
+
+      opacity: 0.2;
+
+      top: 0;
+
+      left: 0;
+
+      bottom: 0;
+
+      right: 0;
+
+      position: absolute;
+
+      z-index: -1;
+
+      -webkit-background-size: cover;
+
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+    }
+  </style>
+
+  <style media="screen">
+    .info-container>p,
+    .info-container p.story,
+    nav * {
 
       font-family: 'Open Sans', sans-serif;
 
     }
-
-
-
   </style>
 
-<script type="text/javascript">
+  <script type="text/javascript">
+    function validateEmail(email) {
 
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-
-  function validateEmail(email) {
-
-    var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-
-    return re.test(email);
-
-  }
-
-
-
-  function validateForm() {
-
-    $("#result").text("");
-
-    $("#result").css("font-size", "13px");
-
-    $("#result").css("font-style", "italic  ");
-
-    $("#result").css("color", "white");
-
-
-
-    var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-    if (validateEmail(email) == false) {
-
-      $("#result").text(" ΤΟ " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
-
-      return false;
-
-
+      return re.test(email);
 
     }
 
 
 
-    $("#submit").bind("click", "submit");
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" ΤΟ " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
+
+        return false;
+
+
+
+      }
+
+
+
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-  }
+    }
+  </script>
 
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
+    gtag('js', new Date());
 
 
-  gtag('config', 'UA-87676239-1');
 
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 </head>
 
@@ -203,7 +199,7 @@
 
 
 
-<div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
     <?php include '../../inc/lang-logo.php'; ?>
 
@@ -215,7 +211,7 @@
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -227,81 +223,85 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../../rooms/arkham-penitentiaries.php">English</a>
+                <a href="../../rooms/arkham-penitentiaries.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a style="align-items:center;" href="../../it/rooms/arkham-penitentiaries.php">Italian</a>
+                <a style="align-items:center;" href="../../it/rooms/arkham-penitentiaries.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../../de/rooms/arkham-penitentiaries.php">German</a>
+                <a href="../../de/rooms/arkham-penitentiaries.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/arkham-penitentiaries.php">French</a>
+                <a href="../../fr/rooms/arkham-penitentiaries.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../../es/rooms/arkham-penitentiaries.php">Spanish</a>
+                <a href="../../es/rooms/arkham-penitentiaries.php">Spanish</a>
 
-                  </div>
+              </div>
 
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -309,217 +309,211 @@
 
 
 
-        </div>
+
+
+    </div>
+
+
+
+  </div> <!-- end of container fluid -->
 
 
 
 
 
-  </div>
+  <?php include '../../inc/carousel-arkham-penitentiaries.php'; ?>
 
 
 
-</div> <!-- end of container fluid -->
-
-
-
-
-
-<?php include '../../inc/carousel-arkham-penitentiaries.php'; ?>
-
-
-
-<section class="container-fluid arkham text-center " id="mainsect">
+  <section class="container-fluid arkham text-center " id="mainsect">
 
     <div class="blur-div-2"></div>
 
-  <div class="info-container" style="">
+    <div class="info-container" style="">
 
-    <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;">
+      <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;">
 
-      <img src="../../img/svg/ARKHAM PRISONS.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+        <img src="../../img/svg/ARKHAM PRISONS.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
 
-      <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ARKHAM PENITENTIARIES</h1>
+        <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ARKHAM PENITENTIARIES</h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">Εμπνευσμένο από τα μεγαλύτερα κόμικς έρευνας της εποχής μας, <br>
+
+        η φυλακή του Arkham τοποθετεί τους παίκτες εναντίον των μεγαλύτερων εγκληματικών μυαλών <br>
+
+        που ελέγχουν την πόλη.
+
+
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Adventure</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" alt="number of players">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" alt="duration">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" alt="suggested space">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">30m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">15</p>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="right-icon"></div>
+
+      </section>
+
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
+
+      <p class=" story" style="">Κατά τη διάρκεια των εξεγέρσεων στις φυλακές του Arkham, ένας απο τους πιο επικίνδυνους εγκληματίες κατάφερε να ξεφύγει από το κελί του.
+
+        Το σχέδιό του, αν επιτευχθεί, θα έχει τις πιο καταστροφικές συνέπειες για ολόκληρη την πόλη. Εσείς και η ομάδα σας είστε η τελευταία ελπίδα - διεισδύστε στη φυλακή,
+
+        συγκεντρώστε ενδείξεις που άφησε πίσω και να σταματήτε αυτή την τρέλα πριν είναι πολύ αργά.</p>
+
+    </div>
+
+    <div class="progress-container mt-5 pb-5 " style="text-align:right;">
+
+      <div class="div1" style="height:20px;">
+
+        <p class="percent" style="display:inline-block;">80%</p><br>
+
+      </div>
+
+      <div class="progress" style="">
+
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
 
     </div>
 
 
 
-    <p class="room-desc" style="">Εμπνευσμένο από τα μεγαλύτερα κόμικς έρευνας της εποχής μας, <br>
 
-    η φυλακή του Arkham τοποθετεί τους παίκτες εναντίον των μεγαλύτερων εγκληματικών μυαλών <br>
 
-     που ελέγχουν την πόλη.
+  </section>
 
+  <?php include '../../inc/footer.php'; ?>
 
+  <?php include '../../inc/gr-contact-form.php'; ?>
 
-    </p>
 
-    <section class="icon-section">
 
-      <div class="left-icon"></div>
 
-    <div class="room-icon" style="">
 
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" >
-
-          <p>CATEGORY</p>
-
-          <p class="pdesc">Adventure</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" alt="number of players" >
-
-           <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" alt="duration">
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" alt="suggested space">
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">30m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles">
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">15</p>
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">Κατά τη διάρκεια των εξεγέρσεων στις φυλακές του Arkham, ένας απο τους πιο επικίνδυνους εγκληματίες κατάφερε να ξεφύγει από το κελί του.
-
-  Το σχέδιό του, αν επιτευχθεί, θα έχει τις πιο καταστροφικές συνέπειες για ολόκληρη την πόλη. Εσείς και η ομάδα σας είστε η τελευταία ελπίδα - διεισδύστε στη φυλακή,
-
-συγκεντρώστε ενδείξεις που άφησε πίσω και να σταματήτε αυτή την τρέλα πριν είναι πολύ αργά.</p>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5 " style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
-
-    </div>
-
-  <div class="progress" style="">
-
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-
-        </div>
-
-        <div class="diff-lvl" style="height:20px;">
-
-              <p style="">DIFFICULTY LEVEL</p>
-
-        </div>
-
-  </div>
-
-
-
-
-
-</section>
-
-<?php include '../../inc/footer.php';?>
-
-  <?php include '../../inc/gr-contact-form.php';?>
-
-
-
-
-
- <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/jquery.min.js"></script>
 
   <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
 
- <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
-
-  var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
-
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
   </script>
 
   <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
-<!-- Custom scripts for this template -->
+  <!-- Custom scripts for this template -->
 
   <script src="../../js/progress_bar_winter.js"></script>
 
@@ -532,4 +526,3 @@
 
 
 </html>
-

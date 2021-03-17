@@ -182,41 +182,6 @@
          })
       });
    </script>
-   <script>
-      function validateEmail(email) {
-         var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-         return re.test(email);
-      }
-
-      function validateForm() {
-         $("#result").text("");
-         $("#result").css("font-size", "13px");
-         $("#result").css("font-style", "italic  ");
-         $("#result").css("color", "white");
-         var country = $("#country").val();
-         if (country == "default") {
-            $("#result").text("NO COUNTRY SELECTED");
-            return false;
-         }
-         var textbox = document.getElementById("message");
-         if (textbox.value.length <= 15) {
-            $("#result").text("MESSAGE IS TOO SHORT");
-            return false;
-         }
-         var email = $("#email").val();
-         if (validateEmail(email) == false) {
-            $("#result").text(" THE " + email + " IS NOT VALID ");
-            return false;
-         }
-         // Get A Quote Submit Form Event
-         const fbGetAQuote = fbPixelEventsData.getAQuoteSubmit;
-         const gtmGetAQuote = gtmEventsData.getAQuoteSubmit;
-         fbq(fbGetAQuote.trackEvent, fbGetAQuote.eventName, fbGetAQuote.params);
-         gtmDataLayer.push(gtmGetAQuote);
-         $("#submit").bind("click");
-      }
-   </script>
-
 </head>
 
 <body id="page-top">

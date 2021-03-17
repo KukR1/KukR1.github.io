@@ -147,7 +147,7 @@ An escape game that both kids and adults will love.">
             return re.test(email);
         }
 
-        function validateForm() {
+        function validateFormOld() {
             $("#result").text("");
             $("#result").css("font-size", "13px");
             $("#result").css("font-style", "italic  ");

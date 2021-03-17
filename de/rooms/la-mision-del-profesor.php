@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -26,7 +27,7 @@
 
 Avoid the security , and print as much money as you can.  ">
 
-    <meta property="og:locale" content="de_DE" />
+  <meta property="og:locale" content="de_DE" />
 
   <meta property="og:locale:alternate" content="el_GR" />
 
@@ -42,7 +43,7 @@ Avoid the security , and print as much money as you can.  ">
 
   <meta property="og:title" content="La misión del profesor | GAME OVER Escape Rooms" />
 
- <meta property="og:url" content="https://www.escapegameover.com/de/rooms/la-mision-del-profesor.php" />
+  <meta property="og:url" content="https://www.escapegameover.com/de/rooms/la-mision-del-profesor.php" />
 
   <meta property="og:site_name" content="GAME OVER Escape Rooms " />
 
@@ -64,17 +65,16 @@ Avoid the security , and print as much money as you can.  ">
 
 
 
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="../../css/final_style.min.css" rel="stylesheet">
+  <link href="../../css/final_style.min.css" rel="stylesheet">
 
-<link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
   <style media="screen">
+    .room-jacknew {
 
-  .room-jacknew {
-
-    position: relative;
+      position: relative;
 
 
 
@@ -86,7 +86,7 @@ Avoid the security , and print as much money as you can.  ">
 
       content: "";
 
-      background:url("../../img/room_slider_images/casa_slider.jpg") no-repeat center center ;
+      background: url("../../img/room_slider_images/casa_slider.jpg") no-repeat center center;
 
       opacity: 0.2;
 
@@ -109,13 +109,9 @@ Avoid the security , and print as much money as you can.  ">
       -o-background-size: cover;
 
     }
-
   </style>
 
   <script type="text/javascript">
-
-
-
     function validateEmail(email) {
 
       var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
@@ -126,7 +122,7 @@ Avoid the security , and print as much money as you can.  ">
 
 
 
-    function validateForm() {
+    function validateFormOld() {
 
       $("#result").text("");
 
@@ -138,7 +134,12 @@ Avoid the security , and print as much money as you can.  ">
 
 
 
-      var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
 
 
 
@@ -161,7 +162,6 @@ Avoid the security , and print as much money as you can.  ">
 
 
     }
-
   </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -169,17 +169,17 @@ Avoid the security , and print as much money as you can.  ">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
   <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-  gtag('config', 'UA-87676239-1');
-
+    gtag('config', 'UA-87676239-1');
   </script>
 
 </head>
@@ -198,7 +198,7 @@ Avoid the security , and print as much money as you can.  ">
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -210,81 +210,85 @@ Avoid the security , and print as much money as you can.  ">
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../../rooms/la-mision-del-profesor.php">English</a>
+                <a href="../../rooms/la-mision-del-profesor.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../../gr/rooms/la-mision-del-profesor.php">Greek</a>
+                <a style="align-items:center;" href="../../gr/rooms/la-mision-del-profesor.php">Greek</a>
 
-                  </div>
+              </div>
 
 
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a href="../../it/rooms/la-mision-del-profesor.php">Italian</a>
+                <a href="../../it/rooms/la-mision-del-profesor.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/la-mision-del-profesor.php">French</a>
+                <a href="../../fr/rooms/la-mision-del-profesor.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../../es/rooms/la-mision-del-profesor.php">Spanish</a>
+                <a href="../../es/rooms/la-mision-del-profesor.php">Spanish</a>
 
-                  </div>
+              </div>
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -292,196 +296,192 @@ Avoid the security , and print as much money as you can.  ">
 
 
 
-        </div>
 
-
-
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<!-- carousel -->
-
-<?php include '../../inc/carousel-la-mision-del-profesor.php'; ?>
-
-<!-- end of carousel -->
-
-
-
-
-
-<section class="container-fluid room-jacknew text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-
-
-  <div class="info-container" style="">
-
-
-
-  <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;">
-
-
-
-      <img src="../../img/svg/la_mission.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 style="display:inline-block;line-height:2rem;font-size:2.5rem;text-align:left;">LA MISIÓN DEL PROFESOR</h1>
 
     </div>
 
 
 
-    <p class="room-desc" style="">
-    Werde Mitglied der berühmten Crew, um die staatliche Münze auszurauben.<br>
-Umgeht die Wachen und druckt so viel Geld wie möglich.
+  </div> <!-- end of container fluid -->
 
 
-  </p>
 
-    <section class="icon-section">
+  <!-- carousel -->
 
-      <div class="left-icon"></div>
+  <?php include '../../inc/carousel-la-mision-del-profesor.php'; ?>
 
-    <div class="room-icon" style="">
+  <!-- end of carousel -->
 
 
 
 
 
-        <div class="small-box text-center" style="">
+  <section class="container-fluid room-jacknew text-center " id="mainsect">
 
-          <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" >
+    <div class="blur-div-2"></div>
 
-          <p>CATEGORY</p>
 
-          <p class="pdesc">Adventure</p>
+
+    <div class="info-container" style="">
+
+
+
+      <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;">
+
+
+
+        <img src="../../img/svg/la_mission.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:2rem;font-size:2.5rem;text-align:left;">LA MISIÓN DEL PROFESOR</h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">
+        Werde Mitglied der berühmten Crew, um die staatliche Münze auszurauben.<br>
+        Umgeht die Wachen und druckt so viel Geld wie möglich.
+
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Adventure</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" alt="number of players">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" alt="duration">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60' - 90'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" alt="suggested space">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">70m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">17</p>
+
+          </div>
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" alt="number of players"  >
-
-           <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" alt="duration" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60' - 90'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" alt="suggested space" >
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">70m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">17</p>
-
-        </div>
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">Die Zeit für den größten Raubüberfall aller Zeiten ist gekommen. Legt also eure Masken und Uniformen an und zeigt, wozu Ihr in der Lage seid.
-Der Plan ist sorgfältig ausgearbeitet und das Geld wartet auf euch, aber wenn die Türen der Münze geschlossen sind, wird euer Team auf die Probe gestellt wie nie zuvor.
-Werdet Ihr in der Lage sein, unter hohem Druck und angesichts schwieriger Entscheidungen vereint zu bleiben, oder werdet ihr einknicken und euch gegeneinander wenden?
-Der Plan des Professors wurde bereits eingeleitet, und die größte Gefahr seid Ihr selbst.
-</p>
-
-  </div>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5 " style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
+      <p class=" story" style="">Die Zeit für den größten Raubüberfall aller Zeiten ist gekommen. Legt also eure Masken und Uniformen an und zeigt, wozu Ihr in der Lage seid.
+        Der Plan ist sorgfältig ausgearbeitet und das Geld wartet auf euch, aber wenn die Türen der Münze geschlossen sind, wird euer Team auf die Probe gestellt wie nie zuvor.
+        Werdet Ihr in der Lage sein, unter hohem Druck und angesichts schwieriger Entscheidungen vereint zu bleiben, oder werdet ihr einknicken und euch gegeneinander wenden?
+        Der Plan des Professors wurde bereits eingeleitet, und die größte Gefahr seid Ihr selbst.
+      </p>
 
     </div>
 
-  <div class="progress" style="">
+    </div>
 
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-container mt-5 pb-5 " style="text-align:right;">
 
-        </div>
+      <div class="div1" style="height:20px;">
 
-        <div class="diff-lvl" style="height:20px;">
+        <p class="percent" style="display:inline-block;">80%</p><br>
 
-              <p style="">DIFFICULTY LEVEL</p>
+      </div>
 
-        </div>
+      <div class="progress" style="">
 
-  </div>
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
+
+    </div>
 
 
 
 
 
-</section>
+  </section>
 
-<?php include '../../inc/footer.php';?>
+  <?php include '../../inc/footer.php'; ?>
 
-  <?php include '../../inc/de-contact-form.php';?>
+  <?php include '../../inc/de-contact-form.php'; ?>
 
 
 
@@ -491,15 +491,18 @@ Der Plan des Professors wurde bereits eingeleitet, und die größte Gefahr seid 
 
 
 
- <script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");   </script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
+  </script>
 
- <script src="../../js/js_all.js"></script>
+  <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
 
 
@@ -512,4 +515,3 @@ Der Plan des Professors wurde bereits eingeleitet, und die größte Gefahr seid 
 
 
 </html>
-

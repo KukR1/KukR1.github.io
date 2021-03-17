@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
@@ -68,7 +69,7 @@
 
 
 
- <link href="../css/bootstrap-index.css" rel="stylesheet">
+  <link href="../css/bootstrap-index.css" rel="stylesheet">
 
 
 
@@ -79,72 +80,75 @@
   <link href="../css/marketing.css" rel="stylesheet">
 
   <script>
-
     function validateEmail(email) {
 
-        var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-        return re.test(email);
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" THE " + email + " IS NOT VALID ");
+
+        return false;
+
+
 
       }
 
 
 
-      function validateForm() {
-
-        $("#result").text("");
-
-        $("#result").css("font-size", "13px");
-
-        $("#result").css("font-style", "italic  ");
-
-        $("#result").css("color", "white");
-
-
-
-        var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-        if (validateEmail(email) == false) {
-
-          $("#result").text(" THE " + email + " IS NOT VALID ");
-
-          return false;
-
-
-
-        }
-
-
-
-        $("#submit").bind("click", "submit");
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-      }
+    }
+  </script>
 
-      </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-      <script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag(){dataLayer.push(arguments);}
-
-        gtag('js', new Date());
-
+    gtag('js', new Date());
 
 
-        gtag('config', 'UA-87676239-1');
 
-      </script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -156,7 +160,7 @@
 
 
 
- <div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
     <?php include '../inc/logo.php'; ?>
 
@@ -164,9 +168,9 @@
 
     <?php include '../inc/de-out-of-folder-menu-tabs.php'; ?>
 
-  <div class="burger-flag" style="">
+    <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -178,85 +182,81 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg">
 
           <div class="dropup-content text-center">
 
 
 
+          </div>
+
         </div>
 
-      </div>
 
-
-#contact_form
+        #contact_form
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../marketing.php">English</a>
+                <a href="../marketing.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../gr/marketing.php">Greek</a>
+                <a style="align-items:center;" href="../gr/marketing.php">Greek</a>
 
-                  </div>
-
-
-
-                  <div class="lang">
-
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
-
-                    <a href="../it/marketing.php">Italian</a>
-
-                  </div>
-
-                  <div class="lang">
-
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
-
-                    <a href="../fr/marketing.php">French</a>
-
-                  </div>
-
-                  <div class="lang">
-
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
-
-                    <a href="../es/marketing.php">Spanish</a>
-
-                  </div>
-
-              </ul>
-
-            </div>
+              </div>
 
 
 
-      </div>
+              <div class="lang">
+
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+
+                <a href="../it/marketing.php">Italian</a>
+
+              </div>
+
+              <div class="lang">
+
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+
+                <a href="../fr/marketing.php">French</a>
+
+              </div>
+
+              <div class="lang">
+
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+
+                <a href="../es/marketing.php">Spanish</a>
+
+              </div>
+
+            </ul>
+
+          </div>
 
 
 
@@ -264,95 +264,127 @@
 
 
 
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-<section id="marketing_main1" class="container-fluid text-center">
-
-  <img style=" opacity: 0.7; " src="../img/construction/bg.png" alt="">
-
-      <div id="marketing_main">
-
-      <div class="">
-
-    <h1 class="" style="font-weight:550;text-align:right;"> <img class="team-img" src="../img/menus_logo/marketing.svg" style="margin-right:15px;" alt="">MARKETING</h1>
-
-    <p class="" style="line-height:20px;">
-
-    Wenn Sie sich für die GAME OVER Escape Rooms-Marken-ID und Marketing-Kits entscheiden, erhalten Sie höchste IT- und zugehörige Artwork-Unterstützung.
-
-     <br><br>
-
-     Alle Ihre Werbebedürfnisse werden durch unsere professionelle Designabteilung abgedeckt.
-
-     <br class="display-items">Sie erhalten sofort Zugriff, stehen, je nach Ihrer Kampagne, jeder Zeit zur Verfügung, gemäß unseren globalen Marketingstandards.
-
-     <br><br>
-
-     Auch alle Ihre Anforderungen bezüglich des Web-Supports werden von unserer Web-Entwicklungsabteilung abgedeckt.
-
-    </p>
-
-  </div>
-
       </div>
 
 
 
-</section>
-
-<div style="clear:both;"></div>
 
 
+    </div>
 
-<section id="technical-list" class="container-fluid " style="text-align:center;">
+
+
+  </div> <!-- end of container fluid -->
+
+  <section id="marketing_main1" class="container-fluid text-center">
+
+    <img style=" opacity: 0.7; " src="../img/construction/bg.png" alt="">
+
+    <div id="marketing_main">
+
+      <div class="">
+
+        <h1 class="" style="font-weight:550;text-align:right;"> <img class="team-img" src="../img/menus_logo/marketing.svg" style="margin-right:15px;" alt="">MARKETING</h1>
+
+        <p class="" style="line-height:20px;">
+
+          Wenn Sie sich für die GAME OVER Escape Rooms-Marken-ID und Marketing-Kits entscheiden, erhalten Sie höchste IT- und zugehörige Artwork-Unterstützung.
+
+          <br><br>
+
+          Alle Ihre Werbebedürfnisse werden durch unsere professionelle Designabteilung abgedeckt.
+
+          <br class="display-items">Sie erhalten sofort Zugriff, stehen, je nach Ihrer Kampagne, jeder Zeit zur Verfügung, gemäß unseren globalen Marketingstandards.
+
+          <br><br>
+
+          Auch alle Ihre Anforderungen bezüglich des Web-Supports werden von unserer Web-Entwicklungsabteilung abgedeckt.
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <div style="clear:both;"></div>
+
+
+
+  <section id="technical-list" class="container-fluid " style="text-align:center;">
 
 
 
     <div class='left-div'>
 
-    <ul class="" style="">
+      <ul class="" style="">
 
-      <li><p>Website Hosting</p><span></span></li>
+        <li>
+          <p>Website Hosting</p><span></span>
+        </li>
 
-      <li><p>Domain Name</p><span></span></li>
+        <li>
+          <p>Domain Name</p><span></span>
+        </li>
 
-      <li><p>Website-SSL-Zertifikat</p><span></span></li>
+        <li>
+          <p>Website-SSL-Zertifikat</p><span></span>
+        </li>
 
-      <li><p>Zweisprachige Website  </p><span></span></li>
+        <li>
+          <p>Zweisprachige Website </p><span></span>
+        </li>
 
-      <li><p>Buchungssystem  </p><span></span></li>
+        <li>
+          <p>Buchungssystem </p><span></span>
+        </li>
 
-      <li><p>GAME OVER Cloud-Zugriff</p><span></span></li>
+        <li>
+          <p>GAME OVER Cloud-Zugriff</p><span></span>
+        </li>
 
-      <li><p>E-Mail Konten</p><span></span></li>
+        <li>
+          <p>E-Mail Konten</p><span></span>
+        </li>
 
-      <li><p>Website Update - Erweiterung</p><span></span></li>
+        <li>
+          <p>Website Update - Erweiterung</p><span></span>
+        </li>
 
-      <li><p>Höchster IT-Support</p><span></span></li>
+        <li>
+          <p>Höchster IT-Support</p><span></span>
+        </li>
 
-      <li><p>Elementares Marketing-Kit</p><span></span></li>
+        <li>
+          <p>Elementares Marketing-Kit</p><span></span>
+        </li>
 
-      <li><p>Druckbares Werbematerial/p><span></span></li>
+        <li>
+          <p>Druckbares Werbematerial/p><span></span>
+        </li>
 
-      <li><p>Spezielle Artwork-Unterstützung</p><span></span></li>
+        <li>
+          <p>Spezielle Artwork-Unterstützung</p><span></span>
+        </li>
 
-      <li><p>Social Media Artwork</p><span></span></li>
-
-
-
-      <li><p>Website-Mobile-Optimierung</p><span></span></li>
-
-
+        <li>
+          <p>Social Media Artwork</p><span></span>
+        </li>
 
 
 
-    </ul>
+        <li>
+          <p>Website-Mobile-Optimierung</p><span></span>
+        </li>
+
+
+
+
+
+      </ul>
 
 
 
@@ -364,38 +396,36 @@
 
     <div class="img-container1" style=" ">
 
-    <img src="../img/construction/stuff.png"  style="width:330px;">
+      <img src="../img/construction/stuff.png" style="width:330px;">
 
 
 
-  </div>
-
-
-
-
+    </div>
 
 
 
 
 
-</section>
 
 
 
-<?php include '../inc/footer.php';?>
 
-<?php include '../inc/de-contact-form.php';?>
-
+  </section>
 
 
-<script src="../js/jquery.min.js"></script>
+
+  <?php include '../inc/footer.php'; ?>
+
+  <?php include '../inc/de-contact-form.php'; ?>
+
+
+
+  <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#marketing_main1,#technical-list ");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#marketing_main1,#technical-list ");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#marketing_main1,#technical-list");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#marketing_main1,#technical-list");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -417,4 +447,3 @@
 
 
 </html>
-

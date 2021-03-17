@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="de">
@@ -16,119 +14,118 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
---><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
-<title>Aztec Empire - Temple of the Skull | GAME OVER Escape Rooms </title>
+  <title>Aztec Empire - Temple of the Skull | GAME OVER Escape Rooms </title>
 
-<meta name="keywords" content="" />
+  <meta name="keywords" content="" />
 
-<meta name="description" content=" Aztec Empire - Temple of the Skull | Dieses Zimmer bietet eine komplette erweiterte Erfahrung, auf einem riesigen Raum> 85 Quadratmeter.">
+  <meta name="description" content=" Aztec Empire - Temple of the Skull | Dieses Zimmer bietet eine komplette erweiterte Erfahrung, auf einem riesigen Raum> 85 Quadratmeter.">
 
-<meta property="og:locale" content="de_DE" />
+  <meta property="og:locale" content="de_DE" />
 
-<meta property="og:locale:alternate" content="el_GR" />
+  <meta property="og:locale:alternate" content="el_GR" />
 
-<meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="fr_FR" />
 
-<meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:locale:alternate" content="en_GB" />
 
-<meta property="og:locale:alternate" content="it_IT" />
+  <meta property="og:locale:alternate" content="it_IT" />
 
-<meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="es_ES" />
 
-<meta property="og:type" content="website" />
+  <meta property="og:type" content="website" />
 
-<meta property="og:title" content="Aztec Empire - Temple of the Skull | GAME OVER Escape Rooms" />
+  <meta property="og:title" content="Aztec Empire - Temple of the Skull | GAME OVER Escape Rooms" />
 
-<meta property="og:url" content="https://www.escapegameover.com/de/rooms/aztec.php" />
+  <meta property="og:url" content="https://www.escapegameover.com/de/rooms/aztec.php" />
 
-<meta property="og:site_name" content="GAME OVER Escape Rooms" />
+  <meta property="og:site_name" content="GAME OVER Escape Rooms" />
 
-<meta property="og:image" content="https://www.escapegameover.com/img/fb-logo.png" />
+  <meta property="og:image" content="https://www.escapegameover.com/img/fb-logo.png" />
 
-<meta property="og:image:secure_url" content="https://www.escapegameover.com/img/fb-logo.png" />
+  <meta property="og:image:secure_url" content="https://www.escapegameover.com/img/fb-logo.png" />
 
-<meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:title" content="GAME OVER Escape Rooms" />
+  <meta name="twitter:title" content="GAME OVER Escape Rooms" />
 
-<meta name="twitter:image" content="https://www.escapegameover.com/img/fb-logo.png" />
-
-
-
-<link rel="shortcut icon" href="../../img/gameover_favicon.png" type="image/x-icon" />
-
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <meta name="twitter:image" content="https://www.escapegameover.com/img/fb-logo.png" />
 
 
 
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../../img/gameover_favicon.png" type="image/x-icon" />
 
-<link href="../../css/final_style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-<link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
-<style media="screen">
 
-.room-aztec {
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  position: relative;
+  <link href="../../css/final_style.min.css" rel="stylesheet">
 
-}
+  <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
-.room-aztec::after {
+  <style media="screen">
+    .room-aztec {
 
-  content: "";
+      position: relative;
 
-  background:url("../../img/room_slider_images/aztec (2).jpg") no-repeat center center ;
+    }
 
-  opacity: 0.2;
+    .room-aztec::after {
 
-  top: 0;
+      content: "";
 
-  left: 0;
+      background: url("../../img/room_slider_images/aztec (2).jpg") no-repeat center center;
 
-  bottom: 0;
+      opacity: 0.2;
 
-  right: 0;
+      top: 0;
 
-  position: absolute;
+      left: 0;
 
-  z-index: -1;
+      bottom: 0;
 
-  -webkit-background-size: cover;
+      right: 0;
 
-  -moz-background-size: cover;
+      position: absolute;
 
-  -o-background-size: cover;
+      z-index: -1;
 
-}
+      -webkit-background-size: cover;
 
-</style>
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+    }
+  </style>
 
 
 
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -164,7 +161,7 @@ gtag('config', 'UA-87676239-1');
 
       <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
           <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
@@ -180,7 +177,7 @@ gtag('config', 'UA-87676239-1');
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-          <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
@@ -188,11 +185,11 @@ gtag('config', 'UA-87676239-1');
 
           <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-            <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
                 <a href="../../rooms/aztec.php">English</a>
 
@@ -210,7 +207,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
                 <a href="../../it/rooms/aztec.php">Italian</a>
 
@@ -218,7 +215,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
                 <a href="../../fr/rooms/aztec.php">French</a>
 
@@ -226,7 +223,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
                 <a href="../../es/rooms/aztec.php">Spanish</a>
 
@@ -249,7 +246,7 @@ gtag('config', 'UA-87676239-1');
 
 
     </div>
-#contact_form
+    #contact_form
 
 
   </div> <!-- end of container fluid -->
@@ -274,7 +271,7 @@ gtag('config', 'UA-87676239-1');
 
       </div>
 
-      <div  class="mt-5" style="display: flex;align-items: center;justify-content:center;">
+      <div class="mt-5" style="display: flex;align-items: center;justify-content:center;">
 
         <img src="../../img/svg/aztec.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
 
@@ -308,7 +305,7 @@ gtag('config', 'UA-87676239-1');
 
           <div class="small-box text-center" style="">
 
-            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px" >
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px">
 
             <p>CATEGORY</p>
 
@@ -340,7 +337,7 @@ gtag('config', 'UA-87676239-1');
 
           <div class="small-box text-center" style="">
 
-            <img src="../../img/menus_logo/duration.svg" width="30px"  alt="duration" >
+            <img src="../../img/menus_logo/duration.svg" width="30px" alt="duration">
 
             <p>DURATION</p>
 
@@ -356,7 +353,7 @@ gtag('config', 'UA-87676239-1');
 
           <div class="small-box text-center" style="">
 
-            <img src="../../img/menus_logo/space.svg" width="30px" alt="suggested space" >
+            <img src="../../img/menus_logo/space.svg" width="30px" alt="suggested space">
 
             <p>SUGGESTED <br> SPACE</p>
 
@@ -372,7 +369,7 @@ gtag('config', 'UA-87676239-1');
 
           <div class="small-box text-center" style="">
 
-            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles"width="30px" >
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" width="30px">
 
             <p>PUZZLES / <br>RIDDLES</p>
 
@@ -390,7 +387,7 @@ gtag('config', 'UA-87676239-1');
 
       </section>
 
-      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
       <p class=" story" style="">
 
@@ -434,95 +431,93 @@ gtag('config', 'UA-87676239-1');
 
   </section>
 
-  <?php include '../../inc/footer.php';?>
+  <?php include '../../inc/footer.php'; ?>
 
-  <?php include '../../inc/de-contact-form.php';?>
+  <?php include '../../inc/de-contact-form.php'; ?>
 
 
 
   <script type="text/javascript">
+    function validateEmail(email) {
 
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-
-  function validateEmail(email) {
-
-    var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-
-    return re.test(email);
-
-  }
-
-
-
-  function validateForm() {
-
-    $("#result").text("");
-
-    $("#result").css("font-size", "13px");
-
-    $("#result").css("font-style", "italic  ");
-
-    $("#result").css("color", "white");
-
-
-
-    var email = $("#email").val();
-
-
-
-    if (validateEmail(email) == false) {
-
-      $("#result").text("TO " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
-
-      return false;
-
-
+      return re.test(email);
 
     }
 
 
 
-    $("#submit").bind("click", "submit");
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text("TO " + email + " ΔΕΝ ΕΙΝΑΙ ΕΓΚΥΡΟ ");
+
+        return false;
+
+
+
+      }
+
+
+
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-  }
-
-</script>
-
-
-
-<script src="../../js/jquery.min.js"></script>
-
-<script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    }
+  </script>
 
 
 
-<script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleIndicators,#mainsect,#click");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleIndicators,#mainsect");   </script>
+  <script src="../../js/jquery.min.js"></script>
 
-<script src="../../js/js_all.js"></script>
-
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
-
-<script src="../../rooms/boot-custom.js"></script>
-
-<!-- Custom scripts for this template -->
-
-<!-- Custom scripts for this template -->
+  <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
 
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleIndicators,#mainsect,#click");
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleIndicators,#mainsect");
+  </script>
+
+  <script src="../../js/js_all.js"></script>
+
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
+
+  <script src="../../rooms/boot-custom.js"></script>
+
+  <!-- Custom scripts for this template -->
+
+  <!-- Custom scripts for this template -->
 
 
-<script src="../../js/progress_bar_lost.js"></script>
+
+
+
+  <script src="../../js/progress_bar_lost.js"></script>
 
 </body>
 
 
 
 </html>
-

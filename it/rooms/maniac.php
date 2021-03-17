@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -64,121 +65,118 @@
 
 
 
-<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="../../css/final_style.min.css" rel="stylesheet">
+  <link href="../../css/final_style.min.css" rel="stylesheet">
 
-<link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
-<style media="screen">
+  <style media="screen">
+    .room-maniac {
 
-.room-maniac {
-
-  position: relative;
-
-}
-
-
-
-  .room-maniac::after {
-
-    content: "";
-
-    background:url("../../img/room_slider_images/maniac (3).jpg") no-repeat center center ;
-
-    opacity: 0.2;
-
-    top: 0;
-
-    left: 0;
-
-    bottom: 0;
-
-    right: 0;
-
-    position: absolute;
-
-    z-index: -1;
-
-    -webkit-background-size: cover;
-
-    -moz-background-size: cover;
-
-    -o-background-size: cover;
-
-  }
-
-
-
-</style>
-
-<script type="text/javascript">
-
-
-
-  function validateEmail(email) {
-
-    var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-
-    return re.test(email);
-
-  }
-
-
-
-  function validateForm() {
-
-    $("#result").text("");
-
-    $("#result").css("font-size", "13px");
-
-    $("#result").css("font-style", "italic  ");
-
-    $("#result").css("color", "white");
-
-
-
-    var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-    if (validateEmail(email) == false) {
-
-      $("#result").text(email + " IS NOT VALID ");
-
-      return false;
-
-
+      position: relative;
 
     }
 
 
 
-    $("#submit").bind("click", "submit");
+    .room-maniac::after {
+
+      content: "";
+
+      background: url("../../img/room_slider_images/maniac (3).jpg") no-repeat center center;
+
+      opacity: 0.2;
+
+      top: 0;
+
+      left: 0;
+
+      bottom: 0;
+
+      right: 0;
+
+      position: absolute;
+
+      z-index: -1;
+
+      -webkit-background-size: cover;
+
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+    }
+  </style>
+
+  <script type="text/javascript">
+    function validateEmail(email) {
+
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(email + " IS NOT VALID ");
+
+        return false;
+
+
+
+      }
+
+
+
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-  }
+    }
+  </script>
 
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
-
+    gtag('js', new Date());
 
 
-gtag('config', 'UA-87676239-1');
 
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 </head>
 
@@ -192,11 +190,11 @@ gtag('config', 'UA-87676239-1');
 
     <?php include '../../inc/lang-logo.php'; ?>
 
-  <?php include '../../inc/it-menu-tabs.php'; ?>
+    <?php include '../../inc/it-menu-tabs.php'; ?>
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -208,81 +206,85 @@ gtag('config', 'UA-87676239-1');
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - En#contact_form>
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - En#contact_form>
 
-                    <a href="../../rooms/maniac.php">English</a>
+                    <a href=" ../../rooms/maniac.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../../gr/rooms/maniac.php">Greek</a>
+                <a style="align-items:center;" href="../../gr/rooms/maniac.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../../de/rooms/maniac.php">German</a>
+                <a href="../../de/rooms/maniac.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/maniac.php">French</a>
+                <a href="../../fr/rooms/maniac.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../../es/rooms/maniac.php">Spanish</a>
+                <a href="../../es/rooms/maniac.php">Spanish</a>
 
-                  </div>
+              </div>
 
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -290,185 +292,181 @@ gtag('config', 'UA-87676239-1');
 
 
 
-        </div>
 
-
-
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-
-
-<!-- carousel -->
-
-<?php include '../../inc/carousel-maniac.php'; ?>
-
-<!-- end of carousel -->
-
-<section class="container-fluid room-maniac text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-  <div class="info-container" style="padding-top:50px;">
-
-    <div id="rooms" style="display: flex;align-items: center;justify-content:center;line-height:5rem;">
-
-      <img src="../../img/svg/maniac.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 class="text-left;" style="display:inline-block;font-size:3rem;line-height:1.7rem;text-align: left;">MANIAC:<br><span style="font-size:25px;font-weight:300;">I WANT TO PLAY A GAME</span></h1>
 
     </div>
 
-    <p class="room-desc" style="">Ispirata alla famosa serie di film,<br>
 
-       questa stanza risveglierà tutto il tuo istinto di sopravvivenza</p>
 
-       <section class="icon-section">
-
-      <div class="left-icon"></div>
-
-    <div class="room-icon" style="">
+  </div> <!-- end of container fluid -->
 
 
 
 
 
-        <div class="small-box text-center" style="">
+  <!-- carousel -->
 
-          <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY"width="30px" >
+  <?php include '../../inc/carousel-maniac.php'; ?>
 
-          <p>CATEGORY</p>
+  <!-- end of carousel -->
 
-          <p class="pdesc">Horror</p>
+  <section class="container-fluid room-maniac text-center " id="mainsect">
+
+    <div class="blur-div-2"></div>
+
+    <div class="info-container" style="padding-top:50px;">
+
+      <div id="rooms" style="display: flex;align-items: center;justify-content:center;line-height:5rem;">
+
+        <img src="../../img/svg/maniac.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 class="text-left;" style="display:inline-block;font-size:3rem;line-height:1.7rem;text-align: left;">MANIAC:<br><span style="font-size:25px;font-weight:300;">I WANT TO PLAY A GAME</span></h1>
+
+      </div>
+
+      <p class="room-desc" style="">Ispirata alla famosa serie di film,<br>
+
+        questa stanza risveglierà tutto il tuo istinto di sopravvivenza</p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Horror</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" alt="duration" width="30px">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" alt="suggested space" width="30px">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">28-30m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" width="30px">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">16</p>
+
+          </div>
+
+
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
+      <p class=" story" style="">Ti svegli in un posto buio e cominci a guardare intorno...
 
+        Improvvisamente una voce dice: "Voglio fare un gioco..."
 
+        Ti trovi nella camera della morte di Jigsaw e sai che tutto è contro di te.
 
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px" >
-
-                 <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" alt="duration"width="30px" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" alt="suggested space"width="30px" >
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">28-30m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles"width="30px" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">16</p>
-
-        </div>
-
-
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">Ti svegli in un posto buio e cominci a guardare intorno...
-
- Improvvisamente una voce dice: "Voglio fare un gioco..."
-
-Ti trovi nella camera della morte di Jigsaw e sai che tutto è contro di te.
-
-La tua unica possibilità di sopravvivere è seguire le sue pazze missioni e trovare il momento giusto per scappare! Il tempo scorre...</p>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5" style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
+        La tua unica possibilità di sopravvivere è seguire le sue pazze missioni e trovare il momento giusto per scappare! Il tempo scorre...</p>
 
     </div>
 
-  <div class="progress" style="">
+    <div class="progress-container mt-5 pb-5" style="text-align:right;">
 
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="div1" style="height:20px;">
 
-        </div>
+        <p class="percent" style="display:inline-block;">80%</p><br>
 
-        <div class="diff-lvl" style="height:20px;">
+      </div>
 
-              <p style="">DIFFICULTY LEVEL</p>
+      <div class="progress" style="">
 
-        </div>
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 
-  </div>
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
+
+    </div>
 
 
 
 
 
-</section>
+  </section>
 
-<?php include '../../inc/footer.php';?>
+  <?php include '../../inc/footer.php'; ?>
 
-    <?php include '../../inc/it-contact-form.php';?>
+  <?php include '../../inc/it-contact-form.php'; ?>
 
 
 
@@ -480,21 +478,19 @@ La tua unica possibilità di sopravvivere è seguire le sue pazze missioni e tro
 
 
 
- <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
-
-  var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
-
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
   </script>
 
   <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
 
 
@@ -507,4 +503,3 @@ La tua unica possibilità di sopravvivere è seguire le sue pazze missioni e tro
 
 
 </html>
-

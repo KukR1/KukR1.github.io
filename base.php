@@ -3,6 +3,8 @@
 ob_start();
 require 'vendor/autoload.php';
 
+$failedFlag = false;
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 /* Attempt MySQL server connection. Assuming you are running MySQL
@@ -28,12 +30,12 @@ try {
   //server settings
   $mail->isSMTP();
   $mail->IsHTML(true);
-  $mail->Host = 'mail.escapegameover.com'; //define host
+  $mail->Host = 'escapegameover.com'; //define host
   $mail->SMTPAuth = TRUE;
   $mail->SMTPSecure = 'ssl';
   $mail->CharSet = 'UTF-8';
-  $mail->Username = 'info@escapegameover.com';
-  $mail->Password = 'uwO0t@02';
+  $mail->Username = 'mailer@escapegameover.com';
+  $mail->Password = 'pd.FwmA%P^}?';
   $mail->Port = 465; //define port
 
   //Recipients
@@ -45,19 +47,23 @@ try {
   $mail->Header = "From: " . $name . "  <" . $email . ">\r\n" . "Content-type: text/html; charset=UTF-8\r\n";
   $mail->Body = "Message: " . $message . "  ";
 
-
   /* Enable SMTP debug output. */
   $mail->SMTPDebug = 0;
   $mail->send();
+  http_response_code(200);
   $result = '<div class="content-section" style="color:green">YOUR MESSAGE WAS SUCCESSFULLY SEND</div>';
 } catch (Exception $e) {
   //echo $e->errorMessage();
+  http_response_code(500);
+  $failedFlag = true;
   $result = '<div class="content-section" style="color:red">AN ERROR OCCURED PLEASE TRY AGAIN</div>';
 }
 echo $result;
 ob_end_flush();
 
-//Load composer's autoloader
+// if has failed, DON'T autoreply <3 
+if ($failedFlag) return;
+
 
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
@@ -71,10 +77,10 @@ try {
 
   $mail->SMTPDebug = 0;
   $mail->isSMTP();                                      // Set mailer to use SMTP
-  $mail->Host = 'mail.escapegameover.com;mail.gameoverserver.com';  // Specify main and backup SMTP servers
+  $mail->Host = 'escapegameover.com';  // Specify main and backup SMTP servers
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
-  $mail->Username = 'info@escapegameover.com';                 // SMTP username
-  $mail->Password = 'uwO0t@02';                           // SMTP password
+  $mail->Username = 'mailer@escapegameover.com';                 // SMTP username
+  $mail->Password = 'pd.FwmA%P^}?';                           // SMTP password
   $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
   $mail->Port = 465;
   $mail->CharSet = 'UTF-8';

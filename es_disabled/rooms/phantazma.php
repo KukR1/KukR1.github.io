@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -49,7 +50,7 @@
   <meta property="og:url" content="https://www.escapegameover.com/es/rooms/phantazma.php" />
 
   <meta property="og:site_name" content="GAME OVER Escape Rooms " />
-room_slider_images/phantazma (5).jpg
+  room_slider_images/phantazma (5).jpg
   <meta property="og:image" content="https://www.escapegameover.com/img/fb-logo.png" />
 
   <meta property="og:image:secure_url" content="https://www.escapegameover.com/img/fb-logo.png" />
@@ -74,125 +75,124 @@ room_slider_images/phantazma (5).jpg
 
   <link href="../../css/rooms_bootstrap.min.css" rel="stylesheet">
 
-<style media="screen">
+  <style media="screen">
+    #roompha h1 {
 
-#roompha h1{
+      font-size: 3rem;
 
-font-size:3rem;
+      display: inline-block;
 
-display: inline-block;
-
-text-align: left;
-
-
-
-}
-
-.room-phantazma {
-
-  position: relative;
-
-}
-
-
-
-  .room-phantazma::after {
-
-    content: "";
-
-    background:url("../../img/room_slider_images/phantazma (1).jpg") no-repeat center center ;
-
-    opacity: 0.2;
-
-    top: 0;
-
-    left: 0;
-
-    bottom: 0;
-
-    right: 0;
-
-    position: absolute;
-
-    z-index: -1;
-
-    -webkit-background-size: cover;
-
-    -moz-background-size: cover;
-
-    -o-background-size: cover;
-
-  }
-
-</style>
-
-<script type="text/javascript">
-
-
-
-  function validateEmail(email) {
-
-    var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
-
-    return re.test(email);
-
-  }
-
-
-
-  function validateForm() {
-
-    $("#result").text("");
-
-    $("#result").css("font-size", "13px");
-
-    $("#result").css("font-style", "italic  ");
-
-    $("#result").css("color", "white");
-
-
-
-    var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-    if (validateEmail(email) == false) {
-
-      $("#result").text(email + " IS NOT VALID ");
-
-      return false;
+      text-align: left;
 
 
 
     }
 
+    .room-phantazma {
 
+      position: relative;
 
-    $("#submit").bind("click", "submit");
-
-
-
-
-
-  }
-
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
-
-<script>
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
+    }
 
 
 
-gtag('config', 'UA-87676239-1');
+    .room-phantazma::after {
 
-</script>
+      content: "";
+
+      background: url("../../img/room_slider_images/phantazma (1).jpg") no-repeat center center;
+
+      opacity: 0.2;
+
+      top: 0;
+
+      left: 0;
+
+      bottom: 0;
+
+      right: 0;
+
+      position: absolute;
+
+      z-index: -1;
+
+      -webkit-background-size: cover;
+
+      -moz-background-size: cover;
+
+      -o-background-size: cover;
+
+    }
+  </style>
+
+  <script type="text/javascript">
+    function validateEmail(email) {
+
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
+
+      return re.test(email);
+
+    }
+
+
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(email + " IS NOT VALID ");
+
+        return false;
+
+
+
+      }
+
+
+
+      $("#submit").bind("click", "submit");
+
+
+
+
+
+    }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 </head>
 
@@ -210,7 +210,7 @@ gtag('config', 'UA-87676239-1');
 
     <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -222,81 +222,85 @@ gtag('config', 'UA-87676239-1');
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
-                    <a href="../../rooms/phantazma.php">English</a>
+                <a href="../../rooms/phantazma.php">English</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../../gr/rooms/phantazma.php">Greek</a>
+                <a style="align-items:center;" href="../../gr/rooms/phantazma.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../../de/rooms/phantazma.php">German</a>
+                <a href="../../de/rooms/phantazma.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a href="../../it/rooms/phantazma.php">Italian</a>
+                <a href="../../it/rooms/phantazma.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../../fr/rooms/phantazma.php">French</a>
+                <a href="../../fr/rooms/phantazma.php">French</a>
 
-                  </div>
+              </div>
 
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -304,207 +308,201 @@ gtag('config', 'UA-87676239-1');
 
 
 
-        </div>
 
-
-
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<!-- carousel -->
-
-<?php include '../../inc/carousel-phantazma.php'; ?>
-
-<!-- end of carousel -->
-
-<section class="container-fluid room-phantazma text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-  <div class="info-container" style="padding-top:50px;">
-
-    <div id="roompha" class="" style="display: flex;align-items: center;justify-content:center;">
-
-      <img src="../../img/svg/phantazma.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">PHANTAZMA <br> MEDIEVAL CASTLE</h1>
 
     </div>
 
 
 
-    <p class="room-desc" style="">Esta sala cuenta con dos módulos distintos».<br>
-
-       El modo de CASTILLO MEDIEVAL es sobre historia medieval dentro de un castillo misterioso. <br>
-
-       El modo PHANTAZMA es una torre oscura, aterradora y abandonada de la que se <br>
-
-       cuentan muchos rumores extraños. También cuenta con el rol de actor en vivo
-
-    </p>
-
-    <section class="icon-section">
-
-      <div class="left-icon"></div>
-
-    <div class="room-icon" style="">
+  </div> <!-- end of container fluid -->
 
 
 
+  <!-- carousel -->
+
+  <?php include '../../inc/carousel-phantazma.php'; ?>
+
+  <!-- end of carousel -->
+
+  <section class="container-fluid room-phantazma text-center " id="mainsect">
+
+    <div class="blur-div-2"></div>
+
+    <div class="info-container" style="padding-top:50px;">
+
+      <div id="roompha" class="" style="display: flex;align-items: center;justify-content:center;">
+
+        <img src="../../img/svg/phantazma.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">PHANTAZMA <br> MEDIEVAL CASTLE</h1>
+
+      </div>
 
 
-        <div class="small-box text-center" style="">
 
-          <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY"width="30px" >
+      <p class="room-desc" style="">Esta sala cuenta con dos módulos distintos».<br>
 
-          <p>CATEGORY</p>
+        El modo de CASTILLO MEDIEVAL es sobre historia medieval dentro de un castillo misterioso. <br>
 
-          <p class="pdesc">Horror</p>
+        El modo PHANTAZMA es una torre oscura, aterradora y abandonada de la que se <br>
+
+        cuentan muchos rumores extraños. También cuenta con el rol de actor en vivo
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/scenarios.svg" alt="CATEGORY" width="30px">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Horror</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/duration.svg" alt="duration" width="30px">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/space.svg" alt="suggested space" width="30px">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">30m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" width="30px">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">16</p>
+
+          </div>
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
+      <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/players.svg" alt="number of players" width="30px" >
-
-                 <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/duration.svg" alt="duration"width="30px" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/space.svg" alt="suggested space"width="30px" >
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">30m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../../img/menus_logo/puzzle.svg" alt="Puzzles and riddles"width="30px" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">16</p>
-
-        </div>
-
-
-
-
-
-   </div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
-
-    <p class=" story" style="">¡Los rumores y las leyendas os han traído hasta aquí! Los registros de aquellos que lo intentaron antes que vosotros están aquí, ¿lo recordáis? Desde la ciudadela de Salah ed Din se mudaron al desierto a una torre en un puesto avanzado. La leyenda cuenta que el último fundador de la orden de los caballeros templarios desapareció allí. Nadie volvió para confirmar las historias... Y cuando hay luna llena y las caravanas en el desierto ven las luces a una milla de distancia piensan que la torre está embrujada, pero los ancianos todavía creen que el cruzado era un demonio y que aún está ¡VIVO!</p>
-
-  </div>
-
-  <div class="progress-container mt-5 pb-5 " style="text-align:right;">
-
-    <div class="div1" style="height:20px;">
-
-          <p class="percent" style="display:inline-block;">80%</p><br>
+      <p class=" story" style="">¡Los rumores y las leyendas os han traído hasta aquí! Los registros de aquellos que lo intentaron antes que vosotros están aquí, ¿lo recordáis? Desde la ciudadela de Salah ed Din se mudaron al desierto a una torre en un puesto avanzado. La leyenda cuenta que el último fundador de la orden de los caballeros templarios desapareció allí. Nadie volvió para confirmar las historias... Y cuando hay luna llena y las caravanas en el desierto ven las luces a una milla de distancia piensan que la torre está embrujada, pero los ancianos todavía creen que el cruzado era un demonio y que aún está ¡VIVO!</p>
 
     </div>
 
-  <div class="progress" style="">
+    <div class="progress-container mt-5 pb-5 " style="text-align:right;">
 
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="div1" style="height:20px;">
 
-        </div>
+        <p class="percent" style="display:inline-block;">80%</p><br>
 
-        <div class="diff-lvl" style="height:20px;">
+      </div>
 
-              <p style="">DIFFICULTY LEVEL</p>
+      <div class="progress" style="">
 
-        </div>
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 
-  </div>
+      </div>
 
+      <div class="diff-lvl" style="height:20px;">
 
+        <p style="">DIFFICULTY LEVEL</p>
 
+      </div>
 
-
-</section>
-
-<?php include '../../inc/footer.php';?>
-
-  <?php include '../../inc/es-contact-form.php';?>
+    </div>
 
 
 
-   <script src="../../js/jquery.min.js"></script>
+
+
+  </section>
+
+  <?php include '../../inc/footer.php'; ?>
+
+  <?php include '../../inc/es-contact-form.php'; ?>
+
+
+
+  <script src="../../js/jquery.min.js"></script>
 
   <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
 
- <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
 
- var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#contact_form");
-
-  var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
-
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
   </script>
 
   <script src="../../js/js_all.js"></script>
 
-<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="../../rooms/boot-custom.js"></script>
+  <script src="../../rooms/boot-custom.js"></script>
 
 
 
@@ -517,4 +515,3 @@ gtag('config', 'UA-87676239-1');
 
 
 </html>
-

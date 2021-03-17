@@ -131,7 +131,7 @@
 
 
 
-    function validateForm() {
+    function validateFormOld() {
 
       $("#result").text("");
 

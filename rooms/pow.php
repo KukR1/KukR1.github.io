@@ -14,7 +14,8 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  --><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 
 
@@ -69,12 +70,11 @@
   <link href="../css/rooms_bootstrap.min.css" rel="stylesheet">
 
   <style media="screen">
+    .room-pow {
 
-  .room-pow {
+      position: relative;
 
-    position: relative;
-
-}
+    }
 
 
 
@@ -82,7 +82,7 @@
 
       content: "";
 
-      background:url("../img/room_slider_images/pow (5).jpg") no-repeat center center ;
+      background: url("../img/room_slider_images/pow (5).jpg") no-repeat center center;
 
       opacity: 0.2;
 
@@ -105,13 +105,9 @@
       -o-background-size: cover;
 
     }
-
   </style>
 
   <script type="text/javascript">
-
-
-
     function validateEmail(email) {
 
       var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
@@ -122,7 +118,7 @@
 
 
 
-    function validateForm() {
+    function validateFormOld() {
 
       $("#result").text("");
 
@@ -138,17 +134,22 @@
 
 
 
-  if (country == "default") {
+      if (country == "default") {
 
-     $("#result").text("NO COUNTRY SELECTED");
+        $("#result").text("NO COUNTRY SELECTED");
 
-     return false;
+        return false;
 
-  }
+      }
 
 
 
-      var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
 
 
 
@@ -171,7 +172,6 @@
 
 
     }
-
   </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -179,17 +179,17 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
   <script>
-
     window.dataLayer = window.dataLayer || [];
 
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
     gtag('js', new Date());
 
 
 
     gtag('config', 'UA-87676239-1');
-
   </script>
 
 </head>
@@ -200,15 +200,15 @@
 
 
 
-<div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-  <?php include '../inc/logo.php';?>
+    <?php include '../inc/logo.php'; ?>
 
-  <?php include '../inc/menu-tabs.php';?>
+    <?php include '../inc/menu-tabs.php'; ?>
 
-  <div class="burger-flag" style="">
+    <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -220,79 +220,83 @@
 
         </button>
 
-            </div>
+      </div>
 
-            <div class="dropup-container" style="margin-top:-2px;">
+      <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
-        <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg"  alt="select a language">
+          <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="select a language">
 
           <div class="dropup-content text-center">
 
 
 
-        </div>
+          </div>
 
-      </div>
+        </div>
 
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-         <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
-            <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>#contact_form
+          <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>#contact_form
 
-            <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
+          <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-              <ul class="text-left" >
+            <ul class="text-left">
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/gr.svg" alt="GAME OVER - Greek">
 
-                    <a style="align-items:center;" href="../gr/rooms/pow.php">Greek</a>
+                <a style="align-items:center;" href="../gr/rooms/pow.php">Greek</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/de.svg" alt="GAME OVER - German">
 
-                    <a href="../de/rooms/pow.php">German</a>
+                <a href="../de/rooms/pow.php">German</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
-                    <a href="../it/rooms/pow.php">Italian</a>
+                <a href="../it/rooms/pow.php">Italian</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
-                    <a href="../fr/rooms/pow.php">French</a>
+                <a href="../fr/rooms/pow.php">French</a>
 
-                  </div>
+              </div>
 
-                  <div class="lang">
+              <div class="lang">
 
-                    <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
-                    <a href="../es/rooms/pow.php">Spanish</a>
+                <a href="../es/rooms/pow.php">Spanish</a>
 
-                  </div>
+              </div>
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
+
+
+
+        </div>
 
 
 
@@ -300,203 +304,203 @@
 
 
 
-        </div>
 
-
-
-
-
-  </div>
-
-
-
-</div> <!-- end of container fluid -->
-
-
-
-<!-- carousel -->
-
-<?php include '../inc/en-carousel-pow.php'; ?>
-
-
-
-<!-- end of carousel -->
-
-
-
-
-
-<section class="container-fluid room-pow text-center " id="mainsect">
-
-  <div class="blur-div-2"></div>
-
-  <div class="info-container" style="padding-top:50px;">
-
-    <div class="mt-5" style="display: flex;align-items: center;justify-content:center;">
-
-      <img src="../img/svg/pow.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-
-      <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">PRISONERS OF WAR</h1>
 
     </div>
 
 
 
-    <p class="room-desc" style="">A military themed room. Players have to escape first from a prison cell<br> and then from an entire military base, by solving all the 15 steps.
-
-    </p>
-
-    <section class="icon-section">
-
-      <div class="left-icon"></div>
-
-    <div class="room-icon" style="">
+  </div> <!-- end of container fluid -->
 
 
 
+  <!-- carousel -->
+
+  <?php include '../inc/en-carousel-pow.php'; ?>
 
 
-        <div class="small-box text-center" style="">
 
-          <img src="../img/menus_logo//scenarios.svg"  alt="category" >
+  <!-- end of carousel -->
 
-          <p>CATEGORY</p>
 
-          <p class="pdesc">Action</p>
+
+
+
+  <section class="container-fluid room-pow text-center " id="mainsect">
+
+    <div class="blur-div-2"></div>
+
+    <div class="info-container" style="padding-top:50px;">
+
+      <div class="mt-5" style="display: flex;align-items: center;justify-content:center;">
+
+        <img src="../img/svg/pow.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
+
+        <h1 style="display:inline-block;line-height:1.6rem;font-size:2rem;">PRISONERS OF WAR</h1>
+
+      </div>
+
+
+
+      <p class="room-desc" style="">A military themed room. Players have to escape first from a prison cell<br> and then from an entire military base, by solving all the 15 steps.
+
+      </p>
+
+      <section class="icon-section">
+
+        <div class="left-icon"></div>
+
+        <div class="room-icon" style="">
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo//scenarios.svg" alt="category">
+
+            <p>CATEGORY</p>
+
+            <p class="pdesc">Action</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/players.svg" alt="number of players">
+
+            <p>NUMBER OF <br>PLAYERS</p>
+
+            <p class="pdesc">2-6</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/duration.svg" alt="duration">
+
+            <p>DURATION</p>
+
+            <p class="pdesc">60'</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/space.svg" alt="suggested space">
+
+            <p>SUGGESTED <br> SPACE</p>
+
+            <p class="pdesc">30m<sup>2</sup></p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="small-box text-center" style="">
+
+            <img src="../img/menus_logo/puzzle.svg" alt="Puzzles and riddles">
+
+            <p>PUZZLES / <br>RIDDLES</p>
+
+            <p class="pdesc">15</p>
+
+          </div>
+
+
+
+
 
         </div>
 
+        <div class="right-icon"></div>
 
+      </section>
 
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/players.svg" alt="number of players"  >
-
-           <p>NUMBER OF <br>PLAYERS</p>
-
-          <p class="pdesc">2-6</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/duration.svg" alt="duration" >
-
-          <p>DURATION</p>
-
-          <p class="pdesc">60'</p>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/space.svg" alt="suggested space" >
-
-           <p>SUGGESTED <br> SPACE</p>
-
-          <p class="pdesc">30m<sup>2</sup></p>
-
-        </div>
-
-
-
-
-
-
-
-       <div class="small-box text-center" style="">
-
-          <img src="../img/menus_logo/puzzle.svg" alt="Puzzles and riddles" >
-
-         <p>PUZZLES / <br>RIDDLES</p>
-
-          <p class="pdesc">15</p>
-
-        </div>
-
-
-
-
-
-</div>
-
-<div class="right-icon"></div>
-
-    </section>
-
-    <img src="../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;" >
+      <img src="../img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
 
       <p class=" story" style="">You were operating in North Korea behind enemy lines. Something went very wrong and your group lost contact with the unit and got captured by enemy forces. Now you are a POW! Use your SERE (survival, evasion, resistance and escape) skills to find a way back into the jungle and back into action.
 
       </p>
 
-  </div>
+    </div>
 
-  <div class="progress-container mt-5 pb-5" style="text-align:right;">
+    <div class="progress-container mt-5 pb-5" style="text-align:right;">
 
-    <div class="div1" style="height:20px;">
+      <div class="div1" style="height:20px;">
 
-          <p class="percent" style="display:inline-block;">80%</p><br>
+        <p class="percent" style="display:inline-block;">80%</p><br>
+
+      </div>
+
+      <div class="progress" style="">
+
+        <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+      </div>
+
+      <div class="diff-lvl" style="height:20px;">
+
+        <p style="">DIFFICULTY LEVEL</p>
+
+      </div>
 
     </div>
 
-  <div class="progress" style="">
 
-          <div class="progress-bar" role="progressbar" style="width: 0%; background-color:#da1a35;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 
-        </div>
 
-        <div class="diff-lvl" style="height:20px;">
 
-              <p style="">DIFFICULTY LEVEL</p>
+  </section>
 
-        </div>
+  <?php include '../inc/footer.php'; ?>
 
-  </div>
+  <?php include '../inc/contact-form.php'; ?>
 
 
 
 
 
-</section>
-
-<?php include '../inc/footer.php';?>
-
-<?php include '../inc/contact-form.php';?>
-
-
-
-
-
- <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
 
   <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
 
 
- <script>             var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");             var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");   </script><script src="../js/js_all.js"></script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#carouselExampleFade,#mainsect,#click");
+    var divsblur = document.querySelectorAll(".nav-container,footer,#carouselExampleFade,#mainsect");
+  </script>
+  <script src="../js/js_all.js"></script>
 
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="../vendor/bootstrap/js/popper.min.js"></script>
+  <script src="../vendor/bootstrap/js/popper.min.js"></script>
 
-<script src="boot-custom.js"></script>
+  <script src="boot-custom.js"></script>
 
 
 
@@ -509,4 +513,3 @@
 
 
 </html>
-

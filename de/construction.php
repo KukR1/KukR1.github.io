@@ -14,49 +14,50 @@
 
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
---><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
-<title>Construction | GAME OVER Escape Rooms </title>
+  <title>Construction | GAME OVER Escape Rooms </title>
 
-<meta name="keywords" content="" />
+  <meta name="keywords" content="" />
 
-<meta name="description" content="  Our turnkey solutions include high quality hand made props and decorations,
+  <meta name="description" content="  Our turnkey solutions include high quality hand made props and decorations,
 
 long tested electronic puzzles and mechatronics that all combined,
 
 present the unique outcome of our rooms.">
 
-<meta property="og:locale" content="" />
+  <meta property="og:locale" content="" />
 
-<meta property="og:locale:alternate" content="" />
+  <meta property="og:locale:alternate" content="" />
 
-<meta property="og:type" content="website" />
+  <meta property="og:type" content="website" />
 
-<meta property="og:title" content="GAME OVER Escape Rooms" />
+  <meta property="og:title" content="GAME OVER Escape Rooms" />
 
-<meta property="og:url" content="https://www.escapegameover.com/" />
+  <meta property="og:url" content="https://www.escapegameover.com/" />
 
-<meta property="og:site_name" content="GAME OVER Escape Rooms " />
+  <meta property="og:site_name" content="GAME OVER Escape Rooms " />
 
-<meta property="og:image" content="https://www.escapegameover.com/img/fb-logo.png" />
+  <meta property="og:image" content="https://www.escapegameover.com/img/fb-logo.png" />
 
-<meta property="og:image:secure_url" content="https://www.escapegameover.com/img/fb-logo.png" />
+  <meta property="og:image:secure_url" content="https://www.escapegameover.com/img/fb-logo.png" />
 
-<meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:title" content="GAME OVER Escape Rooms " />
+  <meta name="twitter:title" content="GAME OVER Escape Rooms " />
 
-<meta name="twitter:image" content="https://www.escapegameover.com/img/fb-logo.png" />
-
-
-
-<link rel="shortcut icon" href="../img/gameover_favicon.png" type="image/x-icon" />
+  <meta name="twitter:image" content="https://www.escapegameover.com/img/fb-logo.png" />
 
 
 
-<!--<link href="rooms/boot-custom.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/gameover_favicon.png" type="image/x-icon" />
+
+
+
+  <!--<link href="rooms/boot-custom.css" rel="stylesheet">
 
 
 
@@ -64,37 +65,37 @@ present the unique outcome of our rooms.">
 
 
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-<link href="../css/bootstrap-index.css" rel="stylesheet">
+  <link href="../css/bootstrap-index.css" rel="stylesheet">
 
-<link href="../css/animate.min.css" rel="stylesheet">
+  <link href="../css/animate.min.css" rel="stylesheet">
 
-<link href="../css/final_style.min.css" rel="stylesheet">
-
-
-
-<link href="../css/construction.css" rel="stylesheet">
+  <link href="../css/final_style.min.css" rel="stylesheet">
 
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
-
-<script>
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
+  <link href="../css/construction.css" rel="stylesheet">
 
 
 
-gtag('config', 'UA-87676239-1');
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -132,7 +133,7 @@ gtag('config', 'UA-87676239-1');
 
       <div class="dropup-container" style="margin-top:-2px;">
 
-        <div class="dropup" style="" >
+        <div class="dropup" style="">
 
           <img class="dropbtn" style="width:25px;" src="../img/flags/select.svg" alt="Select a language">
 
@@ -148,7 +149,7 @@ gtag('config', 'UA-87676239-1');
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
-          <button class="closebtn" >&times;</button>
+          <button class="closebtn">&times;</button>
 
 
 
@@ -156,11 +157,11 @@ gtag('config', 'UA-87676239-1');
 
           <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-            <ul class="text-left" >
+            <ul class="text-left">
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/en.svg" alt="GAME OVER - English">
 
                 <a href="../construction.php">English</a>
 
@@ -178,7 +179,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
                 <a href="../it/construction.php">Italian</a>
 
@@ -186,7 +187,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/fr.svg" alt="GAME OVER - French">
 
                 <a href="../fr/construction.php">French</a>
 
@@ -194,7 +195,7 @@ gtag('config', 'UA-87676239-1');
 
               <div class="lang">
 
-                <img  style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
                 <a href="../es/construction.php">Spanish</a>
 
@@ -230,91 +231,126 @@ gtag('config', 'UA-87676239-1');
 
       <h1 class="" style="font-weight:550;text-align:right;">
 
-        <img class="team-img" src="../img/menus_logo/construction.svg" style="margin-right:15px;" alt="">CONSTRUCTION</h1>
+        <img class="team-img" src="../img/menus_logo/construction.svg" style="margin-right:15px;" alt="">CONSTRUCTION
+      </h1>
 
-        <p class="">
+      <p class="">
 
-          Unsere schlüsselfertigen Lösungen umfassen hochwertige <br> handgefertigte Requisiten und Dekorationen, lang erprobten elektronische <br>
+        Unsere schlüsselfertigen Lösungen umfassen hochwertige <br> handgefertigte Requisiten und Dekorationen, lang erprobten elektronische <br>
 
-          Puzzles und Mechatronik, die allesamt kombiniert,<br> das einzigartige Ergebnis unserer Räume darstellen. <br>
+        Puzzles und Mechatronik, die allesamt kombiniert,<br> das einzigartige Ergebnis unserer Räume darstellen. <br>
 
-          Das GAME OVER-Team garantiert, dass wir die harte Arbeit fortführen<br> werden, mit dem Ziel, die Qualität unserer Produkte
+        Das GAME OVER-Team garantiert, dass wir die harte Arbeit fortführen<br> werden, mit dem Ziel, die Qualität unserer Produkte
 
-          <br>zu verbessern und zu erhöhen.
+        <br>zu verbessern und zu erhöhen.
 
-        </p>
+      </p>
 
 
 
-      </div>
+    </div>
 
 
 
 
 
-    </section>
+  </section>
 
 
 
-    <section id="technical-list" class="container-fluid " style="text-align:center;">
+  <section id="technical-list" class="container-fluid " style="text-align:center;">
 
 
 
-      <div class="img-container1" style=" ">
+    <div class="img-container1" style=" ">
 
-        <picture>
+      <picture>
 
-          <source type="image/webp" srcset="../img/construction/4.webp">
+        <source type="image/webp" srcset="../img/construction/4.webp">
 
-            <img src="../img/construction/4.jpg" alt="Cans filled with paint" class="img-fluid" >
+        <img src="../img/construction/4.jpg" alt="Cans filled with paint" class="img-fluid">
 
-          </picture>
+      </picture>
 
 
 
-        </div>
+    </div>
 
 
 
-        <ul class="" style="">
+    <ul class="" style="">
 
-          <li><p>Transportkosten</p><span></span></li>
+      <li>
+        <p>Transportkosten</p><span></span>
+      </li>
 
-          <li><p>Tickets und Unterkunft unseres Personals</p><span></span></li>
+      <li>
+        <p>Tickets und Unterkunft unseres Personals</p><span></span>
+      </li>
 
-          <li><p>Alle Möbel und Dekoration</p><span></span></li>
+      <li>
+        <p>Alle Möbel und Dekoration</p><span></span>
+      </li>
 
-          <li><p>Raum-Szenografie</p><span></span></li>
+      <li>
+        <p>Raum-Szenografie</p><span></span>
+      </li>
 
-          <li><p>Beleuchtung, Spezialgeräte und Effekte</p><span></span></li>
+      <li>
+        <p>Beleuchtung, Spezialgeräte und Effekte</p><span></span>
+      </li>
 
-          <li><p>Spiel und elektrische Requisiten</p><span></span></li>
+      <li>
+        <p>Spiel und elektrische Requisiten</p><span></span>
+      </li>
 
-          <li><p>Spezielle Konstruktionen</p><span></span></li>
+      <li>
+        <p>Spezielle Konstruktionen</p><span></span>
+      </li>
 
-          <li><p>Tricks, Rätsel, Szenarien</p><span></span></li>
+      <li>
+        <p>Tricks, Rätsel, Szenarien</p><span></span>
+      </li>
 
-          <li><p>Ersatzteile</p><span></span></li>
+      <li>
+        <p>Ersatzteile</p><span></span>
+      </li>
 
-          <li><p>Kontrollraum-Ausrüstung</p><span></span></li>
+      <li>
+        <p>Kontrollraum-Ausrüstung</p><span></span>
+      </li>
 
-          <li><p>Kameras, Monitore, Lautsprecher</p><span></span></li>
+      <li>
+        <p>Kameras, Monitore, Lautsprecher</p><span></span>
+      </li>
 
-          <li><p>Theaterszenen des Spiels</p><span></span></li>
+      <li>
+        <p>Theaterszenen des Spiels</p><span></span>
+      </li>
 
-          <li><p>Vollständige Dokumentation des Spiels</p><span></span></li>
+      <li>
+        <p>Vollständige Dokumentation des Spiels</p><span></span>
+      </li>
 
-          <li><p>Schulung von Führungskräften und Spiel-Aufsichtspersonen </p><span></span></li>
+      <li>
+        <p>Schulung von Führungskräften und Spiel-Aufsichtspersonen </p><span></span>
+      </li>
 
-          <li><p>Online technische unterstützung</p><span></span></li>
+      <li>
+        <p>Online technische unterstützung</p><span></span>
+      </li>
 
-          <li><p>1 Jahr-Ersatz der Garantie für alle unsere Zecken und Requisiten</p><span></span></li>
+      <li>
+        <p>1 Jahr-Ersatz der Garantie für alle unsere Zecken und Requisiten</p><span></span>
+      </li>
 
-          <li><p>Handbücher und Anleitungen</p><span></span></li>
+      <li>
+        <p>Handbücher und Anleitungen</p><span></span>
+      </li>
 
 
 
-        </ul>
+    </ul>
 
 
 
@@ -324,91 +360,91 @@ gtag('config', 'UA-87676239-1');
 
 
 
-      </section>
+  </section>
 
 
 
-      <?php include '../inc/footer.php';?>
+  <?php include '../inc/footer.php'; ?>
 
-      <?php include '../inc/de-contact-form.php';?>
+  <?php include '../inc/de-contact-form.php'; ?>
 
 
 
-      <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
 
-      <script>
+  <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#construction_main,#technical-list ");
 
-      var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,#construction_main,#technical-list ");
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#construction_main,#technical-list");
+  </script>
 
-      var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#construction_main,#technical-list");
+  <script src="../js/js_all.js"></script>
 
-      </script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <script src="../js/js_all.js"></script>
+  <script src="../vendor/bootstrap/js/popper.min.js"></script>
 
-      <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-      <script src="../vendor/bootstrap/js/popper.min.js"></script>
 
-      <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
+  <script>
+    function validateEmail(email) {
 
+      var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-      <script>
+      return re.test(email);
 
-      function validateEmail(email) {
+    }
 
-        var re = /[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/;
 
-        return re.test(email);
+
+    function validateFormOld() {
+
+      $("#result").text("");
+
+      $("#result").css("font-size", "13px");
+
+      $("#result").css("font-style", "italic  ");
+
+      $("#result").css("color", "white");
+
+
+
+      var textbox = document.getElementById("message");
+      if (textbox.value.length <= 15) {
+        $("#result").text("MESSAGE IS TOO SHORT");
+        return false;
+      }
+      var email = $("#email").val();
+
+
+
+      if (validateEmail(email) == false) {
+
+        $("#result").text(" THE " + email + " IS NOT VALID ");
+
+        return false;
+
+
 
       }
 
 
 
-      function validateForm() {
-
-        $("#result").text("");
-
-        $("#result").css("font-size", "13px");
-
-        $("#result").css("font-style", "italic  ");
-
-        $("#result").css("color", "white");
-
-
-
-        var textbox = document.getElementById("message");     if(textbox.value.length <= 15){               $("#result").text("MESSAGE IS TOO SHORT");       return false;      }     var email = $("#email").val();
-
-
-
-        if (validateEmail(email) == false) {
-
-          $("#result").text(" THE " + email + " IS NOT VALID ");
-
-          return false;
-
-
-
-        }
-
-
-
-        $("#submit").bind("click", "submit");
+      $("#submit").bind("click", "submit");
 
 
 
 
 
-      }
-
-      </script>
-
-
-
-    </body>
+    }
+  </script>
 
 
 
-    </html>
+</body>
 
+
+
+</html>
