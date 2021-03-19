@@ -238,9 +238,9 @@ atmosfera coinvolgente  combinata con un sacco di strumenti meccatronici e sceno
 
               <div class="lang">
 
-                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - En#contact_form>
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - Eng">
 
-                    <a href=" ../../rooms/order-of-assassins.php">English</a>
+                <a href=" ../../rooms/order-of-assassins.php">English</a>
 
               </div>
 

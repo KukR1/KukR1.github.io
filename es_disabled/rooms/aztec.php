@@ -247,7 +247,7 @@
 
   <!-- end of carousel -->
 
-  <section class="container-fluid room-aztec text-center " id="mainsect">#contact_form
+  <section class="container-fluid room-aztec text-center " id="mainsect">
 
     <div class="blur-div-2"></div>
 

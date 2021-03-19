@@ -12,7 +12,7 @@
 
   <meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
@@ -77,44 +77,36 @@
 
 
   <style media="screen">
+    @media screen and (max-width: 768px) {
 
-  @media screen and (max-width: 768px) {
+      body {
 
-    body{
+        font-size: 15px;
 
-      font-size:15px;
+      }
 
     }
-
-    }
-
   </style>
-#contact_form
 
 
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
 
 
 
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
-
-<script>
-
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
-
-
-  gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -130,9 +122,9 @@
 
     <?php include '../inc/it-out-of-folder-menu-tabs.php'; ?>
 
-  <div class="burger-flag" style="">
+    <div class="burger-flag" style="">
 
-    <div class="burger-container  ">
+      <div class="burger-container  ">
 
         <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -148,27 +140,32 @@
 
 
 
-  </div>
+    </div>
 
   </div>
 
 
 
-<section class="container content-section text-center" style="font-family: 'Open Sans', sans-serif;">
+  <section class="container content-section text-center" style="font-family: 'Open Sans', sans-serif;">
 
-  <h2>FINANCIAL STATEMENTS</h2>
+    <h2>FINANCIAL STATEMENTS</h2>
 
-  <a href="../company/isologismos.pdf" ><p class="mt-5 text-left"> ΙΣΟΛΟΓΙΣΜΟΣ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
+    <a href="../company/isologismos.pdf">
+      <p class="mt-5 text-left"> ΙΣΟΛΟΓΙΣΜΟΣ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
 
-<br class="display-items">Αρ.ΓΕΜΗ 133960901000</p></a>
+        <br class="display-items">Αρ.ΓΕΜΗ 133960901000
+      </p>
+    </a>
 
-<a href="../company/results.pdf">
+    <a href="../company/results.pdf">
 
-<p class="mt-5 text-left"> ΚΑΤΑΣΤΑΣΗ ΑΠΟΤΕΛΕΣΜΑΤΩΝ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
+      <p class="mt-5 text-left"> ΚΑΤΑΣΤΑΣΗ ΑΠΟΤΕΛΕΣΜΑΤΩΝ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
 
-<br class="display-items">Αρ.ΓΕΜΗ 133960901000</p></a>
+        <br class="display-items">Αρ.ΓΕΜΗ 133960901000
+      </p>
+    </a>
 
-</section>
+  </section>
 
 
 
@@ -179,11 +176,9 @@
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.container");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.container");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.container");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.container");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -209,4 +204,3 @@
 
 
 </html>
-

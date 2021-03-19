@@ -236,7 +236,7 @@
 
           <div class="" style="display: flex;justify-content: center;align-items: center;padding-bottom:40px;font-size:13px;">
 
-            <ul class="text-left">#contact_form
+            <ul class="text-left">
 
               <div class="lang">
 

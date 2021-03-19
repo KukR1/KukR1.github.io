@@ -171,7 +171,6 @@
               </div>
 
               <div class="lang">
-                #contact_form
                 <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/it.svg" alt="GAME OVER - Italian">
 
                 <a style="align-items:center;" href="../it/construction.php">Italian</a>

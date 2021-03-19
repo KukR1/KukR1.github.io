@@ -12,7 +12,7 @@
 
   <meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 
@@ -79,40 +79,38 @@
 
 
   <style media="screen">
+    @media screen and (max-width: 768px) {
 
-  @media screen and (max-width: 768px) {
+      body {
 
-    body{
+        font-size: 15px;
 
-      font-size:15px;
+      }
 
     }
-
-    }
-
   </style>
 
 
 
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87676239-1"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+    gtag('js', new Date());
 
 
 
-  gtag('config', 'UA-87676239-1');
-
-</script>
+    gtag('config', 'UA-87676239-1');
+  </script>
 
 
 
@@ -124,49 +122,49 @@
 
 
 
-    <div class="container-fluid nav-container p-0 fixed-top" style="">
+  <div class="container-fluid nav-container p-0 fixed-top" style="">
 
-        <?php include '../inc/logo.php'; ?>
-
-
-
-        <div class="card1">
-
-          <div class="front">
-
-            <p class="text-center we-design" style=" ">
+    <?php include '../inc/logo.php'; ?>
 
 
 
-            </p>
+    <div class="card1">
 
-          </div>
+      <div class="front">
 
-          <nav class="back">
-
-            <ul class=" text-center face" >
-
-            <li class="about_li aa2" style="display:inline-block;" >
+        <p class="text-center we-design" style=" ">
 
 
 
-                <a class=" js-scroll-trigger" href="index.php#sect1" tabindex="1">
+        </p>
 
-                  <img src="../img/menus_logo/aboutus.svg" >
+      </div>
 
-                  <p>Sobre nosotros<br><br></p>
+      <nav class="back">
 
-                </a>
+        <ul class=" text-center face">
+
+          <li class="about_li aa2" style="display:inline-block;">
 
 
 
-                </li>#contact_form
+            <a class=" js-scroll-trigger" href="index.php#sect1" tabindex="1">
+
+              <img src="../img/menus_logo/aboutus.svg">
+
+              <p>Sobre nosotros<br><br></p>
+
+            </a>
+
+
+
+          </li>
 
           <li class="senaria_li">
 
-          <a class=" js-scroll-trigger" href="index.php#scenarios">
+            <a class=" js-scroll-trigger" href="index.php#scenarios">
 
-              <img src="../img/menus_logo/scenarios.svg" >
+              <img src="../img/menus_logo/scenarios.svg">
 
               <p>Escenarios<br><br></p>
 
@@ -180,7 +178,7 @@
 
             <a class=" js-scroll-trigger" href="autohelp.php">
 
-              <img src="../img/menus_logo/autohelp.svg" >
+              <img src="../img/menus_logo/autohelp.svg">
 
               <p class="text-center">Autohelp HS </p>
 
@@ -194,7 +192,7 @@
 
             <a class=" js-scroll-trigger" href="construction.php">
 
-              <img src="../img/menus_logo/construction.svg" >
+              <img src="../img/menus_logo/construction.svg">
 
               <p>Construccion</p>
 
@@ -208,19 +206,19 @@
 
             <a class=" js-scroll-trigger" href="marketing.php">
 
-              <img src="../img/menus_logo/marketing.svg" >
+              <img src="../img/menus_logo/marketing.svg">
 
               <p class="text-center">Marketing </p>
 
             </a>
 
-               </li>
+          </li>
 
           <li class="clients_li">
 
-          <a class=" js-scroll-trigger" href="gallery.php">
+            <a class=" js-scroll-trigger" href="gallery.php">
 
-              <img src="../img/menus_logo/clients.svg" >
+              <img src="../img/menus_logo/clients.svg">
 
               <p>Nuestros clientes<br><br></p>
 
@@ -232,13 +230,13 @@
 
           <li class="team_li">
 
-                  <a href="team.php">
+            <a href="team.php">
 
-                      <img src="../img/menus_logo/team.svg" >
+              <img src="../img/menus_logo/team.svg">
 
-                      <p>Team</p>
+              <p>Team</p>
 
-                  </a>
+            </a>
 
 
 
@@ -246,13 +244,13 @@
 
           <li class="" style="" id="contact_click">
 
-                  <a class=" ">
+            <a class=" ">
 
-                      <img src="../img/menus_logo/contact.svg" >
+              <img src="../img/menus_logo/contact.svg">
 
-                      <p>Contáctenos</p>
+              <p>Contáctenos</p>
 
-                  </a>
+            </a>
 
           </li>
 
@@ -262,55 +260,58 @@
 
         </ul>
 
-        </nav>
+      </nav>
 
-        </div>
+    </div>
 
-        <div class="burger-flag" style="">
+    <div class="burger-flag" style="">
 
-          <div class="burger-container  ">
+      <div class="burger-container  ">
 
-            <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse"
+        <button id="burger" class="navbar-toggler hamburger  hamburger--vortex p-0" type="button" style="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
-              data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger-box">
 
-              <span class="hamburger-box">
+            <span class="hamburger-inner "></span>
 
-                <span class="hamburger-inner "></span>
+          </span>
 
-              </span>
+        </button>
 
-            </button>
-
-          </div>
+      </div>
 
 
 
 
 
-        </div>
+    </div>
 
 
 
-      </div> <!-- end of container fluid -->
+  </div> <!-- end of container fluid -->
 
 
 
-<section class="container content-section text-center" style="font-family: 'Open Sans', sans-serif;">
+  <section class="container content-section text-center" style="font-family: 'Open Sans', sans-serif;">
 
-  <h2>FINANCIAL STATEMENTS</h2>
+    <h2>FINANCIAL STATEMENTS</h2>
 
-  <a href="../company/isologismos.pdf" ><p class="mt-5 text-left"> ΙΣΟΛΟΓΙΣΜΟΣ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
+    <a href="../company/isologismos.pdf">
+      <p class="mt-5 text-left"> ΙΣΟΛΟΓΙΣΜΟΣ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
 
-<br class="display-items">Αρ.ΓΕΜΗ 133960901000</p></a>
+        <br class="display-items">Αρ.ΓΕΜΗ 133960901000
+      </p>
+    </a>
 
-<a href="../company/results.pdf">
+    <a href="../company/results.pdf">
 
-<p class="mt-5 text-left"> ΚΑΤΑΣΤΑΣΗ ΑΠΟΤΕΛΕΣΜΑΤΩΝ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
+      <p class="mt-5 text-left"> ΚΑΤΑΣΤΑΣΗ ΑΠΟΤΕΛΕΣΜΑΤΩΝ ΤΗΣ ΕΤΑΙΡΕΙΑΣ ESCAPE GAME OVER της 31ης ΔΕΚΕΜΒΡΙΟΥ 2017(01/01/2017 - 31/12/2017)
 
-<br class="display-items">Αρ.ΓΕΜΗ 133960901000</p></a>
+        <br class="display-items">Αρ.ΓΕΜΗ 133960901000
+      </p>
+    </a>
 
-</section>
+  </section>
 
 
 
@@ -321,11 +322,9 @@
   <script src="../js/jquery.min.js"></script>
 
   <script>
+    var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.container");
 
-  var divs1 = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,#click,.container");
-
-  var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.container");
-
+    var divsblur = document.querySelectorAll("img.dropbtn,.burger-container,.logo-container,.card1,footer,.container");
   </script>
 
   <script src="../js/js_all.js"></script>
@@ -351,4 +350,3 @@
 
 
 </html>
-

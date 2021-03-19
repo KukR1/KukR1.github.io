@@ -178,7 +178,7 @@
 
                   <a href="../fr/autohelp.php">French</a>
 
-                </div>#contact_form
+                </div>
 
                 <div class="lang">
 

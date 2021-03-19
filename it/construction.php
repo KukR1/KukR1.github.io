@@ -163,7 +163,7 @@
 
                 <a href="../construction.php">English</a>
 
-              </div>#contact_form
+              </div>
 
               <div class="lang">
 

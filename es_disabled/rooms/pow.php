@@ -239,7 +239,6 @@
                 <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
 
                 <a href="../../rooms/pow.php">English</a>
-                #contact_form
               </div>
 
               <div class="lang">

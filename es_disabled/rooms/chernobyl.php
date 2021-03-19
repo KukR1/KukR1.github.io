@@ -234,8 +234,6 @@
 
 
         </div>
-        #contact_form
-
 
       </div>
 

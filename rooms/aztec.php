@@ -249,7 +249,7 @@
 
   <!-- carousel -->
 
-  <?php include '../inc/en-carousel-aztec.php'; ?>#contact_form
+  <?php include '../inc/en-carousel-aztec.php'; ?>
 
   <!-- end of carousel -->
 

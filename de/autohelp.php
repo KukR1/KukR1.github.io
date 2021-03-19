@@ -184,7 +184,7 @@
 
               <div class="lang">
 
-                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAM#contact_form - Spanish">
+                <img style="border-radius:50%;align-self: center;width:13px;" src="../img/flags/es.svg" alt="GAME OVER - Spanish">
 
                 <a href="../es/autohelp.php">Spanish</a>
 

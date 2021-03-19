@@ -419,72 +419,67 @@
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
                            <picture>
-                              <img class="img-fluid" src="/img/gallery_com/ALADDIN.jpg" alt="Aladdin">
+                              <img class="img-fluid" src="/img/gallery_com/aladdin.jpg" alt="Aladdin">
                            </picture>
                         </div>
-                        <div href="rooms/alladin.php" title="">
+                        <a href="rooms/one-thousand-one-nights.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display: flex; flex-direction:column; align-items:center">
                                  <div style="display:flex;margin-top:20px;flex-wrap: wrap;justify-content:center;">
                                     <img style="" src="/img/svg/ALADDIN_LOGO.svg" alt="">
                                     <h3 style="text-align:left;display:flex;align-items:center;margin-left:10px;text-transform:uppercase">One thousand <br>& one nights</h3>
-                                 </div><br />
-                                 <div class="coming-soon">COMING SOON</div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
-                           <img class="img-fluid" src="/img/gallery_com/WHITE HOUSE.jpg" alt="White House">
+                           <img class="img-fluid" src="/img/gallery_com/white-house.jpg" alt="White House">
                         </div>
-                        <div href="rooms/white-house.php" title="">
+                        <a href="rooms/white-house.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display: flex; flex-direction:column; align-items:center">
                                  <div style="display:flex;margin-top:20px;flex-wrap: wrap;justify-content:center;">
                                     <img style="" src="/img/svg/white-house.svg" alt="">
                                     <h3 style="text-align:left;display:flex;align-items:center;margin-left:10px;">WHITE<br />HOUSE</h3>
                                  </div>
-                                 <br />
-                                 <div class="coming-soon">COMING SOON</div>
                               </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
                            <picture>
                               <!-- <source type="image/jpeg" srcset="img/gallery_com/DRACULA.jpg" media="(max-width: 767px)"> -->
-                              <img class="img-fluid" src="/img/gallery_com/DRACULA.jpg" alt="Dracula">
+                              <img class="img-fluid" src="/img/gallery_com/dracula.jpg" alt="Dracula">
                            </picture>
                         </div>
-                        <div href="rooms/dracula.php" title="">
+                        <a href="rooms/dracula.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display: flex; flex-direction:column; align-items:center">
                                  <div style="display:flex;margin-top:20px;flex-wrap: wrap;justify-content:center;">
                                     <img style="" src="/img/svg/dracula.svg" alt="">
                                     <h3 style="text-align:left;display:flex;align-items:center;margin-left:10px;">DRACULA</h3>
-                                 </div><br />
-                                 <div class="coming-soon">COMING SOON</div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
-                           <img class="img-fluid" src="/img/gallery_com/ALICE.jpg" alt="Alice in Wonderland, Mushrooms!">
+                           <img class="img-fluid" src="/img/gallery_com/alice-in-wonderland.jpg" alt="Alice in Wonderland, Mushrooms!">
                         </div>
-                        <div href="rooms/alice-in-wonderland.php" title="">
+                        <a href="rooms/alice-in-wonderland.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display: flex; flex-direction:column; align-items:center">
                                  <div style="display:flex;margin-top:20px;flex-wrap: wrap;justify-content:center;">
-                                    <img style="" src="/img/svg/alice.svg" alt="">
+                                    <img style="" src="/img/svg/alice-in-wonderland.svg" alt="">
                                     <h3 style="text-align:left;display:flex;align-items:center;">ALICE IN<br> WONDERLAND</h3>
-                                 </div><br />
-                                 <div class="coming-soon">COMING SOON</div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                   </div>
                   <!-- ROW -->

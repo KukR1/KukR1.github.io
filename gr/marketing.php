@@ -206,8 +206,6 @@
           </div>
 
         </div>
-        #contact_form
-
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 

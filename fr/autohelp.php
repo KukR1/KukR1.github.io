@@ -190,8 +190,6 @@
 
               </div>
 
-              #contact_form
-
             </ul>
 
           </div>

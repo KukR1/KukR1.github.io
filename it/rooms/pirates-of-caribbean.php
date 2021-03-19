@@ -239,7 +239,6 @@
               <div class="lang">
 
                 <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/en.svg" alt="GAME OVER - English">
-                #contact_form
                 <a href="../../rooms/pirates-of-caribbean.php">English</a>
 
               </div>

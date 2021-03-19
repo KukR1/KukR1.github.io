@@ -1,5 +1,3 @@
-#contact_form
-
 <!DOCTYPE html>
 
 <html lang="gr">

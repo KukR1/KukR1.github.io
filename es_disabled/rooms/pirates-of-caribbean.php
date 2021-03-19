@@ -242,7 +242,7 @@
 
                 <a href="../../rooms/pirates-of-caribbean.php">English</a>
 
-              </div>#contact_form
+              </div>
 
               <div class="lang">
 

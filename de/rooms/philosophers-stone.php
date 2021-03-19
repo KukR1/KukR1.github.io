@@ -244,7 +244,7 @@
 
                 <a href="../../rooms/philosophers-stone.php">English</a>
 
-              </div>#contact_form
+              </div>
 
               <div class="lang">
 

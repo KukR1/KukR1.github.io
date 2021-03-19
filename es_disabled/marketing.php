@@ -203,7 +203,6 @@
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
 
           <button class="closebtn">&times;</button>
-          #contact_form
 
 
           <p class="text-center" style="color:white;font-size:17px;margin:25px 0;font-weight:300;width:100%;">CHOOSE LANGUAGE</p>

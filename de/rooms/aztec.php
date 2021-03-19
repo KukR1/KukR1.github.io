@@ -246,7 +246,6 @@
 
 
     </div>
-    #contact_form
 
 
   </div> <!-- end of container fluid -->

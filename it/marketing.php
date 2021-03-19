@@ -199,7 +199,6 @@
 
 
         <div id="mySidenav" class="sidenav nav navbar-nav" style="overflow:hidden;">
-          #contact_form
           <button class="closebtn">&times;</button>
 
 

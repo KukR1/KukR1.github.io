@@ -239,7 +239,6 @@
             <ul class="text-left">
 
               <div class="lang">
-                #contact_form
                 <img style="border-radius:50%;align-self: center;width:13px;" src="../../img/flags/gr.svg" alt="GAME OVER - Greek">
 
                 <a style="align-items:center;" href="../../gr/rooms/philosophers-stone.php">Greek</a>

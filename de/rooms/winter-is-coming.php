@@ -244,7 +244,7 @@
 
                 <a href="../../rooms/winter-is-coming.php">English</a>
 
-              </div>#contact_form
+              </div>
 
               <div class="lang">
 
