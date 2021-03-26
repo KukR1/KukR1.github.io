@@ -89,8 +89,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">DRACULA</h1>
             </div>
             <p class="room-desc" style="">
-                Dracula is a room with riveting atmosphere and immersive riddles.<br />
-                Players will enjoy the storytelling while revealing Dracula’s Castle Mysteries.
+                Dracula est un jeu à l’atmosphère fascinante et aux énigmes immersives.<br />
+                Les joueurs apprécieront son histoire et découvriront les mystères du château de Dracula.
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">Your intention to investigate the Legend of Dracula brought you to the mountainous Bran in Transylvania where the castle of Lord Vlad Tepes, was located. Here, the night lasts longer, the creatures of the night lurk in the shadows that grow faster as the moon rises... You and your team, are overwhelmed from the Thrill that you are exploring the woods around Dracula's Castle.... And then, you wake up in a Dungeon Cell... as everyone else that tried before, you find yourself imprisoned by him. Now you have to be quick, get any possible help, from the inside, search for any signs left from Dracula's previous victims and find your way out of this castle before it's too late. His return will mark your end...</p>
+            <p class=" story" style="">Votre désir d’enquêter sur la légende de Dracula vous a conduit dans les montagnes de Bran en Transylvanie où se situe le château du voïvode Vlad Tepes. Ici la nuit est longue, les créatures rodent dans l’ombre qui augmente au fur et à mesure que la lune se lève... Avec votre équipe, vous êtes excités à l’idée d’explorer les bois entourant le château de Dracula. Et vous vous réveillez dans une cellule du donjon... comme tout le monde avant vous, vous vous êtes retrouvé enfermé et à sa merci. Vous devez maintenant faire vite, obtenir n’importe quelle aide possible de l’intérieur, rechercher tous les signes laissés par les précédentes victimes de Dracula pour vous échapper de ce château avant qu’il ne soit trop tard. Son retour sera votre fin...</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

@@ -89,8 +89,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">DRACULA</h1>
             </div>
             <p class="room-desc" style="">
-                Dracula is a room with riveting atmosphere and immersive riddles.<br />
-                Players will enjoy the storytelling while revealing Dracula’s Castle Mysteries.
+                Dracula ist ein Raum mit einer fesselnden Atmosphäre und eindringlichen Rätseln.<br />
+                Spieler können die Geschichte genießen, während sich die Rätsel von Draculas Schloss offenbaren.
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">Your intention to investigate the Legend of Dracula brought you to the mountainous Bran in Transylvania where the castle of Lord Vlad Tepes, was located. Here, the night lasts longer, the creatures of the night lurk in the shadows that grow faster as the moon rises... You and your team, are overwhelmed from the Thrill that you are exploring the woods around Dracula's Castle.... And then, you wake up in a Dungeon Cell... as everyone else that tried before, you find yourself imprisoned by him. Now you have to be quick, get any possible help, from the inside, search for any signs left from Dracula's previous victims and find your way out of this castle before it's too late. His return will mark your end...</p>
+            <p class=" story" style="">Euer Vorhaben, die Legende von Dracula zu untersuchen, hat euch ins bergige Bran nach Transsylvanien geführt, wo sich das Schloss von Fürst Vlad Tepes befindet. Hier dauern die Nächte länger und die Kreaturen der Nacht lauern in den Schatten, die mit dem aufgehenden Mond immer größer werden... Beim Erkunden der Wälder um Draculas Schloss herum werdet ihr von euren Gefühlen überwältigt... Und dann wacht ihr plötzlich in einem Kerker auf ... wie alle anderen, die es schon vor euch versucht hatten. Ihr wurdet von ihm gefangen genommen. Ihr müsst jetzt schnell sein und aus der Zelle heraus jegliche mögliche Hilfe nutzen. Sucht nach Hinweisen, die Draculas vorherige Opfer hinterlassen haben, und flieht aus dem Schloss, bevor es zu spät ist! Seine Rückkehr würde euer Ende sein...</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

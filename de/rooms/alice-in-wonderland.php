@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>ALICE IN WONDERLAND | GAME OVER Escape Rooms</title>
+    <title>ALICE IM WUNDERLAND | GAME OVER Escape Rooms</title>
     <meta name="keywords" content="" />
     <meta name="description" content="">
     <meta property="og:locale" content="en_GB" />
@@ -16,7 +16,7 @@
     <meta property="og:locale:alternate" content="es_ES" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ALICE IN WONDERLAND | GAME OVER Escape Rooms" />
-    <meta property="og:url" content="https://www.escapegameover.com/rooms/alice-in-wonderland.php" />
+    <meta property="og:url" content="https://www.escapegameover.com/de/rooms/alice-in-wonderland.php" />
     <meta property="og:site_name" content="GAME OVER Escape Rooms" />
     <!-- <meta property="og:image" content="https://www.escapegameover.com/img/thumbs/white-house.jpg" /> -->
     <!-- <meta property="og:image:secure_url" content="https://www.escapegameover.com/img/thumbs/white-house.jpg" /> -->
@@ -86,11 +86,11 @@
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
             <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;"> <img src="/img/svg/alice-in-wonderland.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ALICE IN WONDERLAND</h1>
+                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ALICE IM WUNDERLAND</h1>
             </div>
             <p class="room-desc" style="">
-                Live an Adventure inside Alice’s Wonderland and try to escape in time.<br />
-                An escape game that both kids and adults will love.
+                Erlebt ein Abenteuer in Alices Wunderland und versucht rechtzeitig zu entkommen.<br />
+                Ein Fluchtspiel, das sowohl Kindern als auch Erwachsenen gefallen wird.
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">Is this a dream? Are you awake? Nobody can tell.... One thing is for real: You are in another world, full of Magical Wonders. You are in Wonderland! Some things are so tempting here, so you know that as much time you spend in here, your chances to escape disappear. You don't have the time to investigate if this is a fairy tale or the reality, you need to hurry, follow Alice's footsteps, pass through the Queen of Heart's Castle unnoticed and find a way to return back to the real world.</p>
+            <p class=" story" style="">Ist das ein Traum? Seid ihr wach? Niemand weiß es so recht... Aber eine Sache ist gewiss: Ihr seid in einer anderen Welt, voll mit magischen Wundern. Ihr seid im Wunderland! Manche Dinge hier sind derart verlockend, dass man so viel Zeit mit ihnen verbringt, dass die Chancen auf ein Entkommen schwinden. Ihr habt nicht die Zeit um herauszufinden, ob das ein Märchen oder die Realität ist. Ihr müsst euch beeilen, Alices Spuren folgen, es durch das Schloss der Herzkönigin schaffen und einen Weg zurück in die reale Welt finden.</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

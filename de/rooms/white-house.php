@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>WHITE HOUSE | GAME OVER Escape Rooms</title>
+    <title>WEISSES HAUS | GAME OVER Escape Rooms</title>
     <meta name="keywords" content="" />
     <meta name="description" content="">
     <meta property="og:locale" content="en_GB" />
@@ -86,12 +86,12 @@
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
             <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;"> <img src="/img/svg/white-house.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">WHITE HOUSE</h1>
+                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">WEISSES HAUS</h1>
             </div>
             <p class="room-desc" style="">
-                Live a thrilling Adventure inside Oval Office of the White House, <br />
-                trying to save the World from a Nuclear Holocaust. <br />
-                A challenging escape room for all ages.
+                Erlebt ein aufregendes Abenteuer im Oval Office des Weißen Hauses, <br />
+                bei dem ihr versuchen müsst, die Welt vor einem Atominferno zu bewahren. <br />
+                Ein anspruchsvoller Fluchtraum für alle Altersgruppen.
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -119,12 +119,12 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">We are in one of the most important places of power in the world: The White House.
-                Although the building is one of the safest and most protected places on American soil, today the incredible happened. A paramilitary commando broke over the fence and began a full-blown attack on the White House.
-                Security protocols were triggered immediately, and the President was taken to a bunker where he cannot be reached.
-                The worst thing is that the attackers managed to get into the Oval Office and planned a nuclear attack through the ""Football"", the briefcase that the President can use at any time to launch a full-scale nuclear attack on the entire planet.
-                The President has no way out of the bunker because the security system prevents him, and he cannot personally cancel the attack.
-                Your team has the very delicate task of breaking into the Oval Office, recovering the ""Football"" and deactivating the launch of nuclear missiles before it's too late ..."</p>
+            <p class=" story" style="">Wir befinden uns an einem der bedeutendsten Orte der Welt: Das Weiße Haus.
+                Obwohl das Gebäude zu den sichersten und am strengsten beschützten Orten in Amerika gehört, ist heute das Unvorstellbare passiert. Ein paramilitärisches Kommando konnte den Zaun überwinden und einen Vollangriff auf das Weiße Hause starten.
+                Die Sicherheitsprotokolle wurden sofort ausgelöst und der Präsident wurde zu einem Bunker gebracht, wo er nicht erreicht werden kann.
+                Am schlimmsten ist, dass es die Angreifer ins Oval Office geschafft haben und einen nuklearen Angriff mit dem „Football“ planen, dem Koffer, den der Präsident jederzeit für einen uneingeschränkten Atomangriff auf der ganzen Welt nutzen kann.
+                Der Präsident kommt nicht aus dem Bunker heraus, weil das Sicherheitssystem es verhindert, wodurch er den Angriff nicht persönlich verhindern kann.
+                Euer Team hat nun die besonders heikle Aufgabe, ins Oval Office einzubrechen, den „Football“ zu beschaffen und den Start der Atomraketen zu verhindern, bevor es zu spät ist...</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

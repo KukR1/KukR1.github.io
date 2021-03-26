@@ -89,8 +89,8 @@
                 <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">DRACULA</h1>
             </div>
             <p class="room-desc" style="">
-                Dracula is a room with riveting atmosphere and immersive riddles.<br />
-                Players will enjoy the storytelling while revealing Dracula’s Castle Mysteries.
+                Dracula è una escape room dall’atmosfera affascinante e con enigmi travolgenti.<br />
+                Ai giocatori piacerà di sicuro il racconto che accompagna la scoperta dei misteri del castello di Dracula.
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">Your intention to investigate the Legend of Dracula brought you to the mountainous Bran in Transylvania where the castle of Lord Vlad Tepes, was located. Here, the night lasts longer, the creatures of the night lurk in the shadows that grow faster as the moon rises... You and your team, are overwhelmed from the Thrill that you are exploring the woods around Dracula's Castle.... And then, you wake up in a Dungeon Cell... as everyone else that tried before, you find yourself imprisoned by him. Now you have to be quick, get any possible help, from the inside, search for any signs left from Dracula's previous victims and find your way out of this castle before it's too late. His return will mark your end...</p>
+            <p class=" story" style="">Con l’intenzione di indagare sulla leggenda di Dracula sei approdato nella montuosa Bran, in Transilvania, dove si trova il castello di Lord Vlad Tepes. Qui le notti sono più lunghe e le creature notturne si aggirano nell’ombra, che cresce rapida insieme alla luna che si leva in cielo... Tu e il tuo team siete emozionatissimi: state esplorando i boschi intorno al castello di Dracula... A un certo punto ti svegli in una cella dei sotterranei... e come è successo anche ad altri prima di te, ti trovi nelle SUE prigioni. Devi fare in fretta, aiutandoti con qualsiasi cosa che trovi lì dentro, cercare i segni lasciati dalle precedenti vittime di Dracula e trovare la via d’uscita del castello prima che sia troppo tardi. Se LUI torna, per te sarà la fine...</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

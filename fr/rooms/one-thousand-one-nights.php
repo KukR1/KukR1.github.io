@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>ONE THOUSAND & ONE NIGHTS | GAME OVER Escape Rooms</title>
+    <title>MILLE ET UNE NUITS | GAME OVER Escape Rooms</title>
     <meta name="keywords" content="" />
     <meta name="description" content="">
     <meta property="og:locale" content="en_GB" />
@@ -86,12 +86,12 @@
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
             <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;"> <img src="/img/svg/ALADDIN_LOGO.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ONE THOUSAND & ONE NIGHTS</h1>
+                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">MILLE ET UNE NUITS</h1>
             </div>
             <p class="room-desc" style="">
-                Be part of a cinematic experience, exploring the secrets of a kingdom of the East.<br />
-                This game’s immersive gameplay, as well as wow factors and innovative games, <br />
-                will be extremely popular among all ages!
+                Participez à une expérience cinématographique et explorez les secrets d’un royaume d’Orient.<br />
+                Les mécanismes immersifs du jeu ainsi que les éléments de surprise et les parties<br />
+                innovantes seront très populaires chez les joueurs de tous âges !
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>ONE THOUSAND & ONE NIGHTS | GAME OVER Escape Rooms</title>
+    <title>1001 NACHT | GAME OVER Escape Rooms</title>
     <meta name="keywords" content="" />
     <meta name="description" content="">
     <meta property="og:locale" content="en_GB" />
@@ -86,12 +86,11 @@
         <div class="blur-div-2"></div>
         <div class="info-container" style="">
             <div id="rooms" class="" style="display: flex;align-items: center;justify-content:center;padding-top:50px;"> <img src="/img/svg/ALADDIN_LOGO.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
-                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">ONE THOUSAND & ONE NIGHTS</h1>
+                <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">1001 NACHT</h1>
             </div>
             <p class="room-desc" style="">
-                Be part of a cinematic experience, exploring the secrets of a kingdom of the East.<br />
-                This game’s immersive gameplay, as well as wow factors and innovative games, <br />
-                will be extremely popular among all ages!
+                Seid Teil eines filmreifen Erlebnisses, bei dem ihr die Geheimnisse eines Königreichs des fernen Ostens erkundet.<br />
+                Das eindringliche Gameplay dieses Spiels sowie Wow-Faktoren und innovative Spiele werden bei allen Altersgruppen extrem beliebt sein!
             </p>
             <section class="icon-section">
                 <div class="left-icon"></div>
@@ -119,7 +118,7 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style="">You, brave inhabitants of Abbasid, now is the time to show your loyalty and save our caliphate from the Dark Khalif and his evil plan. He already succeeds conquer the neighbour Caliphates and exile our Sultan. His next step is to destroy our land and our people, dominate the area and create a new Caliphate that will be ruled under the power of fear. You are the only one who can resist and defeat him and save our land from this upcoming disaster.</p>
+            <p class=" story" style="">Tapfere Bewohner des Abbasiden-Kalifats, es ist jetzt an der Zeit eure Loyalität zu beweisen und unser Kalifat vom dunklen Kalifen und seinem boshaften Plan zu bewahren. Er hat bereits unsere benachbarten Kalifate erobert und unseren Sultan ins Exil vertrieben. Sein nächster Schritt ist unser Land und unser Volk zu vernichten, die Region zu dominieren und ein neues Kalifat zu erschaffen, das eine Schreckensherrschaft erleben wird. Nur ihr könnt ihm Widerstand bieten, ihn bezwingen und unser Land vor dem bevorstehenden Unglück bewahren.</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">
