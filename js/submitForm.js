@@ -33,8 +33,8 @@ function handleSubmit(event) {
     data: formData,
     encode: true,
   })
-    .done(function (data) {
-      console.log(data);
+    .done(function (status) {
+      console.log("Email status", status);
       $("#subject").val(" ");
       $("#message").val(" ");
       $("#result").css("color", "green");

@@ -30,11 +30,11 @@ try {
   //server settings
   $mail->isSMTP();
   $mail->IsHTML(true);
-  $mail->Host = 'escapegameover.com'; //define host
+  $mail->Host = 'mail.escapegameover.cloud'; //define host
   $mail->SMTPAuth = TRUE;
   $mail->SMTPSecure = 'ssl';
   $mail->CharSet = 'UTF-8';
-  $mail->Username = 'mailer@escapegameover.com';
+  $mail->Username = 'mailer@escapegameover.cloud';
   $mail->Password = 'pd.FwmA%P^}?';
   $mail->Port = 465; //define port
 
@@ -51,12 +51,12 @@ try {
   $mail->SMTPDebug = 0;
   $mail->send();
   http_response_code(200);
-  $result = '<div class="content-section" style="color:green">YOUR MESSAGE WAS SUCCESSFULLY SEND</div>';
+  $result = true;
 } catch (Exception $e) {
   //echo $e->errorMessage();
   http_response_code(500);
   $failedFlag = true;
-  $result = '<div class="content-section" style="color:red">AN ERROR OCCURED PLEASE TRY AGAIN</div>';
+  $result = false;
 }
 echo $result;
 ob_end_flush();
@@ -71,21 +71,21 @@ try {
   //Server settings
 
   $name = $_POST['name'];
-  $from = "info@escapegameover.com";
+  $from = "mailer@escapegameover.cloud";
   $subject = "Auto-Reply";
   $message =  "Thank you for your message. You will soon be contacted by one of our representatives.\n\n GAME OVER Escape Rooms";
 
   $mail->SMTPDebug = 0;
   $mail->isSMTP();                                      // Set mailer to use SMTP
-  $mail->Host = 'escapegameover.com';  // Specify main and backup SMTP servers
+  $mail->Host = 'mail.escapegameover.cloud';  // Specify main and backup SMTP servers
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
-  $mail->Username = 'mailer@escapegameover.com';                 // SMTP username
+  $mail->Username = 'mailer@escapegameover.cloud';                 // SMTP username
   $mail->Password = 'pd.FwmA%P^}?';                           // SMTP password
   $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
   $mail->Port = 465;
   $mail->CharSet = 'UTF-8';
   //Recipients
-  $mail->setFrom('info@escapegameover.com', 'GAME OVER Escape Rooms');
+  $mail->setFrom($from, 'GAME OVER Escape Rooms');
   $mail->addAddress($_POST['email'], 'Client GAME OVER');
   //Recipients
 
