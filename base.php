@@ -100,10 +100,10 @@ try {
   <div style="padding:100px 0;text-align:center;margin:0 auto;font-size:17px;">
   <p style="color:white;text-align:center;margin: 30px auto;display:block;">Thank you for your message.</p>
   <p style="color:white;text-align:center;margin: 30px auto;display:block;"> You will soon be contacted <br> by one of our representatives.</p>
-  <img  style="text-align:center;display:inline;width:60px;margin-top:50px;" src="https://www.escapegameover.com/img/logo1.png">
+  <img  style="text-align:center;display:inline;width:60px;margin-top:50px;" src="https://escapegameover.com/img/logo1.png">
 
   <div style="margin: 50px auto 100px auto;display:block;">
-   <img  style="text-align:center;display:inline;width:190px;height:auto;" src="https://www.escapegameover.com/img/email_bottom.png">
+   <img  style="text-align:center;display:inline;width:190px;height:auto;" src="https://escapegameover.com/img/email_bottom.png">
 
    </div>
   </div>
