@@ -188,18 +188,6 @@
 
         <div class="card" style="">
             <picture>
-                <source type="image/jpg" srcset="/img/team/nikolas.jpg">
-                <img class="card-img-top" src="/img/team/nikolas.jpg" alt="Card image cap">
-            </picture>
-            <div class="card-body">
-                <p class="card-text text-left">NIKOLAS STOUPAS <br><span>GAME DEVELOPER</span></p>
-
-            </div>
-        </div>
-
-
-        <div class="card" style="">
-            <picture>
                 <source type="image/webp" srcset="/img/team/elisavet.webp">
                 <img class="card-img-top" src="/img/team/elisavet.jpg" alt="Card image cap">
             </picture>
@@ -224,6 +212,12 @@
             </picture>
             <div class="card-body">
                 <p class="card-text text-left">STELLA AMPATZI <br><span>ARCHITECTURAL DESIGNER</span></p>
+            </div>
+        </div>
+
+
+        <div class="card" style="">
+            <div class="card-body">
             </div>
         </div>
 
