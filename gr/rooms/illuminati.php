@@ -193,7 +193,10 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style=""></p>
+            <p class=" story" style="">Illuminati's secret society is well known to us. They are hunting secrets, mysteries and artifacts claiming that they are guided directly from God. What we do not know is the way that they intruded into the Vatican. These were the words of Colonel Jacopo Alessandri, Vatican's head of Security. There are a lot of signs, showing that they are inside for centuries... They have access to every single script, artifact, or any other valuable object we keep in the Vatican's tombs. We need your help to find what they plan and protect the most important object of the Holy Church, the Holy grail. Find the Grail and the Vatican will be grateful to you forever...
+The player has the chance to reveal the deepest secrets of the Illuminati conspiracy and find the
+Legendary Holy Grail.  Amazing storyline and challenging gameplay, including technologically
+advanced riddles and puzzles make this room really popular.</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">

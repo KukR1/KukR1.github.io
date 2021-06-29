@@ -315,11 +315,11 @@
             </div>
             <div class="row">
                <div class="col-md-3 text-center animate-box">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="350" data-speed="5000" data-refresh-interval="50"></span>
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="410" data-speed="5000" data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">Escape<br>Rooms</span>
                </div>
                <div class="col-md-3 text-center animate-box">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="86" data-speed="5000" data-refresh-interval="50"></span>
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="16" data-speed="5000" data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">Cities</span>
                </div>
                <div class="col-md-3 text-center animate-box">
@@ -327,7 +327,7 @@
                   <span class="colorlib-counter-label">Escapers</span>
                </div>
                <div class="col-md-3 text-center animate-box">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="40" data-speed="5000" data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">GAME OVER <br> STORES</span>
                </div>
             </div>

@@ -127,7 +127,10 @@
                 </div>
                 <div class="right-icon"></div>
             </section> <img src="/img/menus_logo/quote.svg" alt="" style="margin:30px;height:3rem;width:3rem;">
-            <p class=" story" style=""></p>
+            <p class=" story" style="">Our story revolves around you, a group of children. You are really keen on circus performances. Unfortunately, last night one of your peers was kidnapped.Αs you were searching for evidence, you found a ticket cut, from a circus which you had never heard of before. “Wanderlust Circus, 1940”. Without second thoughts, you decided to seek your friend at the place that this circus was sited. Even though you managed to get inside, you realize that you are trapped in a cursed circus. Shadows and dark figures appear on the walls creeping between the red and white stripes. I do not know how but, you have to be fast and find a way to get out before the clown returns.
+A Horror Escape Game inside a Cursed Circus, full of scary effects and amazing atmosphere.
+High technologies and wow factors embedded in the great scenography make this room really
+popular among students and adults.</p>
         </div>
         <div class="progress-container mt-5 pb-5 " style="text-align:right;">
             <div class="div1" style="height:20px;">
