@@ -1144,12 +1144,12 @@
             </div>
             <p>Si vous avez des questions, des problèmes ou des suggestions, vous pouvez appeler ou envoyer un courriel à notre service de support en ligne, 24h.</p>
          </div>
-         <div class=" text-center offer-box">
+        <!--  <div class=" text-center offer-box"> -->
             <div class="">
 
             </div>
-            <p>Revalorisations gratuites, si vous n’aimez pas l’astuce ou le puzzle du jeu, on les changera.</p>
-         </div>
+           <!--  <p>Revalorisations gratuites, si vous n’aimez pas l’astuce ou le puzzle du jeu, on les changera.</p>
+         </div> -->
          <div class=" text-center offer-box">
             <a href="autohelp.php">
                <div class="">

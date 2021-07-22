@@ -1037,11 +1037,11 @@
             <p>If you have any questions, problems or suggestions you can call or email our online support department,
                24h.</p>
          </div>
-         <div class=" text-center offer-box">
+       <!--   <div class=" text-center offer-box"> -->
             <div>
             </div>
-            <p>Free upgrades: If you do not like a trick or puzzle in the game, we will change it.</p>
-         </div>
+           <!--  <p>Free upgrades: If you do not like a trick or puzzle in the game, we will change it.</p> -->
+        <!--  </div> -->
          <div class=" text-center offer-box">
             <a href="autohelp.php">
                <div>

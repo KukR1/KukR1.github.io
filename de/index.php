@@ -1160,12 +1160,12 @@
             </div>
             <p>Wenn Sie Fragen, Probleme oder Vorschläge haben, können Sie unsere Online-Support-Abteilung 24h anrufen oder eine E-Mail senden.</p>
          </div>
-         <div class=" text-center offer-box">
+      <!--    <div class=" text-center offer-box"> -->
             <div class="">
 
             </div>
-            <p>Kostenlose Upgrades: Wenn du keinen Trick oder Puzzle im Spiel magst, werden wir es ändern.</p>
-         </div>
+            <!-- <p>Kostenlose Upgrades: Wenn du keinen Trick oder Puzzle im Spiel magst, werden wir es ändern.</p>
+         </div> -->
          <div class=" text-center offer-box">
             <a href="autohelp.php">
                <div class="">

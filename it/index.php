@@ -1126,13 +1126,13 @@
                è possibile chiamare o contattare tramite
                e-mail il nostro dipartimento di supporto online, 24 ore su 24.</p>
          </div>
-         <div class=" text-center offer-box">
+    <!--      <div class=" text-center offer-box"> -->
             <div class="">
 
             </div>
-            <p>Aggiornamenti gratuiti: se non vi piace
+           <!--  <p>Aggiornamenti gratuiti: se non vi piace
                un trucchetto o un puzzle nel gioco, lo cambieremo.</p>
-         </div>
+         </div> -->
          <div class=" text-center offer-box">
             <a href="autohelp.php">
                <div class="">
