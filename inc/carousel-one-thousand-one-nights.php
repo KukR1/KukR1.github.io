@@ -2,32 +2,32 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <picture>
-                <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/1.jpg" alt="One thousand & one nights Image">
+                <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights.jpg" alt="One thousand & one nights Image">
             </picture>
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/2.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights2.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/3.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights3.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/4.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights4.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/5.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights5.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/6.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights6.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/7.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights7.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/8.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights8.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
-            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/9.jpg" alt="One thousand & one nights Image">
+            <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/game_over_1001_nights9.jpg" alt="One thousand & one nights Image">
         </div>
         <div class="carousel-item">
             <img class='w-100' src="/img/room_slider_images/one_thousand_one_nights/10.jpg" alt="One thousand & one nights Image">
