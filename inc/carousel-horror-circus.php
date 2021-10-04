@@ -12,6 +12,11 @@
         </div>
         <div class="carousel-item">
             <picture>
+                <img class='w-100' src="/img/room_slider_images/circus-3.jpg" alt="Circus">
+            </picture>
+        </div>
+        <div class="carousel-item">
+            <picture>
                 <img class='w-100' src="/img/room_slider_images/game_over_horror_circus3.jpg" alt="Circus">
             </picture>
         </div>

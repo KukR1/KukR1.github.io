@@ -597,7 +597,7 @@
                         <a href="rooms/philosophers-stone.php" title="">
                            <div class="image-info-container" style="">
                               <img style="" src="../img/svg/HARRY POTER.svg" alt="">
-                              <h3 style="text-align:center;">PHILOSOPHER'S STONE</h3>
+                              <h3 style="text-align:center;">SCHOOL OF MAGIC</h3>
                            </div>
                         </a>
                      </div>
@@ -934,7 +934,7 @@
                         <a href="rooms/chocolate-factory.php" title="">
                            <div class="image-info-container" style="">
                               <img style="" src="../img/svg/chocolate.svg" alt="">
-                              <h3 style="">CHOCOLATE <br>FACTORY</h3>
+                              <h3 style="">CHOCOLATE:<br>The Mysterious Recipe</h3>
                            </div>
                         </a>
                      </div>

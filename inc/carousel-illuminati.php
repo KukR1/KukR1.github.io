@@ -8,6 +8,12 @@
         <div class="carousel-item">
             <img class='w-100' src="/img/room_slider_images/game_over_illuminati2.jpg" alt="Jack The Ripper">
         </div>
+         <div class="carousel-item">
+            <img class='w-100' src="/img/room_slider_images/illuminati-2.jpg" alt="Jack The Ripper">
+        </div>
+         <div class="carousel-item">
+            <img class='w-100' src="/img/room_slider_images/illuminati-6.jpg" alt="Jack The Ripper">
+        </div>
         <div class="carousel-item">
             <img class='w-100' src="/img/room_slider_images/game_over_illuminati3.jpg" alt="Jack The Ripper">
         </div>

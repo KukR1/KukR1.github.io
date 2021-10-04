@@ -19,7 +19,7 @@
 
 
 
-  <title>Chocolate Factory | GAME OVER Escape Rooms</title>
+  <title>CHOCOLATE: The Mysterious Recipe | GAME OVER Escape Rooms</title>
 
   <meta name="keywords" content="" />
 
@@ -262,7 +262,7 @@
 
         <img src="../img/svg/chocolate.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
 
-        <h1 style="display:inline-block;line-height:5rem;font-size:2rem;">CHOCOLATE FACTORY</h1>
+        <h1 style="display:inline-block;line-height:5rem;font-size:2rem;">CHOCOLATE: The Mysterious Recipe</h1>
 
       </div>
 

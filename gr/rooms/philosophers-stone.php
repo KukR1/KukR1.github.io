@@ -19,7 +19,7 @@
 
 
 
-  <title>Philosopher's Stone | GAME OVER Escape Rooms</title>
+  <title>SCHOOL OF MAGIC | GAME OVER Escape Rooms</title>
 
   <meta name="keywords" content="" />
 
@@ -339,7 +339,7 @@
 
         <img src="../../img/svg/HARRY POTER.svg" classs="img-fluid" alt="" style="width: 5rem;height:5rem;">
 
-        <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">PHILOSOPHER'S STONE</h1>
+        <h1 style="display:inline-block;line-height:5rem;font-size:3rem;">SCHOOL OF MAGIC</h1>
 
       </div>
 

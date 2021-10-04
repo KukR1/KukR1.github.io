@@ -414,8 +414,8 @@
          <div class="tab-content" id="myTabContent" style="overflow:hidden;">
             <div class="tab-pane animated  fadeIn show active" id="all" role="tabpanel" aria-labelledby="home-tab">
                <section id="senaria" class="content-section container-fluid" style="margin:0 auto;">
-                  <!-- ROW -->
-                  <div class="row">
+                 <!-- ROW -->
+                 <div class="row">
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
                            <picture>
@@ -501,7 +501,7 @@
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
                            <picture>
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/circus.jpg" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/gallery_com/horror_circus.jpg" media="(max-width: 767px)">
                               <img class="img-fluid" src="../img/gallery_com/horror_circus.jpg" alt="Circus">
                            </picture>
                         </div>
@@ -517,13 +517,9 @@
                   </div>
                   <!-- ROW -->
                   <div class="row">
-
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
-
-
                            <img class="img-fluid" src="../img/gallery_com/mansion.jpg" alt="Haunted mansion living room">
-
                         </div>
                         <a href="rooms/haunted-mansion.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
@@ -544,14 +540,16 @@
                         <a href="rooms/la-mision-del-profesor.php" title="">
                            <div class="image-info-container" style=" flex-direction:column;align-items:center;">
                               <div style="display:flex;margin-top:20px;">
-                                 <img style="" src="../img/svg/la_mission.svg" alt="">
-                                 <h3 style="text-align:left;display:flex;align-items:center;">LA MISIÓN DEL <br />PROFESOR</h3>
+                                 <img class="casa-logo" style="" src="../img/svg/la_mission.svg" alt="">
+                                 <h3 style="text-align:left;display:flex;align-items:center;">LA MISIÓN DEL
+                                    <br />PROFESOR
+                                 </h3>
                               </div>
                            </div>
                         </a>
                      </div>
                   </div>
-
+                  <!-- ROW -->
                   <div class="row">
                      <div class="col-12 col-md-6">
                         <div class="image-box" title="">
@@ -578,50 +576,49 @@
                         <a href="rooms/philosophers-stone.php" title="">
                            <div class="image-info-container" style="">
                               <img style="" src="../img/svg/HARRY POTER.svg" alt="">
-                              <h3 style="text-align:center;">PHILOSOPHER'S STONE</h3>
+                              <h3 style="text-align:left;">SCHOOL<br class="mb-br"> OF MAGIC</h3>
                            </div>
                         </a>
                      </div>
-
                   </div>
-
-
+                  <!-- ROW -->
                   <div class="row">
                      <div class="col-12  col-md-3 " style="position:relative;">
                         <div class="image-box" title="">
                            <picture>
                               <source type="image/webp" srcset="../img/gallery_com/wd.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/wd.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/wd.jpg" media="(max-width: 769px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/wd.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/wd.jpg" media="(max-width: 767px)">
                               <img class=" img-fluid" src="../img/gallery_com/wd.jpg" alt="Filled with blood shelter from zombies room">
                            </picture>
                         </div>
                         <a href="rooms/walking-death.php" title="">
                            <div class="image-info-container" style="">
                               <img style="" src="../img/svg/walking_death.svg" alt="">
-                              <h3 class="bg">WALKING <br class="display-items"> DEATH</h3>
+                              <h3 class="bg">WALKING <br> DEATH</h3>
                            </div>
                         </a>
                      </div>
                      <div class="col-12  col-md-9 ">
                         <div class="container-fluid">
                            <div class="row">
-                              <div class="col-12  col-md-4 ">
-                                 <div class="image-box" title="">
-                                    <picture>
-                                       <source type="image/webp" srcset="../img/gallery_com/arkham_sqr.webp" media="(min-width: 768px)">
-                                       <source type="image/webp" srcset="../img/gallery_com/arkham.webp" media="(max-width: 769px)">
-                                       <source type="image/jpeg" srcset="../img/gallery_com/arkham.jpg" media="(max-width: 769px)">
-                                       <img class=" img-fluid" src="../img/gallery_com/arkham_sqr.jpg" alt="Arkham Penitentiaries prison">
-                                    </picture>
-                                 </div>
-                                 <a href="rooms/arkham-penitentiaries.php" title="">
-                                    <div class="image-info-container" style="">
-                                       <img style="" src="../img/svg/ARKHAM PRISONS.svg" alt="">
-                                       <h3 style="text-align:center;">ARKHAM PENITENTIARIES</h3>
-                                    </div>
-                                 </a>
-                              </div>
+                           <div class="col-12  col-md-4 ">
+                        <div class="image-box" title="">
+                           <picture>
+                              <source type="image/webp" srcset="../img/gallery_com/pow.webp" media="(min-width: 768px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/pow.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/pow.jpg" media="(max-width: 767px)">
+                              <img class=" img-fluid" src="../img/gallery_com/pow.jpg" alt="Arm camp with soldier helmets and guns">
+                           </picture>
+                        </div>
+                        <a href="rooms/pow.php" title="">
+                           <div class="image-info-container" style="">
+                              <img style="" src="../img/svg/pow.svg" alt="">
+                              <h3>PRISONERS<br> OF WAR </h3>
+                           </div>
+                        </a>
+                     </div>
+                             
                               <div class="col-12  col-md-8 ">
                                  <div class="image-box" title="">
                                     <picture>
@@ -632,7 +629,8 @@
                                  <a href="rooms/aztec.php" title="">
                                     <div class="image-info-container" style="">
                                        <img style="" src="../img/svg/aztec.svg" alt="">
-                                       <h3 style="text-align:center"><span>AZTEC EMPIRE</span><br> TEMPLE OF THE SKULL</h3>
+                                       <h3 style="text-align:center"><span>AZTEC EMPIRE</span><br> TEMPLE OF THE SKULL
+                                       </h3>
                                        <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
                                     </div>
                                  </a>
@@ -658,15 +656,16 @@
                                  <div class="image-box" title="">
                                     <picture>
                                        <source type="image/webp" srcset="../img/gallery_com/maniac.webp" media="(min-width: 768px)">
-                                       <source type="image/webp" srcset="../img/mobile_thumbs/maniac.webp" media="(max-width: 769px)">
-                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/maniac.jpg" media="(max-width: 769px)">
+                                       <source type="image/webp" srcset="../img/mobile_thumbs/maniac.webp" media="(max-width: 767px)">
+                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/maniac.jpg" media="(max-width: 767px)">
                                        <img class=" img-fluid" src="../img/gallery_com/maniac.jpg" alt="Wall with the incription 'I want to play a game' written with blood">
                                     </picture>
                                  </div>
                                  <a href="rooms/maniac.php" title="">
                                     <div class="image-info-container " style="">
                                        <img style="" src="../img/svg/maniac.svg" alt="">
-                                       <h3 class="text-left maniac">MANIAC:<br><span id="maniac">I WANT TO PLAY A GAME</span></h3>
+                                       <h3 class="text-left maniac">MANIAC:<br><span id="maniac">I WANT TO PLAY A
+                                             GAME</span></h3>
                                     </div>
                                  </a>
                               </div>
@@ -674,9 +673,7 @@
                         </div>
                      </div>
                   </div>
-
-
-
+                  <!-- ROW -->
                   <div class="row">
                      <div class="col-12  col-md-9 ">
                         <div class="container-fluid">
@@ -699,8 +696,8 @@
                                  <div class="image-box" title="">
                                     <picture>
                                        <source type="image/webp" srcset="../img/gallery_com/tut.webp" media="(min-width: 768px)">
-                                       <source type="image/webp" srcset="../img/mobile_thumbs/tut.webp" media="(max-width: 769px)">
-                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/tut.jpg" media="(max-width: 769px)">
+                                       <source type="image/webp" srcset="../img/mobile_thumbs/tut.webp" media="(max-width: 767px)">
+                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/tut.jpg" media="(max-width: 767px)">
                                        <img class=" img-fluid" src="../img/gallery_com/tut.jpg" alt="Egyptian themed room showing Tutankhamun with red eyes">
                                     </picture>
                                  </div>
@@ -717,8 +714,8 @@
                                  <div class="image-box" title="">
                                     <picture>
                                        <source type="image/webp" srcset="../img/gallery_com/assassins.webp" media="(min-width: 768px)">
-                                       <source type="image/webp" srcset="../img/mobile_thumbs/assassins.webp" media="(max-width: 769px)">
-                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/assassins.jpg" media="(max-width: 769px)">
+                                       <source type="image/webp" srcset="../img/mobile_thumbs/assassins.webp" media="(max-width: 767px)">
+                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/assassins.jpg" media="(max-width: 767px)">
                                        <img class=" img-fluid" src="../img/gallery_com/assassins.jpg" alt="Medieval iron knight statue">
                                     </picture>
                                  </div>
@@ -749,74 +746,9 @@
                      <div class="col-12  col-md-3 ">
                         <div class="image-box" title="">
                            <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/got.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/got.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/got.jpg" media="(max-width: 769px)">
-                              <img class=" img-fluid" src="../img/gallery_com/got.jpg" alt="The iron throne from Game of Thrones">
-                           </picture>
-                        </div>
-                        <a href="rooms/winter-is-coming.php" title="">
-                           <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/got.svg" alt="">
-                              <h3 style="">WINTER<br> IS COMING</h3>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12  col-md-3 ">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/pirates.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/pirates.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/pirates.jpg" media="(max-width: 769px)">
-                              <img class=" img-fluid" src="../img/gallery_com/pirates.jpg" alt="A hanged skeleton wearing a pirate hat and holding a sword">
-                           </picture>
-                        </div>
-                        <a href="rooms/pirates-of-caribbean.php" title="">
-                           <div class="image-info-container " style="">
-                              <img style="" src="../img/svg/pirates.svg" alt="">
-                              <h3 style="">PIRATES<br> OF CARIBBEAN</h3>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-12  col-md-6 ">
-                        <div class=" col-12">
-                           <div class="image-box" title="">
-                              <picture>
-                                 <source type="image/webp" srcset="../img/gallery_com/monte.webp">
-                                 <img class="img-fluid" src="../img/gallery_com/monte.jpg" alt="Aztec temple">
-                              </picture>
-                           </div>
-                           <a href="rooms/montezuma.php" title="">
-                              <div class="image-info-container" style="">
-                                 <img style="" src="../img/svg/montezuma.svg" alt="">
-                                 <h3 style="">FORBIDDEN TEMPLE<br> OF MONTEZUMA</h3>
-                              </div>
-                           </a>
-                        </div>
-                        <div class="col-12">
-                           <div class="image-box" title="">
-                              <picture>
-                                 <source type="image/webp" srcset="../img/gallery_com/necromancy.webp">
-                                 <img class="img-fluid" src="../img/gallery_com/necromancy.jpg" alt="Creepy bloody ghost standing on a stair inside a house">
-                              </picture>
-                           </div>
-                           <a href="rooms/necromancy.php" title="">
-                              <div class="image-info-container end" style="">
-                                 <img style="" src="../img/svg/necro.svg" alt="">
-                                 <h3 class="bg" style="">NECROMANCY</h3>
-                                 <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                              </div>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-12  col-md-3 ">
-                        <div class="image-box" title="">
-                           <picture>
                               <source type="image/webp" srcset="../img/gallery_com/phantazma.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/phantazma.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/phantazma.jpg" media="(max-width: 769px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/phantazma.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/phantazma.jpg" media="(max-width: 767px)">
                               <img class=" img-fluid" src="../img/gallery_com/phantazma.jpg" alt="Knight holding a sword">
                            </picture>
                         </div>
@@ -827,16 +759,66 @@
                            </div>
                         </a>
                      </div>
+               
                   </div>
-
-
+                  <!-- ROW -->
                   <div class="row">
-                     <div class='col-md-3 col-12'>
+                  <div class="col-12  col-md-3 ">
                         <div class="image-box" title="">
                            <picture>
+                              <source type="image/webp" srcset="../img/gallery_com/pirates.webp" media="(min-width: 768px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/pirates.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/pirates.jpg" media="(max-width: 767px)">
+                              <img class=" img-fluid" src="../img/gallery_com/pirates.jpg" alt="A hanged skeleton wearing a pirate hat and holding a sword">
+                           </picture>
+                        </div>
+                        <a href="rooms/pirates-of-caribbean.php" title="">
+                           <div class="image-info-container " style="">
+                              <img style="" src="../img/svg/pirates.svg" alt="">
+                              <h3 style="">PIRATES<br> OF CARIBBEAN</h3>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="col-12  col-md-9 ">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-12  col-md-8 ">
+                                <div class="image-box" title="">
+                                    <picture>
+                                       <source type="image/webp" srcset="../img/gallery_com/monte.webp">
+                                       <img class="img-fluid" src="../img/gallery_com/monte.jpg" alt="Aztec temple">
+                                    </picture>
+                                 </div>
+                                 <a href="rooms/montezuma.php" title="">
+                                    <div class="image-info-container" style="">
+                                       <img style="" src="../img/svg/montezuma.svg" alt="">
+                                       <h3 style="">FORBIDDEN TEMPLE<br> OF MONTEZUMA</h3>
+                                    </div>
+                                 </a>
+                              </div>
+                              <div class="col-12  col-md-4 ">
+                                <div class="image-box" title="">
+                                    <!-- THIS IS CHOCOLATE -->
+                                    <picture>
+                                       <source type="image/jpeg" srcset="../img/mobile_thumbs/choco.jpg" media="(max-width: 767px)">
+                                       <img class=" img-fluid" src="../img/gallery_com/choco_sqr.jpg" alt="Chocolate factory">
+                                    </picture>
+                                 </div>
+                                 <a href="rooms/chocolate-factory.php" title="">
+                                    <div class="image-info-container" style="">
+                                       <img style="" src="../img/svg/chocolate.svg" alt="">
+                                       <h3 style="">CHOCOLATE:<br>The Mysterious Recipe</h3>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-12  col-md-4 ">
+                              <div class="image-box" title="">
+                           <picture>
                               <source type="image/webp" srcset="../img/gallery_com/atlantis.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/atlantis.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/atlantis.jpg" media="(max-width: 769px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/atlantis.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/atlantis.jpg" media="(max-width: 767px)">
                               <img class=" img-fluid" src="../img/gallery_com/atlantis.jpg" alt="Statue of Posidon">
                            </picture>
                         </div>
@@ -846,13 +828,51 @@
                               <h3 style="">LOST CITY <br> OF ATLANTIS</h3>
                            </div>
                         </a>
+                              </div>
+                              <div class="col-12  col-md-8 ">
+                                <div class="image-box" title="">
+                                    <picture>
+                                       <source type="image/webp" srcset="../img/gallery_com/necromancy.webp">
+                                       <img class="img-fluid" src="../img/gallery_com/necromancy.jpg" alt="Creepy bloody ghost standing on a stair inside a house">
+                                    </picture>
+                                 </div>
+                                 <a href="rooms/necromancy.php" title="">
+                                    <div class="image-info-container end" style="">
+                                       <img style="" src="../img/svg/necro.svg" alt="">
+                                       <h3 class="bg" style="">NECROMANCY</h3>
+                                       <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  
+                  </div>
+                  <!-- ROW -->
+                  <div class="row">
+                     <div class='col-md-3 col-12'>
+                     <div class="image-box" title="">
+                           <picture>
+                              <source type="image/webp" srcset="../img/gallery_com/reactor.webp" media="(min-width: 768px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/reactor.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/reactor.jpg" media="(max-width: 767px)">
+                              <img class=" img-fluid" src="../img/gallery_com/reactor.jpg" alt="Reactor room with danger signs">
+                           </picture>
+                        </div>
+                        <a href="rooms/chernobyl.php" title="">
+                           <div class="image-info-container" style="">
+                              <img style="" src="../img/svg/reactor.svg" alt="">
+                              <h3 style="">CHERNOBYL</h3>
+                           </div>
+                        </a>
                      </div>
                      <div class='col-md-3 col-12'>
                         <div class="image-box" title="">
                            <picture>
                               <source type="image/webp" srcset="../img/gallery_com/mino.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/mino.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/mino.jpg" media="(max-width: 769px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/mino.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/mino.jpg" media="(max-width: 767px)">
                               <img class=" img-fluid" src="../img/gallery_com/mino.jpg" alt="Stone plate showing Minotaur">
                            </picture>
                         </div>
@@ -867,8 +887,8 @@
                         <div class="image-box" title="">
                            <picture>
                               <source type="image/webp" srcset="../img/gallery_com/lodge.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/lodge.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/lodge.jpg" media="(max-width: 769px)">
+                              <source type="image/webp" srcset="../img/mobile_thumbs/lodge.webp" media="(max-width: 767px)">
+                              <source type="image/jpeg" srcset="../img/mobile_thumbs/lodge.jpg" media="(max-width: 767px)">
                               <img class=" img-fluid" src="../img/gallery_com/lodge.jpg" alt="Hunter's living room">
                            </picture>
                         </div>
@@ -880,164 +900,71 @@
                         </a>
                      </div>
                      <div class='col-md-3 col-12'>
-                        <div class="image-box" title="">
+                     <div class="image-box" title="">
                            <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/reactor.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/reactor.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/reactor.jpg" media="(max-width: 769px)">
-                              <img class=" img-fluid" src="../img/gallery_com/reactor.jpg" alt="Reactor room with danger signs">
+                              <source type="image/webp" srcset="../img/gallery_com/ripper_ext.webp">
+                              <img class="img-fluid" src="../img/gallery_com/ripper_ext.jpg" alt="English phone booth situated in a foggy dark alley and man standing in the fog">
                            </picture>
                         </div>
-                        <a href="rooms/chernobyl.php" title="">
+                        <a href="rooms/jtr-the-revenge.php" title="">
                            <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/reactor.svg" alt="">
-                              <h3 style="">CHERNOBYL</h3>
+                              <img style="" src="../img/svg/jack.svg" alt="">
+                              <h3>JACK <br> THE RIPPER <br><span id="revenge">THE REVENGE</span> </h3>
+                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
                            </div>
                         </a>
                      </div>
-
-
-
-
-
                   </div>
+                  <!-- ROW -->
                   <div class="row">
-                     <div class='col-md-3 col-12'>
+                 <!--  <div class='col-md-3 col-12'>
                         <div class="image-box" title="">
-                           <!-- THIS IS CHOCOLATE -->
                            <picture>
-
-
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/choco.webp" media="(max-width: 769px)">
-                              <img class=" img-fluid" src="../img/gallery_com/choco_sqr.jpg" alt="Chocolate factory">
+                              <source type="image/jpeg" srcset="img/mobile_thumbs/choco.jpg" media="(max-width: 767px)">
+                              <img class=" img-fluid" src="img/gallery_com/choco_sqr.jpg" alt="Chocolate factory">
                            </picture>
                         </div>
                         <a href="rooms/chocolate-factory.php" title="">
                            <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/chocolate.svg" alt="">
+                              <img style="" src="img/svg/chocolate.svg" alt="">
                               <h3 style="">CHOCOLATE <br>FACTORY</h3>
                            </div>
                         </a>
-                     </div>
+                     </div> -->
                      <div class="col-12  col-md-6 ">
-                        <div class="image-box" title="">
+                        <!-- <div class="image-box" title="">
                            <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/ripper_ext.webp">
-                              <img class="img-fluid" src="../img/gallery_com/ripper_ext.jpg" alt="English phone booth situated in a foggy dark alley and man standing in the fog">
+                              <source type="image/webp" srcset="img/gallery_com/ripper_ext.webp">
+                              <img class="img-fluid" src="img/gallery_com/ripper_ext.jpg" alt="English phone booth situated in a foggy dark alley and man standing in the fog">
                            </picture>
                         </div>
                         <a href="rooms/jtr-the-revenge.php" title="">
                            <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/jack.svg" alt="">
+                              <img style="" src="img/svg/jack.svg" alt="">
                               <h3>JACK <br> THE RIPPER <br><span id="revenge">THE REVENGE</span> </h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
+                              <img src="img/newera.svg" alt="" style="width:32px;margin-left:10px;">
                            </div>
-                        </a>
+                        </a> -->
                      </div>
-                     <div class="col-12  col-md-3 ">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/pow.webp" media="(min-width: 768px)">
-                              <source type="image/webp" srcset="../img/mobile_thumbs/pow.webp" media="(max-width: 769px)">
-                              <source type="image/jpeg" srcset="../img/mobile_thumbs/pow.jpg" media="(max-width: 769px)">
-                              <img class=" img-fluid" src="../img/gallery_com/pow.jpg" alt="Arm camp with soldier helmets and guns">
-                           </picture>
-                        </div>
-                        <a href="rooms/pow.php" title="">
-                           <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/pow.svg" alt="">
-                              <h3>PRISONERS<br> OF WAR </h3>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-
-               </section>
-            </div>
-            <div class="tab-pane animated fadeIn js-scroll-trigger" id="era" role="tabpanel" aria-labelledby="profile-tab">
-               <section class="content-section container-fluid" style="margin:0 auto;">
-                  <div class="row">
-                     <div class="col-12  col-md-6 " style="position:relative;">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/pirates_ext.webp">
-                              <img class="img-fluid" src="../img/gallery_com/pirates_ext.jpg" alt="Pirate ship">
-                           </picture>
-                        </div>
-                        <a href="rooms/queen-annes-revenge.php" title="">
-                           <div class="image-info-container pirates_ext_tile" style="">
-                              <img style="" src="../img/svg/piratesext_logo.svg" alt="">
-                              <h3 style="">PIRATES<br><span>QUEEN ANNE'S REVENGE</span></h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-12  col-md-6 " style="position:relative;">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/ripper_ext.webp">
-                              <img class="img-fluid" src="../img/gallery_com/ripper_ext.jpg" alt="English phone booth situated in a foggy dark alley and man standing in the fog">
-                           </picture>
-                        </div>
-                        <a href="rooms/jtr-the-revenge.php" title="">
-                           <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/jack.svg" alt="">
-                              <h3>JACK <br> THE RIPPER <br><span id="revenge">THE REVENGE</span> </h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-12  col-md-6">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/necromancy.webp">
-                              <img class="img-fluid" src="../img/gallery_com/necromancy.jpg" alt="Creepy bloody ghost standing on a stair inside a house">
-                           </picture>
-                        </div>
-                        <a href="rooms/necromancy.php" title="">
-                           <div class="image-info-container end" style="">
-                              <img style="" src="../img/svg/necro.svg" alt="">
-                              <h3 style="">NECROMANCY</h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-12  col-md-6 ">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/aztec.webp">
-                              <img class="img-fluid" src="../img/gallery_com/aztec.jpg" alt="Amazon forrest themed room">
-                           </picture>
-                        </div>
-                        <a href="rooms/aztec.php" title="">
-                           <div class="image-info-container" style="">
-                              <img style="" src="../img/svg/aztec.svg" alt="">
-                              <h3 style="text-align:center"><span>AZTEC EMPIRE</span><br> TEMPLE OF THE SKULL</h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-12  col-md-6 ">
-                        <div class="image-box" title="">
-                           <picture>
-                              <source type="image/webp" srcset="../img/gallery_com/space.webp">
-                              <img class="img-fluid" src="../img/gallery_com/space.jpg" alt="Spaceship control room">
-                           </picture>
-                        </div>
-                        <a href="rooms/space-wars.php" title="">
-                           <div class="image-info-container" style="">
-                              <img src="../img/svg/space.svg" alt="">
-                              <h3>SPACE WARS</h3>
-                              <img src="../img/newera.svg" alt="" style="width:32px;margin-left:10px;">
-                           </div>
-                        </a>
-                     </div>
+                     <!-- <div class="col-12  col-md-4 ">
+                                 <div class="image-box" title="">
+                                    <picture>
+                                       <source type="image/webp" srcset="img/gallery_com/arkham_sqr.webp" media="(min-width: 768px)">
+                                       <source type="image/webp" srcset="img/gallery_com/arkham.webp" media="(max-width: 767px)">
+                                       <source type="image/jpeg" srcset="img/gallery_com/arkham.jpg" media="(max-width: 767px)">
+                                       <img class=" img-fluid" src="img/gallery_com/arkham_sqr.jpg" alt="Arkham Penitentiaries prison">
+                                    </picture>
+                                 </div>
+                                 <a href="rooms/arkham-penitentiaries.php" title="">
+                                    <div class="image-info-container" style="">
+                                       <img style="" src="img/svg/ARKHAM PRISONS.svg" alt="">
+                                       <h3 style="text-align:center;">ARKHAM PENITENTIARIES</h3>
+                                    </div>
+                                 </a>
+                              </div> -->
                   </div>
                </section>
-            </div>
-         </div>
-      </div>
-   </section>
+            </div> 
 
 
 
