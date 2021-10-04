@@ -33,8 +33,8 @@
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
    <link href="../css/bootstrap-index.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-   <link href="../css/final_style.min.css" rel="stylesheet">
-   <link href="../css/style.min.css" rel="stylesheet">
+   <link href="../css/final_style.min.css?v=1.0" rel="stylesheet">
+   <link href="../css/style.min.css?v=1.0" rel="stylesheet">
    <link href="../css/animate.min.css" rel="stylesheet">
    <style>
       .in-view {
@@ -238,7 +238,7 @@
 
 <body id="page-top">
    <!-- Google Tag Manager Analytics Body requirement -->
-   <?php include 'gtmBody.php' ?>
+   <?php include '../gtmBody.php' ?>
 
    <div class="container-fluid nav-container p-0 fixed-top" style="">
       <?php include '../inc/logo.php'; ?>
@@ -1105,7 +1105,7 @@
 
          </div>
 
-         <?php include("../map_svg/map_mobile_com.svg"); ?>
+         <?php include("../map_svg/map_mobile_com2.svg"); ?>
       </div>
 
 

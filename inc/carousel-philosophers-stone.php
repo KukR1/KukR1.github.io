@@ -51,13 +51,7 @@
 
 
     </div>
-    <div class="carousel-item">
-
-      <img class='w-100' src="../../img/room_slider_images/potter7.jpg" alt="Philosopher's Stone">
-
-
-
-    </div>
+    
 
   </div>
 

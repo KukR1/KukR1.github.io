@@ -27,8 +27,8 @@
    <link rel="shortcut icon" href="img/gameover_favicon.png" type="image/x-icon" />
    <link href="css/bootstrap-index.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-   <link href="css/final_style.min.css" rel="stylesheet">
-   <link href="css/style.min.css" rel="stylesheet">
+   <link href="css/final_style.min.css?v=1.0" rel="stylesheet">
+   <link href="css/style.min.css?v=1.0" rel="stylesheet">
    <link href="css/animate.min.css" rel="stylesheet">
    <style>
       .in-view {
@@ -1020,9 +1020,7 @@
                   all<span style="position: relative;left: 0.4rem;">&gt;</span></a>
             </div>
          </div>
-         <?php
-         include "map_svg/map_mobile_com.svg";
-         ?>
+         <?php include("map_svg/map_mobile_com2.svg"); ?>
       </div>
    </section>
    <section id="whatwedo" class="lazy container-fluid text-center">

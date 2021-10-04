@@ -123,6 +123,11 @@
 				<tspan x="65.43" y="0" letter-spacing="-0.04em">Y</tspan>
 			</text>
 		</g>
+		<g id="NETHERLANDS_2_">
+		
+			<rect x="796.2" y="446.4" transform="matrix(0.9968 -7.949034e-02 7.949034e-02 0.9968 -33.6144 68.5036)" width="94.8" height="20"/>
+		<text transform="matrix(0.9968 -7.949000e-02 7.949000e-02 0.9968 808.9398 464.4748)" font-size="10.13" class="st1 st5 st3">BELGIUM</text>
+	</g>
 		<g id="UK-2" data-name="UK">
 			<rect x="621.56" y="386.81" width="179.29" height="20.03" transform="translate(-29.29 57.79) rotate(-4.56)"/>
 			<text transform="matrix(0.96, -0.08, 0.08, 1, 645.97, 407.94)" font-size="15.73" fill="#fff" font-family="Raleway">UNITED KINGDOM</text>
