@@ -845,7 +845,7 @@
                                  <a href="rooms/chocolate-factory.php" title="">
                                     <div class="image-info-container" style="">
                                        <img style="" src="../img/svg/chocolate.svg" alt="">
-                                       <h3 style="">CHOCOLATE:<br>The Mysterious Recipe</h3>
+                                       <h3 style="">CHOCOLATE:<br><span id="maniac">THE MYSTERIOUS RECIPE</span></h3>
                                     </div>
                                  </a>
                               </div>
